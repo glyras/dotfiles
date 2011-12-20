@@ -1,0 +1,28 @@
+# Dvorak baby
+escape ^oo
+startup_message off
+vbell on
+msgwait 2
+defscrollback 10000
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+termcapinfo rxvt-unicode ti@:te@ 
+#defutf8 on
+#caption always "%{= y}"
+#caption always "%{=}%{kG} Screen(s): %{w}%w %=%{kG}%C%A, %d/%m/%y"
+caption splitonly '%?%F%{.G.}%?%3n %t%? [%h]%?'
+#hardstatus alwayslastline "Screen(s): %{= w}%?%-Lw%? %{Ck}%n*%f%t%?(%u)%?%{kG} %{w}%?%+Lw%?%?%=  %=%{kW}%c%a :: %{kC}%d/%m/%y"  
+
+#need to find sth similar for tmux and make the transition
+backtick 1 60 60 uptime
+
+hardstatus alwayslastline "%{= km} | %= %{= kw}%?%-Lw%?%{r}(%{G}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{m} | %{B} %d/%m/%y %{W}%c %{m}| "
+
+#starting some apps 
+
+select 0
+
+# Start some apps
+screen -t torrent       0 rtorrent
+screen -t musicoula     1 mocp
+
+

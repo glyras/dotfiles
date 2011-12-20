@@ -1,0 +1,57 @@
+#Settings of torrents will be saved in this directory;
+# and a file, which will prevent rTorrent running more than once;
+session = /home/shevek/.rtorrent
+
+# where the downloaded files will be saved;
+directory = /home/shevek/Downloads
+
+# Default upload speed (0 means No Limit);
+upload_rate = 15
+
+# Default download speed (0 means No Limit);
+download_rate = 500
+# if rTorrent should use UDP;
+use_udp_trackers = yes
+
+#dht
+
+#dht = auto
+
+# UDP port to use for DHT. 
+ 
+# dht_port = 6891
+
+# Enable peer exchange (for torrents not marked private)
+
+peer_exchange = yes
+
+# Max. number of upload slots per torrent;
+max_uploads = 9
+
+# Port range from where rTorrent will try to connect;
+port_range = 6892-6892
+
+# Min. and max. connections to one torrent;
+#min_peers=10
+max_peers=80
+
+# Stops uploading when ratio is 2.0 and file size greater than 100MB
+# or ratio is over 5.0;
+#schedule = ratio,60,60,stop_on_ratio=200
+# Stops downloading when there is less than 20MB diskspace;
+schedule = low_diskspace,5,60,close_low_diskspace=20M
+
+# Torrents will be automatically added from this directory ;
+schedule = movies,5,5,"load_start=/home/shevek/Downloads/*.torrent,d.set_directory=/home//shevek/Downloads/"
+#schedule = docs,5,5,"load_start=/mnt/mercury/Docs/*.torrent,d.set_directory=/mnt//mercury/Docs/"
+#schedule = music,5,5,"load_start=/mnt/mercury/Music/*.torrent,d.set_directory=/mnt//mercury/Music/"
+#schedule = images,5,5,"load_start=/mnt/mercury/Images/*.torrent,d.set_directory=/mnt//mercury/Images/"
+#schedule = games1,5,5,"load_start=/mnt/mercury/Games/*.torrent,d.set_directory=/mnt//mercury/Games/"
+
+# After deleting torrents from that list .torrent files will be deleted too;
+schedule = untied_directory,5,5,stop_untied=
+encryption = allow_incoming,enable_retry,prefer_plaintext,try_outgoing
+
+schedule = filter_active,30,30,"view_filter = active,d.get_down_rate="
+
+

@@ -1,0 +1,328 @@
+;; -*- coding: utf-8 -*-
+(("the all-thing" "mankind's decision-making apparatus:
+all posts." "http://all-thing.net/index.rss" (19659 25276 125444) feed 0 nil nil ((title nil "the all-thing") (link nil "http://all-thing.net/index.rss") (description nil "
+      mankind's decision-making apparatus:
+      
+        all posts.
+      
+    ") (language nil "en-us") (pubDate nil "Fri, 29 Oct 2010 20:07:41 -0400") (generator nil "Whisper vgit") (item nil (title nil "“sudo gem install” considered harmful") (guid ((isPermaLink . "true")) "http://all-thing.net/sudo-gem-install-considered-harmful") (comments nil "http://all-thing.net/sudo-gem-install-considered-harmful#comments") (pubDate nil "Wed, 22 Sep 2010 17:36:52 -0000") (description nil "<p class='first'><em>Update 2010/10/02: see <a href=\"http://twitter.com/#!/timcharper/status/26202857990\">here</a> for a real-life example.</em></p><p>If you habitually type <code>sudo gem install</code> on your development box, you are
+potentially exposing yourself to nasty behavior. If you have <code>sudo gem install</code>
+as part of your automated deploy process, you are begging for something tragic
+to happen.</p><p>Consider:</p><ol><li>A gem can execute arbitrary code at install time.<sup class=\"footnote\" id=\"fnr1\"><a href=\"#fn1\">1</a></sup></li><li>Anyone with the proper permissions on <a href=\"http://rubygems.org\">rubygems.org</a> can publish a new version of a gem at any point. This code is not reviewed or audited by anyone before publication.</li><li><code>gem install</code> pulls in the latest version of any dependencies that it can, for the entire dependency graph.</li></ol><p>All it takes is for one malicious or incompetent gem writer to do something
+wrong, <em>even in a gem you don&#8217;t directly depend on</em>, and <code>sudo gem install</code> will destroy your box.</p><p>Happily, rubygems work perfectly well in non-root mode. For local development,
+you can leave out the <code>sudo</code> and gems will be installed in your home directory.
+For production use, you should be running servers and apps as non-root users
+anyways.</p><p>Please, stop propagating the <code>sudo gem install</code> meme.</p><p class=\"footnote\" id=\"fn1\"><a href=\"#fnr1\"><sup>1</sup></a> See <a href='http://github.com/wmorgan/killergem.'>http://github.com/wmorgan/killergem.</a></p>")) (item nil (title nil "Whisper Fix") (guid ((isPermaLink . "true")) "http://all-thing.net/whisper-fix") (comments nil "http://all-thing.net/whisper-fix#comments") (pubDate nil "Sat, 18 Sep 2010 17:08:02 -0000") (description nil "<p class='first'>I just noticed that comments have been backlogged for a few months because the
+blog received a (spam) email with invalid <span class=\"caps\">UTF</span>-8, which apparently in Ruby 1.9
+causes <code>String#=~</code> to throw the very generic <code>ArgumentError</code>.</p><p>I&#8217;ve caught the exception and, thanks to my high-tech mbox-based queueing
+system, we&#8217;re back on track. The hazards of a 1-person install base, I suppose.</p>")) (item nil (title nil "Wall on Greatness") (guid ((isPermaLink . "true")) "http://all-thing.net/wall-on-greatness") (comments nil "http://all-thing.net/wall-on-greatness#comments") (pubDate nil "Sat, 11 Sep 2010 23:09:23 -0000") (description nil "<blockquote><p class='first'>The very fact that it&#8217;s possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to enforce cleanliness. The potential for greater good goes right along with the potential for greater evil. A little baby has little potential for good or evil, at least in the short term. A President of the United States has tremendous potential for both good and evil. &#8212; <a href=\"http://www.wall.org/~larry/pm.html\">Larry Wall</a>.</p></blockquote>")) (item nil (title nil "vim and git grep") (guid ((isPermaLink . "true")) "http://all-thing.net/vim-and-git-grep") (comments nil "http://all-thing.net/vim-and-git-grep#comments") (pubDate nil "Fri, 20 Aug 2010 17:47:39 -0000") (description nil "<p class='first'><em>[Update 2010-09-20: tweaked to run the grep on the git root instead of whatever directory the current file is in.]</em></p><p>After many months of screwing around with git.vim and fugitive.vim, I have
+finally found the perfect vim + <code>git grep</code> combination.</p><p>This incantation allows you to press <code>&lt;ctrl-x&gt;</code> twice on a symbol and have a
+minibuf pop up with all the occurrences of that symbol within the project. You
+can then jump to any occurrence by pressing enter on the corresponding line.</p><p>Place this in e.g. <code>~/.vim/plugin/git-grep.vim</code>:
+<pre>
+let g:gitgrepprg=\"git\\\\ grep\\\\ -n\"
+let g:gitroot=\"`git rev-parse --show-cdup`\"
+
+function! GitGrep(args)
+    let grepprg_bak=&grepprg
+    exec \"set grepprg=\" . g:gitgrepprg
+    execute \"silent! grep \" . a:args . \" \" . g:gitroot
+    botright copen
+    let &grepprg=grepprg_bak
+    exec \"redraw!\"
+endfunction
+
+func GitGrepWord()
+  normal! \"zyiw
+  call GitGrep(getreg('z'))
+endf
+nmap <C-x><C-x> :call GitGrepWord()<CR></pre></p>")) (item nil (title nil "Interview with Daniel Ellsberg") (guid ((isPermaLink . "true")) "http://all-thing.net/interview-with-daniel-ellsberg") (comments nil "http://all-thing.net/interview-with-daniel-ellsberg#comments") (pubDate nil "Mon, 02 Aug 2010 22:37:02 -0000") (description nil "<p class='first'>There&#8217;s a very interesting <a href=\"http://www.economist.com/blogs/democracyinamerica/2010/07/daniel_ellsberg_interview\">interview with Daniel Ellsberg</a>, of Pentagon Papers fame, in the Economist. Some choice quotes:</p><blockquote><p>&#8220;Obama has now prosecuted three people [for whistleblowing]. Two of whom are being prosecuted for acts carried out under George Bush and for which Bush chose not to prosecute[&#8230;]. So Obama&#8217;s famous position of not looking backward seems to apply only to crimes like torture or illegal warrantless surveillance. He&#8217;s given absolute amnesty to the officials of the Bush administration. But in the case of Thomas Drake, who told a reporter about a billion-and-half-dollar waste at the <span class=\"caps\">NSA</span>, and in the case of Shamai Leibowitz, who says he exposed acts to a blogger that he regarded as illegal, Obama was willing to look backward and prosecute.&#8221;</p></blockquote><blockquote><p>&#8220;I think we can assume that those who don&#8217;t use Wikileaks&#8217;s technology to get the information out can be assured of prosecution. I have to assume that if I had now put out the Pentagon Papers as I did, using that now outmoded technology of Xerox, Obama would prosecute me to the full extent of the law.&#8221;</p></blockquote><blockquote><p>&#8220;A number of the acts undertaken against me, which were illegal at the time, forcing Nixon to obstruct justice by concealing them, have been made part of our explicit policy. Not just the warrantless wire-tapping, but the raid of my psychoanalyst&#8217;s office is now regarded as legal under the Patriot Act as a sneak-and-peek operation.&#8221;</p></blockquote><blockquote><p>&#8220;Nixon brought a dozen <span class=\"caps\">CIA</span> assets [&#8230;] with orders to incapacitate me totally. That was done covertly and was one of the factors that led to Nixon&#8217;s resignation. Obama has now announced, through his then-head of intelligence, Dennis Blair, that we have a list of those who can be assassinated by special-forces operators. And this president has even approved names of American citizens on that list. Now that&#8217;s an astonishing change, not in our covert policy&#8212;presidents have been involved in covert assassination plots repeatedly&#8212;but to announce that publicly as a supposedly legitimate policy. That negates the Magna Carta. It&#8217;s a kind of power that no king of England has asserted since John I.&#8221;</p></blockquote><blockquote><p>&#8220;[W]hen I said that Julian Assange is in some danger, others said that&#8217;s ridiculous, he&#8217;s too prominent, no president would do such a thing. Well, I&#8217;m not saying that it&#8217;s very likely, but I am saying that the chance of Julian Assange coming to harm from the US president should be zero, and it isn&#8217;t. To say that it&#8217;s ridiculous is simply unfounded. My own experience proves that. Because after all, I was as well-known at the time, when that assault was made, as Julian Assange is today.&#8221;</p></blockquote>")) (item nil (title nil "Pinker on Critical Thinking") (guid ((isPermaLink . "true")) "http://all-thing.net/pinker-on-critical-thinking") (comments nil "http://all-thing.net/pinker-on-critical-thinking#comments") (pubDate nil "Sun, 04 Jul 2010 05:58:36 -0000") (description nil "<blockquote><p class='first'>[D]on’t rail at PowerPoint or Google.  It’s not as if habits of deep
+reflection, thorough research and rigorous reasoning ever came naturally to
+people. They must be acquired in special institutions, which we call
+universities, and maintained with constant upkeep, which we call analysis,
+criticism and debate. They are not granted by propping a heavy encyclopedia on
+your lap, nor are they taken away by efficient access to information on the
+Internet.</p></blockquote><p>&#8212; <a href=\"http://www.nytimes.com/2010/06/11/opinion/11Pinker.html\">Steven Pinker</a></p><p>(or Twitter!)</p>")) (item nil (title nil "Calculating string display width in Ruby") (guid ((isPermaLink . "true")) "http://all-thing.net/string-width") (comments nil "http://all-thing.net/string-width#comments") (pubDate nil "Wed, 19 May 2010 12:00:31 -0000") (description nil "<p class='first'>Most programmers are by now familiar with the difference between the number of
+<em>bytes</em> in a string and the number of <em>characters</em>. Depending on the string&#8217;s
+encoding, the relationship between these two measures can be either trivially
+computable or complicated and compute-heavy.</p><p>With the advent of Ruby 1.9, the Ruby world at last has this distinction
+formally encoded at the language level: <code>String#bytesize</code> is the number of
+bytes in the string, and <code>String#length</code> and <code>String#size</code> the number of
+characters.</p><p>But when you&#8217;re writing console applications, there&#8217;s a third measure you have
+to worry about: the <em>width</em> of the string
+on the display. <span class=\"caps\">ASCII</span> characters take up one column when displayed on
+screen, but super-<span class=\"caps\">ASCII</span> characters, such as Chinese, Japanese and Korean
+characters, can take up multiple columns. This display width
+is not trivially computable from the byte size of the character.</p><p>Finding the display width of a string is critical to any kind of console
+application that cares about the width of the screen, i.e. is not simply
+printing stuff and letting the terminal wrap. Personally, I&#8217;ve been needing it
+forever:</p><ol><li><a href=\"http://trollop.rubyforge.org\">Trollop</a> needs it because it tries to format
+the help screen nicely.</li><li><a href=\"http://sup.rubyforge.org\">Sup</a> needs it in a million places because it
+is a full-fledged console application and people use it for reading mail in all
+sorts of funny languages.</li></ol><p>The actual mechanics of how to compute string width make for an interesting
+lesson in <span class=\"caps\">UNIX</span> archaeology, but suffice it to say that I&#8217;ve travelled the path
+for you, with help from Tanaka Akira of <code>pp</code> fame, and I am happy to announce
+the release of the <a href=\"http://rubygems.org/gems/console\">Ruby console gem</a>.</p><p>The console gem currently provides these two methods:</p><ul><li><code>Console.display_width</code>: calculates the display width of a string</li><li><code>Console.display_slice</code>: returns a substring according to display offset and display width parameters.</li></ul><p>There is one horrible caveat outstanding, which is that I haven&#8217;t managed to
+get it to work on Ruby 1.8. Patches to this effect are most welcome, as are,
+of course, comments and suggestions.</p><p><a href=\"http://rubygems.org/gems/console\">Try it out!</a>.</p>")) (item nil (title nil "Trollop up to 8k downloads") (guid ((isPermaLink . "true")) "http://all-thing.net/trollop-8k") (comments nil "http://all-thing.net/trollop-8k#comments") (pubDate nil "Tue, 11 May 2010 01:15:33 -0000") (description nil "<p class='first'><em><span class=\"caps\">UPDATE</span> 2010-05-19</em>: 12k downloads. Whoohoo!</p><p>I just noticed that <a href=\"http://rubygems.org/gems/trollop\">Trollop 1.16.2 has over 8,000
+downloads</a>. That&#8217;s roughly an order of
+magnitude more than <a href=\"http://rubygems.org/gems/sup\">Sup</a>. So, yay. Of course I
+suspect it&#8217;s largely thanks to the fact that it&#8217;s now a <a href=\"http://groups.google.com/group/cukes/msg/29bdffd3d58bd688\">dependency of
+Cucumber</a>. But I&#8217;ll take
+what I can get.</p><p>After all, it&#8217;s only been the best option parser for Ruby for three whole
+years.</p><p><a href=\"http://stackoverflow.com/questions/2732894/using-rubys-optionparser-to-parse-sub-commands\">Some people get it</a>:</p><blockquote><p>In my experience, OptionParser has been frustrating to use for several
+reasons, one of them being the poor documentation &#8212; hence your question.
+William Morgan, the author of Trollop, shows no mercy in his criticism (for
+example, see <a href='http://stackoverflow.com/questions/897630/'>http://stackoverflow.com/questions/897630/</a> and <a href='http://trollop.rubyforge.org).'>http://trollop.rubyforge.org).</a> I
+can&#8217;t dispute what he says.</p></blockquote><p>And some people are merrily producing <a href=\"http://optiflag.rubyforge.org/\">horrible alternatives</a>.</p>")) (item nil (title nil "Trollop 1.16.2 released") (guid ((isPermaLink . "true")) "http://all-thing.net/trollop-1.16.2-released") (comments nil "http://all-thing.net/trollop-1.16.2-released#comments") (pubDate nil "Tue, 11 May 2010 01:02:08 -0000") (description nil "<p class='first'>Trollop 1.16.2 has been out for a while now, but I realized I (heavens!)
+haven&#8217;t yet blogged about it.</p><p>Exciting features include:</p><ol><li>Scientific notation is now supported for floating-point arguments, <a href=\"http://all-thing.net/trollop-1.15-released#650308e03daab2e0532afe1966bbfc4f\">thanks to
+Will Fitzgerald</a>.</li><li>Hoe dependency dropped. Finally.</li><li>Some refactoring of the standard exception-handling logic, making it easier to customize Trollop&#8217;s behavior. For example, check this out:</li></ol><p><pre>
+opts = Trollop::with_standard_exception_handling p do
+  p.parse ARGV
+  raise Trollop::HelpNeeded if ARGV.empty? # show help screen
+end
+</pre></p><p>This example shows the help screen if there are no arguments. Previous to 1.16,
+this was difficult to do, since the standard exception-handling was baked into
+<code>Trollop::options</code>. The help message would automatically be displayed if <code>-h</code>
+was given, but programmatically invoking it on demand was difficult.</p><p>So I&#8217;ve refactored the standard exception handling into
+<code>with_standard_exception_handling</code>, and if you want fine-grained control,
+instead of calling <code>Trollop::options</code>, you now have the option to call
+<code>Trollop#parse</code> from within <code>with_standard_exception_handling</code>.</p><p>You don&#8217;t really need any of this stuff, of course, unless you&#8217;re <em>really</em>
+picky about how your exception-handling works. But hey, that&#8217;s why I wrote
+Trollop in the first place&#8230;.</p>")) (item nil (title nil "Simple breakpoints in Ruby") (guid ((isPermaLink . "true")) "http://all-thing.net/simple-breakpoints-in-ruby") (comments nil "http://all-thing.net/simple-breakpoints-in-ruby#comments") (pubDate nil "Wed, 05 May 2010 15:25:33 -0000") (description nil "<p class='first'>Sometimes it&#8217;s nice to have a simple breakpointing function that will dump you
+into an interactive session with all your local variables in place.</p><p>There are more sophisticated solutions for the world of multiple servers and
+daemonized code, but after some fighting with <span class=\"caps\">IRB</span>, I find myself using this
+little snippet of code in many projects:</p><p><pre>
+require 'irb'
+
+module IRB
+  def IRB.start_with_binding binding
+    IRB.setup __FILE__
+    w = WorkSpace.new binding
+    irb = Irb.new w
+    @CONF[:MAIN_CONTEXT] = irb.context
+    irb.eval_input
+  end
+end
+
+## call me like this: breakpoint binding
+def breakpoint binding; IRB.start_with_binding binding end
+</pre></p><p>As the comment states, you can invoke the breakpoint at any point by inserting
+a <code>breakpoint binding</code> statement anywhere in your code. Once that line is
+reached, you&#8217;ll be dumped into an <span class=\"caps\">IRB</span> session with local variables intact.
+Quitting the session resumes execution.</p><p>Obviously with this method I&#8217;m having you pass in your binding explicitly.
+There are fancier tricks for capturing the binding of the caller (involving
+kernel trace functions and continuations), but I&#8217;m opting for the simpler
+solution here.</p><p>Works with Ruby 1.9, of course.</p>")))) ("“sudo gem install” considered harmful" "<p class='first'><em>Update 2010/10/02: see <a href=\"http://twitter.com/#!/timcharper/status/26202857990\">here</a> for a real-life example.</em></p><p>If you habitually type <code>sudo gem install</code> on your development box, you are
+potentially exposing yourself to nasty behavior. If you have <code>sudo gem install</code>
+as part of your automated deploy process, you are begging for something tragic
+to happen.</p><p>Consider:</p><ol><li>A gem can execute arbitrary code at install time.<sup class=\"footnote\" id=\"fnr1\"><a href=\"#fn1\">1</a></sup></li><li>Anyone with the proper permissions on <a href=\"http://rubygems.org\">rubygems.org</a> can publish a new version of a gem at any point. This code is not reviewed or audited by anyone before publication.</li><li><code>gem install</code> pulls in the latest version of any dependencies that it can, for the entire dependency graph.</li></ol><p>All it takes is for one malicious or incompetent gem writer to do something
+wrong, <em>even in a gem you don’t directly depend on</em>, and <code>sudo gem install</code> will destroy your box.</p><p>Happily, rubygems work perfectly well in non-root mode. For local development,
+you can leave out the <code>sudo</code> and gems will be installed in your home directory.
+For production use, you should be running servers and apps as non-root users
+anyways.</p><p>Please, stop propagating the <code>sudo gem install</code> meme.</p><p class=\"footnote\" id=\"fn1\"><a href=\"#fnr1\"><sup>1</sup></a> See <a href='http://github.com/wmorgan/killergem.'>http://github.com/wmorgan/killergem.</a></p>" "" (19610 16052) new 1 nil nil ((title nil "“sudo gem install” considered harmful") (guid ((isPermaLink . "true")) "http://all-thing.net/sudo-gem-install-considered-harmful") (comments nil "http://all-thing.net/sudo-gem-install-considered-harmful#comments") (pubDate nil "Wed, 22 Sep 2010 17:36:52 -0000") (description nil "<p class='first'><em>Update 2010/10/02: see <a href=\"http://twitter.com/#!/timcharper/status/26202857990\">here</a> for a real-life example.</em></p><p>If you habitually type <code>sudo gem install</code> on your development box, you are
+potentially exposing yourself to nasty behavior. If you have <code>sudo gem install</code>
+as part of your automated deploy process, you are begging for something tragic
+to happen.</p><p>Consider:</p><ol><li>A gem can execute arbitrary code at install time.<sup class=\"footnote\" id=\"fnr1\"><a href=\"#fn1\">1</a></sup></li><li>Anyone with the proper permissions on <a href=\"http://rubygems.org\">rubygems.org</a> can publish a new version of a gem at any point. This code is not reviewed or audited by anyone before publication.</li><li><code>gem install</code> pulls in the latest version of any dependencies that it can, for the entire dependency graph.</li></ol><p>All it takes is for one malicious or incompetent gem writer to do something
+wrong, <em>even in a gem you don&#8217;t directly depend on</em>, and <code>sudo gem install</code> will destroy your box.</p><p>Happily, rubygems work perfectly well in non-root mode. For local development,
+you can leave out the <code>sudo</code> and gems will be installed in your home directory.
+For production use, you should be running servers and apps as non-root users
+anyways.</p><p>Please, stop propagating the <code>sudo gem install</code> meme.</p><p class=\"footnote\" id=\"fn1\"><a href=\"#fnr1\"><sup>1</sup></a> See <a href='http://github.com/wmorgan/killergem.'>http://github.com/wmorgan/killergem.</a></p>"))) ("Whisper Fix" "<p class='first'>I just noticed that comments have been backlogged for a few months because the
+blog received a (spam) email with invalid <span class=\"caps\">UTF</span>-8, which apparently in Ruby 1.9
+causes <code>String#=~</code> to throw the very generic <code>ArgumentError</code>.</p><p>I’ve caught the exception and, thanks to my high-tech mbox-based queueing
+system, we’re back on track. The hazards of a 1-person install base, I suppose.</p>" "" (19604 61938) new 2 nil nil ((title nil "Whisper Fix") (guid ((isPermaLink . "true")) "http://all-thing.net/whisper-fix") (comments nil "http://all-thing.net/whisper-fix#comments") (pubDate nil "Sat, 18 Sep 2010 17:08:02 -0000") (description nil "<p class='first'>I just noticed that comments have been backlogged for a few months because the
+blog received a (spam) email with invalid <span class=\"caps\">UTF</span>-8, which apparently in Ruby 1.9
+causes <code>String#=~</code> to throw the very generic <code>ArgumentError</code>.</p><p>I&#8217;ve caught the exception and, thanks to my high-tech mbox-based queueing
+system, we&#8217;re back on track. The hazards of a 1-person install base, I suppose.</p>"))) ("Wall on Greatness" "<blockquote><p class='first'>The very fact that it’s possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to enforce cleanliness. The potential for greater good goes right along with the potential for greater evil. A little baby has little potential for good or evil, at least in the short term. A President of the United States has tremendous potential for both good and evil. — <a href=\"http://www.wall.org/~larry/pm.html\">Larry Wall</a>.</p></blockquote>" "" (19596 3107) new 3 nil nil ((title nil "Wall on Greatness") (guid ((isPermaLink . "true")) "http://all-thing.net/wall-on-greatness") (comments nil "http://all-thing.net/wall-on-greatness#comments") (pubDate nil "Sat, 11 Sep 2010 23:09:23 -0000") (description nil "<blockquote><p class='first'>The very fact that it&#8217;s possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to enforce cleanliness. The potential for greater good goes right along with the potential for greater evil. A little baby has little potential for good or evil, at least in the short term. A President of the United States has tremendous potential for both good and evil. &#8212; <a href=\"http://www.wall.org/~larry/pm.html\">Larry Wall</a>.</p></blockquote>"))) ("vim and git grep" "<p class='first'><em>[Update 2010-09-20: tweaked to run the grep on the git root instead of whatever directory the current file is in.]</em></p><p>After many months of screwing around with git.vim and fugitive.vim, I have
+finally found the perfect vim + <code>git grep</code> combination.</p><p>This incantation allows you to press <code>&lt;ctrl-x&gt;</code> twice on a symbol and have a
+minibuf pop up with all the occurrences of that symbol within the project. You
+can then jump to any occurrence by pressing enter on the corresponding line.</p><p>Place this in e.g. <code>~/.vim/plugin/git-grep.vim</code>:
+<pre>
+let g:gitgrepprg=\"git\\\\ grep\\\\ -n\"
+let g:gitroot=\"`git rev-parse --show-cdup`\"
+function! GitGrep(args)
+let grepprg_bak=&grepprg
+exec \"set grepprg=\" . g:gitgrepprg
+execute \"silent! grep \" . a:args . \" \" . g:gitroot
+botright copen
+let &grepprg=grepprg_bak
+exec \"redraw!\"
+endfunction
+func GitGrepWord()
+normal! \"zyiw
+call GitGrep(getreg('z'))
+endf
+nmap <C-x><C-x> :call GitGrepWord()<CR></pre></p>" "" (19566 49083) new 4 nil nil ((title nil "vim and git grep") (guid ((isPermaLink . "true")) "http://all-thing.net/vim-and-git-grep") (comments nil "http://all-thing.net/vim-and-git-grep#comments") (pubDate nil "Fri, 20 Aug 2010 17:47:39 -0000") (description nil "<p class='first'><em>[Update 2010-09-20: tweaked to run the grep on the git root instead of whatever directory the current file is in.]</em></p><p>After many months of screwing around with git.vim and fugitive.vim, I have
+finally found the perfect vim + <code>git grep</code> combination.</p><p>This incantation allows you to press <code>&lt;ctrl-x&gt;</code> twice on a symbol and have a
+minibuf pop up with all the occurrences of that symbol within the project. You
+can then jump to any occurrence by pressing enter on the corresponding line.</p><p>Place this in e.g. <code>~/.vim/plugin/git-grep.vim</code>:
+<pre>
+let g:gitgrepprg=\"git\\\\ grep\\\\ -n\"
+let g:gitroot=\"`git rev-parse --show-cdup`\"
+
+function! GitGrep(args)
+    let grepprg_bak=&grepprg
+    exec \"set grepprg=\" . g:gitgrepprg
+    execute \"silent! grep \" . a:args . \" \" . g:gitroot
+    botright copen
+    let &grepprg=grepprg_bak
+    exec \"redraw!\"
+endfunction
+
+func GitGrepWord()
+  normal! \"zyiw
+  call GitGrep(getreg('z'))
+endf
+nmap <C-x><C-x> :call GitGrepWord()<CR></pre></p>"))) ("Interview with Daniel Ellsberg" "<p class='first'>There’s a very interesting <a href=\"http://www.economist.com/blogs/democracyinamerica/2010/07/daniel_ellsberg_interview\">interview with Daniel Ellsberg</a>, of Pentagon Papers fame, in the Economist. Some choice quotes:</p><blockquote><p>“Obama has now prosecuted three people [for whistleblowing]. Two of whom are being prosecuted for acts carried out under George Bush and for which Bush chose not to prosecute[…]. So Obama’s famous position of not looking backward seems to apply only to crimes like torture or illegal warrantless surveillance. He’s given absolute amnesty to the officials of the Bush administration. But in the case of Thomas Drake, who told a reporter about a billion-and-half-dollar waste at the <span class=\"caps\">NSA</span>, and in the case of Shamai Leibowitz, who says he exposed acts to a blogger that he regarded as illegal, Obama was willing to look backward and prosecute.”</p></blockquote><blockquote><p>“I think we can assume that those who don’t use Wikileaks’s technology to get the information out can be assured of prosecution. I have to assume that if I had now put out the Pentagon Papers as I did, using that now outmoded technology of Xerox, Obama would prosecute me to the full extent of the law.”</p></blockquote><blockquote><p>“A number of the acts undertaken against me, which were illegal at the time, forcing Nixon to obstruct justice by concealing them, have been made part of our explicit policy. Not just the warrantless wire-tapping, but the raid of my psychoanalyst’s office is now regarded as legal under the Patriot Act as a sneak-and-peek operation.”</p></blockquote><blockquote><p>“Nixon brought a dozen <span class=\"caps\">CIA</span> assets […] with orders to incapacitate me totally. That was done covertly and was one of the factors that led to Nixon’s resignation. Obama has now announced, through his then-head of intelligence, Dennis Blair, that we have a list of those who can be assassinated by special-forces operators. And this president has even approved names of American citizens on that list. Now that’s an astonishing change, not in our covert policy—presidents have been involved in covert assassination plots repeatedly—but to announce that publicly as a supposedly legitimate policy. That negates the Magna Carta. It’s a kind of power that no king of England has asserted since John I.”</p></blockquote><blockquote><p>“[W]hen I said that Julian Assange is in some danger, others said that’s ridiculous, he’s too prominent, no president would do such a thing. Well, I’m not saying that it’s very likely, but I am saying that the chance of Julian Assange coming to harm from the US president should be zero, and it isn’t. To say that it’s ridiculous is simply unfounded. My own experience proves that. Because after all, I was as well-known at the time, when that assault was made, as Julian Assange is today.”</p></blockquote>" "" (19543 18574) new 5 nil nil ((title nil "Interview with Daniel Ellsberg") (guid ((isPermaLink . "true")) "http://all-thing.net/interview-with-daniel-ellsberg") (comments nil "http://all-thing.net/interview-with-daniel-ellsberg#comments") (pubDate nil "Mon, 02 Aug 2010 22:37:02 -0000") (description nil "<p class='first'>There&#8217;s a very interesting <a href=\"http://www.economist.com/blogs/democracyinamerica/2010/07/daniel_ellsberg_interview\">interview with Daniel Ellsberg</a>, of Pentagon Papers fame, in the Economist. Some choice quotes:</p><blockquote><p>&#8220;Obama has now prosecuted three people [for whistleblowing]. Two of whom are being prosecuted for acts carried out under George Bush and for which Bush chose not to prosecute[&#8230;]. So Obama&#8217;s famous position of not looking backward seems to apply only to crimes like torture or illegal warrantless surveillance. He&#8217;s given absolute amnesty to the officials of the Bush administration. But in the case of Thomas Drake, who told a reporter about a billion-and-half-dollar waste at the <span class=\"caps\">NSA</span>, and in the case of Shamai Leibowitz, who says he exposed acts to a blogger that he regarded as illegal, Obama was willing to look backward and prosecute.&#8221;</p></blockquote><blockquote><p>&#8220;I think we can assume that those who don&#8217;t use Wikileaks&#8217;s technology to get the information out can be assured of prosecution. I have to assume that if I had now put out the Pentagon Papers as I did, using that now outmoded technology of Xerox, Obama would prosecute me to the full extent of the law.&#8221;</p></blockquote><blockquote><p>&#8220;A number of the acts undertaken against me, which were illegal at the time, forcing Nixon to obstruct justice by concealing them, have been made part of our explicit policy. Not just the warrantless wire-tapping, but the raid of my psychoanalyst&#8217;s office is now regarded as legal under the Patriot Act as a sneak-and-peek operation.&#8221;</p></blockquote><blockquote><p>&#8220;Nixon brought a dozen <span class=\"caps\">CIA</span> assets [&#8230;] with orders to incapacitate me totally. That was done covertly and was one of the factors that led to Nixon&#8217;s resignation. Obama has now announced, through his then-head of intelligence, Dennis Blair, that we have a list of those who can be assassinated by special-forces operators. And this president has even approved names of American citizens on that list. Now that&#8217;s an astonishing change, not in our covert policy&#8212;presidents have been involved in covert assassination plots repeatedly&#8212;but to announce that publicly as a supposedly legitimate policy. That negates the Magna Carta. It&#8217;s a kind of power that no king of England has asserted since John I.&#8221;</p></blockquote><blockquote><p>&#8220;[W]hen I said that Julian Assange is in some danger, others said that&#8217;s ridiculous, he&#8217;s too prominent, no president would do such a thing. Well, I&#8217;m not saying that it&#8217;s very likely, but I am saying that the chance of Julian Assange coming to harm from the US president should be zero, and it isn&#8217;t. To say that it&#8217;s ridiculous is simply unfounded. My own experience proves that. Because after all, I was as well-known at the time, when that assault was made, as Julian Assange is today.&#8221;</p></blockquote>"))) ("Pinker on Critical Thinking" "<blockquote><p class='first'>[D]on’t rail at PowerPoint or Google.  It’s not as if habits of deep
+reflection, thorough research and rigorous reasoning ever came naturally to
+people. They must be acquired in special institutions, which we call
+universities, and maintained with constant upkeep, which we call analysis,
+criticism and debate. They are not granted by propping a heavy encyclopedia on
+your lap, nor are they taken away by efficient access to information on the
+Internet.</p></blockquote><p>— <a href=\"http://www.nytimes.com/2010/06/11/opinion/11Pinker.html\">Steven Pinker</a></p><p>(or Twitter!)</p>" "" (19504 8972) new 6 nil nil ((title nil "Pinker on Critical Thinking") (guid ((isPermaLink . "true")) "http://all-thing.net/pinker-on-critical-thinking") (comments nil "http://all-thing.net/pinker-on-critical-thinking#comments") (pubDate nil "Sun, 04 Jul 2010 05:58:36 -0000") (description nil "<blockquote><p class='first'>[D]on’t rail at PowerPoint or Google.  It’s not as if habits of deep
+reflection, thorough research and rigorous reasoning ever came naturally to
+people. They must be acquired in special institutions, which we call
+universities, and maintained with constant upkeep, which we call analysis,
+criticism and debate. They are not granted by propping a heavy encyclopedia on
+your lap, nor are they taken away by efficient access to information on the
+Internet.</p></blockquote><p>&#8212; <a href=\"http://www.nytimes.com/2010/06/11/opinion/11Pinker.html\">Steven Pinker</a></p><p>(or Twitter!)</p>"))) ("Calculating string display width in Ruby" "<p class='first'>Most programmers are by now familiar with the difference between the number of
+<em>bytes</em> in a string and the number of <em>characters</em>. Depending on the string’s
+encoding, the relationship between these two measures can be either trivially
+computable or complicated and compute-heavy.</p><p>With the advent of Ruby 1.9, the Ruby world at last has this distinction
+formally encoded at the language level: <code>String#bytesize</code> is the number of
+bytes in the string, and <code>String#length</code> and <code>String#size</code> the number of
+characters.</p><p>But when you’re writing console applications, there’s a third measure you have
+to worry about: the <em>width</em> of the string
+on the display. <span class=\"caps\">ASCII</span> characters take up one column when displayed on
+screen, but super-<span class=\"caps\">ASCII</span> characters, such as Chinese, Japanese and Korean
+characters, can take up multiple columns. This display width
+is not trivially computable from the byte size of the character.</p><p>Finding the display width of a string is critical to any kind of console
+application that cares about the width of the screen, i.e. is not simply
+printing stuff and letting the terminal wrap. Personally, I’ve been needing it
+forever:</p><ol><li><a href=\"http://trollop.rubyforge.org\">Trollop</a> needs it because it tries to format
+the help screen nicely.</li><li><a href=\"http://sup.rubyforge.org\">Sup</a> needs it in a million places because it
+is a full-fledged console application and people use it for reading mail in all
+sorts of funny languages.</li></ol><p>The actual mechanics of how to compute string width make for an interesting
+lesson in <span class=\"caps\">UNIX</span> archaeology, but suffice it to say that I’ve travelled the path
+for you, with help from Tanaka Akira of <code>pp</code> fame, and I am happy to announce
+the release of the <a href=\"http://rubygems.org/gems/console\">Ruby console gem</a>.</p><p>The console gem currently provides these two methods:</p><ul><li><code>Console.display_width</code>: calculates the display width of a string</li><li><code>Console.display_slice</code>: returns a substring according to display offset and display width parameters.</li></ul><p>There is one horrible caveat outstanding, which is that I haven’t managed to
+get it to work on Ruby 1.8. Patches to this effect are most welcome, as are,
+of course, comments and suggestions.</p><p><a href=\"http://rubygems.org/gems/console\">Try it out!</a>.</p>" "" (19443 53983) new 7 nil nil ((title nil "Calculating string display width in Ruby") (guid ((isPermaLink . "true")) "http://all-thing.net/string-width") (comments nil "http://all-thing.net/string-width#comments") (pubDate nil "Wed, 19 May 2010 12:00:31 -0000") (description nil "<p class='first'>Most programmers are by now familiar with the difference between the number of
+<em>bytes</em> in a string and the number of <em>characters</em>. Depending on the string&#8217;s
+encoding, the relationship between these two measures can be either trivially
+computable or complicated and compute-heavy.</p><p>With the advent of Ruby 1.9, the Ruby world at last has this distinction
+formally encoded at the language level: <code>String#bytesize</code> is the number of
+bytes in the string, and <code>String#length</code> and <code>String#size</code> the number of
+characters.</p><p>But when you&#8217;re writing console applications, there&#8217;s a third measure you have
+to worry about: the <em>width</em> of the string
+on the display. <span class=\"caps\">ASCII</span> characters take up one column when displayed on
+screen, but super-<span class=\"caps\">ASCII</span> characters, such as Chinese, Japanese and Korean
+characters, can take up multiple columns. This display width
+is not trivially computable from the byte size of the character.</p><p>Finding the display width of a string is critical to any kind of console
+application that cares about the width of the screen, i.e. is not simply
+printing stuff and letting the terminal wrap. Personally, I&#8217;ve been needing it
+forever:</p><ol><li><a href=\"http://trollop.rubyforge.org\">Trollop</a> needs it because it tries to format
+the help screen nicely.</li><li><a href=\"http://sup.rubyforge.org\">Sup</a> needs it in a million places because it
+is a full-fledged console application and people use it for reading mail in all
+sorts of funny languages.</li></ol><p>The actual mechanics of how to compute string width make for an interesting
+lesson in <span class=\"caps\">UNIX</span> archaeology, but suffice it to say that I&#8217;ve travelled the path
+for you, with help from Tanaka Akira of <code>pp</code> fame, and I am happy to announce
+the release of the <a href=\"http://rubygems.org/gems/console\">Ruby console gem</a>.</p><p>The console gem currently provides these two methods:</p><ul><li><code>Console.display_width</code>: calculates the display width of a string</li><li><code>Console.display_slice</code>: returns a substring according to display offset and display width parameters.</li></ul><p>There is one horrible caveat outstanding, which is that I haven&#8217;t managed to
+get it to work on Ruby 1.8. Patches to this effect are most welcome, as are,
+of course, comments and suggestions.</p><p><a href=\"http://rubygems.org/gems/console\">Try it out!</a>.</p>"))) ("Trollop up to 8k downloads" "<p class='first'><em><span class=\"caps\">UPDATE</span> 2010-05-19</em>: 12k downloads. Whoohoo!</p><p>I just noticed that <a href=\"http://rubygems.org/gems/trollop\">Trollop 1.16.2 has over 8,000
+downloads</a>. That’s roughly an order of
+magnitude more than <a href=\"http://rubygems.org/gems/sup\">Sup</a>. So, yay. Of course I
+suspect it’s largely thanks to the fact that it’s now a <a href=\"http://groups.google.com/group/cukes/msg/29bdffd3d58bd688\">dependency of
+Cucumber</a>. But I’ll take
+what I can get.</p><p>After all, it’s only been the best option parser for Ruby for three whole
+years.</p><p><a href=\"http://stackoverflow.com/questions/2732894/using-rubys-optionparser-to-parse-sub-commands\">Some people get it</a>:</p><blockquote><p>In my experience, OptionParser has been frustrating to use for several
+reasons, one of them being the poor documentation — hence your question.
+William Morgan, the author of Trollop, shows no mercy in his criticism (for
+example, see <a href='http://stackoverflow.com/questions/897630/'>http://stackoverflow.com/questions/897630/</a> and <a href='http://trollop.rubyforge.org).'>http://trollop.rubyforge.org).</a> I
+can’t dispute what he says.</p></blockquote><p>And some people are merrily producing <a href=\"http://optiflag.rubyforge.org/\">horrible alternatives</a>.</p>" "" (19432 44981) new 8 nil nil ((title nil "Trollop up to 8k downloads") (guid ((isPermaLink . "true")) "http://all-thing.net/trollop-8k") (comments nil "http://all-thing.net/trollop-8k#comments") (pubDate nil "Tue, 11 May 2010 01:15:33 -0000") (description nil "<p class='first'><em><span class=\"caps\">UPDATE</span> 2010-05-19</em>: 12k downloads. Whoohoo!</p><p>I just noticed that <a href=\"http://rubygems.org/gems/trollop\">Trollop 1.16.2 has over 8,000
+downloads</a>. That&#8217;s roughly an order of
+magnitude more than <a href=\"http://rubygems.org/gems/sup\">Sup</a>. So, yay. Of course I
+suspect it&#8217;s largely thanks to the fact that it&#8217;s now a <a href=\"http://groups.google.com/group/cukes/msg/29bdffd3d58bd688\">dependency of
+Cucumber</a>. But I&#8217;ll take
+what I can get.</p><p>After all, it&#8217;s only been the best option parser for Ruby for three whole
+years.</p><p><a href=\"http://stackoverflow.com/questions/2732894/using-rubys-optionparser-to-parse-sub-commands\">Some people get it</a>:</p><blockquote><p>In my experience, OptionParser has been frustrating to use for several
+reasons, one of them being the poor documentation &#8212; hence your question.
+William Morgan, the author of Trollop, shows no mercy in his criticism (for
+example, see <a href='http://stackoverflow.com/questions/897630/'>http://stackoverflow.com/questions/897630/</a> and <a href='http://trollop.rubyforge.org).'>http://trollop.rubyforge.org).</a> I
+can&#8217;t dispute what he says.</p></blockquote><p>And some people are merrily producing <a href=\"http://optiflag.rubyforge.org/\">horrible alternatives</a>.</p>"))) ("Trollop 1.16.2 released" "<p class='first'>Trollop 1.16.2 has been out for a while now, but I realized I (heavens!)
+haven’t yet blogged about it.</p><p>Exciting features include:</p><ol><li>Scientific notation is now supported for floating-point arguments, <a href=\"http://all-thing.net/trollop-1.15-released#650308e03daab2e0532afe1966bbfc4f\">thanks to
+Will Fitzgerald</a>.</li><li>Hoe dependency dropped. Finally.</li><li>Some refactoring of the standard exception-handling logic, making it easier to customize Trollop’s behavior. For example, check this out:</li></ol><p><pre>
+opts = Trollop::with_standard_exception_handling p do
+p.parse ARGV
+raise Trollop::HelpNeeded if ARGV.empty? # show help screen
+end
+</pre></p><p>This example shows the help screen if there are no arguments. Previous to 1.16,
+this was difficult to do, since the standard exception-handling was baked into
+<code>Trollop::options</code>. The help message would automatically be displayed if <code>-h</code>
+was given, but programmatically invoking it on demand was difficult.</p><p>So I’ve refactored the standard exception handling into
+<code>with_standard_exception_handling</code>, and if you want fine-grained control,
+instead of calling <code>Trollop::options</code>, you now have the option to call
+<code>Trollop#parse</code> from within <code>with_standard_exception_handling</code>.</p><p>You don’t really need any of this stuff, of course, unless you’re <em>really</em>
+picky about how your exception-handling works. But hey, that’s why I wrote
+Trollop in the first place….</p>" "" (19432 44176) new 9 nil nil ((title nil "Trollop 1.16.2 released") (guid ((isPermaLink . "true")) "http://all-thing.net/trollop-1.16.2-released") (comments nil "http://all-thing.net/trollop-1.16.2-released#comments") (pubDate nil "Tue, 11 May 2010 01:02:08 -0000") (description nil "<p class='first'>Trollop 1.16.2 has been out for a while now, but I realized I (heavens!)
+haven&#8217;t yet blogged about it.</p><p>Exciting features include:</p><ol><li>Scientific notation is now supported for floating-point arguments, <a href=\"http://all-thing.net/trollop-1.15-released#650308e03daab2e0532afe1966bbfc4f\">thanks to
+Will Fitzgerald</a>.</li><li>Hoe dependency dropped. Finally.</li><li>Some refactoring of the standard exception-handling logic, making it easier to customize Trollop&#8217;s behavior. For example, check this out:</li></ol><p><pre>
+opts = Trollop::with_standard_exception_handling p do
+  p.parse ARGV
+  raise Trollop::HelpNeeded if ARGV.empty? # show help screen
+end
+</pre></p><p>This example shows the help screen if there are no arguments. Previous to 1.16,
+this was difficult to do, since the standard exception-handling was baked into
+<code>Trollop::options</code>. The help message would automatically be displayed if <code>-h</code>
+was given, but programmatically invoking it on demand was difficult.</p><p>So I&#8217;ve refactored the standard exception handling into
+<code>with_standard_exception_handling</code>, and if you want fine-grained control,
+instead of calling <code>Trollop::options</code>, you now have the option to call
+<code>Trollop#parse</code> from within <code>with_standard_exception_handling</code>.</p><p>You don&#8217;t really need any of this stuff, of course, unless you&#8217;re <em>really</em>
+picky about how your exception-handling works. But hey, that&#8217;s why I wrote
+Trollop in the first place&#8230;.</p>"))) ("Simple breakpoints in Ruby" "<p class='first'>Sometimes it’s nice to have a simple breakpointing function that will dump you
+into an interactive session with all your local variables in place.</p><p>There are more sophisticated solutions for the world of multiple servers and
+daemonized code, but after some fighting with <span class=\"caps\">IRB</span>, I find myself using this
+little snippet of code in many projects:</p><p><pre>
+require 'irb'
+module IRB
+def IRB.start_with_binding binding
+IRB.setup __FILE__
+w = WorkSpace.new binding
+irb = Irb.new w
+@CONF[:MAIN_CONTEXT] = irb.context
+irb.eval_input
+end
+end
+## call me like this: breakpoint binding
+def breakpoint binding; IRB.start_with_binding binding end
+</pre></p><p>As the comment states, you can invoke the breakpoint at any point by inserting
+a <code>breakpoint binding</code> statement anywhere in your code. Once that line is
+reached, you’ll be dumped into an <span class=\"caps\">IRB</span> session with local variables intact.
+Quitting the session resumes execution.</p><p>Obviously with this method I’m having you pass in your binding explicitly.
+There are fancier tricks for capturing the binding of the caller (involving
+kernel trace functions and continuations), but I’m opting for the simpler
+solution here.</p><p>Works with Ruby 1.9, of course.</p>" "" (19425 36333) new 10 nil nil ((title nil "Simple breakpoints in Ruby") (guid ((isPermaLink . "true")) "http://all-thing.net/simple-breakpoints-in-ruby") (comments nil "http://all-thing.net/simple-breakpoints-in-ruby#comments") (pubDate nil "Wed, 05 May 2010 15:25:33 -0000") (description nil "<p class='first'>Sometimes it&#8217;s nice to have a simple breakpointing function that will dump you
+into an interactive session with all your local variables in place.</p><p>There are more sophisticated solutions for the world of multiple servers and
+daemonized code, but after some fighting with <span class=\"caps\">IRB</span>, I find myself using this
+little snippet of code in many projects:</p><p><pre>
+require 'irb'
+
+module IRB
+  def IRB.start_with_binding binding
+    IRB.setup __FILE__
+    w = WorkSpace.new binding
+    irb = Irb.new w
+    @CONF[:MAIN_CONTEXT] = irb.context
+    irb.eval_input
+  end
+end
+
+## call me like this: breakpoint binding
+def breakpoint binding; IRB.start_with_binding binding end
+</pre></p><p>As the comment states, you can invoke the breakpoint at any point by inserting
+a <code>breakpoint binding</code> statement anywhere in your code. Once that line is
+reached, you&#8217;ll be dumped into an <span class=\"caps\">IRB</span> session with local variables intact.
+Quitting the session resumes execution.</p><p>Obviously with this method I&#8217;m having you pass in your binding explicitly.
+There are fancier tricks for capturing the binding of the caller (involving
+kernel trace functions and continuations), but I&#8217;m opting for the simpler
+solution here.</p><p>Works with Ruby 1.9, of course.</p>"))))

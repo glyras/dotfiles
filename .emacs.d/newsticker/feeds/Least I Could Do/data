@@ -1,0 +1,290 @@
+;; -*- coding: utf-8 -*-
+(("Least I Could Do" "RSS for the popular comic Least I Could Do" "http://www.leasticoulddo.com/" (19659 25243 276303) feed 0 nil nil ((title nil "Least I Could Do") (link nil "http://www.leasticoulddo.com/") (description nil "RSS for the popular comic Least I Could Do") (language nil "en-us") (generator nil "BFE Feed Generator") (lastBuildDate nil "Fri, 29 Oct 2010 19:58:49 -0400") (ttl nil "60") (image nil (url nil "http://www.leasticoulddo.com/images/LICD.jpg") (title nil "LICD Logo") (link nil "http://www.leasticoulddo.com/") (width nil "160") (height nil "80")) (category nil "Global") (docs nil "http://blogs.law.harvard.edu/tech/rss") (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "self") (type . "application/rss+xml") (href . "http://feeds.feedburner.com/LICD"))) (feedburner:info ((uri . "licd"))) (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "hub") (href . "http://pubsubhubbub.appspot.com/"))) (item nil (title nil "News: Happy Hallow-stream!") (category nil "News") (pubDate nil "Fri, 29 Oct 2010 19:33:38 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/Qyn5rY418qg/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32688") (description nil "Hey fiends and ghouls&#33;<br />
+<br />
+After a month away I&#39;m itching to get back in your faces with a Ustream tonight&#33; I hope you&#39;ll be able to join me in some art and fun.<br />
+<br />
+[ustream][/ustream]<br />
+<br />
+http://tinyurl.com/9eukhm<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32688")) (item nil (title nil "Least I Could Do: 2010-10-29") (category nil "Comic") (pubDate nil "Fri, 29 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/1Hm6_c7X3dg/20101029") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101029") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101029.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101029")) (item nil (title nil "Least I Could Do: 2010-10-28") (category nil "Comic") (pubDate nil "Thu, 28 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ZY-KMxqLPjg/20101028") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101028") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101028.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101028")) (item nil (title nil "Least I Could Do: 2010-10-27") (category nil "Comic") (pubDate nil "Wed, 27 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/5RYc4KpRobw/20101027") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101027") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101027.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101027")) (item nil (title nil "Least I Could Do: 2010-10-26") (category nil "Comic") (pubDate nil "Tue, 26 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/u8kBYsqmD8A/20101026") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101026") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101026.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101026")) (item nil (title nil "Least I Could Do: 2010-10-25") (category nil "Comic") (pubDate nil "Mon, 25 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/mjWZEAB6eZs/20101025") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101025") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101025.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101025")) (item nil (title nil "Least I Could Do: 2010-10-24") (category nil "Comic") (pubDate nil "Sun, 24 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/zH9fuTgMayw/20101024") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101024") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101024.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101024")) (item nil (title nil "Least I Could Do: 2010-10-23") (category nil "Comic") (pubDate nil "Sat, 23 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/tPhlndHtjCk/20101023") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101023") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101023.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101023")) (item nil (title nil "News: In New Zealand") (category nil "News") (pubDate nil "Fri, 22 Oct 2010 05:31:35 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/F-rjDK54Euw/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32654") (description nil "Just a quick reminder, folks, that Lar and I will be at [url=&quot;http://armageddonexpo.com/nz/&quot;]Armageddon Expo[/url] this weekend in New Zealand, at the Blind Ferret Booth. <br />
+<br />
+Do come and stop by, won&#39;t you?<br />
+<br />
+-Because I Can<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32654")) (item nil (title nil "Least I Could Do: 2010-10-22") (category nil "Comic") (pubDate nil "Fri, 22 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/YktV8ulLO48/20101022") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101022") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101022.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101022")) (item nil (title nil "Least I Could Do: 2010-10-21") (category nil "Comic") (pubDate nil "Thu, 21 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/6NZvGBg1LCE/20101021") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101021") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101021.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101021")) (item nil (title nil "Least I Could Do: 2010-10-20") (category nil "Comic") (pubDate nil "Wed, 20 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/U4Q6Dz3U2Sk/20101020") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101020") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101020.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101020")) (item nil (title nil "Least I Could Do: 2010-10-19") (category nil "Comic") (pubDate nil "Tue, 19 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/4Y72oA4YbDM/20101019") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101019") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101019.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101019")) (item nil (title nil "Least I Could Do: 2010-10-18") (category nil "Comic") (pubDate nil "Mon, 18 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ybJFGjFHzL0/20101018") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101018") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101018.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101018")) (item nil (title nil "Least I Could Do: 2010-10-17") (category nil "Comic") (pubDate nil "Sun, 17 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ZQF5cX3aOcY/20101017") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101017") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101017.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101017")) (item nil (title nil "Least I Could Do: 2010-10-16") (category nil "Comic") (pubDate nil "Sat, 16 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/FYrFgHBnbYU/20101016") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101016") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101016.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101016")) (item nil (title nil "Least I Could Do: 2010-10-15") (category nil "Comic") (pubDate nil "Fri, 15 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/aKcLKxZKM8Y/20101015") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101015") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101015.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101015")) (item nil (title nil "News: Upside Down") (category nil "News") (pubDate nil "Thu, 14 Oct 2010 05:12:14 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/R_lf1I0N_rQ/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32616") (description nil "3 Flights, dozens of annoyed flight attendants and 13,000 kilometers later, the Sohmer Clan has arrived in Melbourne, Australia.<br />
+<br />
+I wish I could tell you more about my thoughts on this place, but the fact that I have no idea what time or day it is, is starting to have an affect on me. I will tell you, however, that for a people who are upside down, the aussies are awfully gracious.<br />
+<br />
+Plus, they have Red Bull in a bottle here.<br />
+<br />
+Which is awesome.<br />
+<br />
+For those of you in and around the Melbourne area, be sure to come by [url=&quot;http://armageddonexpo.com/au/&quot;]Armageddon[/url] this weekend to say hello. It's our first time meeting Australian readers and we can't wait.<br />
+<br />
+Even though they're upside down.<br />
+<br />
+As I previously stated.<br />
+<br />
+-Because I Can.<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32616")) (item nil (title nil "News: New York Comic Con, Booth #2457") (category nil "News") (pubDate nil "Wed, 06 Oct 2010 12:09:38 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/TuRLPe7t0aI/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32581") (description nil "The time has come.<br />
+<br />
+In the wee hours of the morning, I'll be heading to the airport and boarding a flight for New York City. While I doubt this will be the occasion where the Air Canada pilots let me fly the plane, I'm still looking forward to the trip.<br />
+<br />
+Lar and I, along with Becker &amp; McCahan, will be at [url=&quot;http://www.newyorkcomiccon.com/&quot;]New York Comic Con[/url] at the [b]Blind Ferret Booth #2457[/b].<br />
+<br />
+[url=&quot;http://www.newyorkcomiccon.com/&quot;][img]http://static.leasticoulddo.com/uploads/nycc-logo-thumb.jpg[/img][/url]<br />
+<br />
+Please do come by and say hello. We'll have plenty of LFG, LICD and Gutters merch on sale and we're always more than happy to sign whatever you like.<br />
+<br />
+That said, we'll see you in New York&#8230;<br />
+<br />
+&#8230;with Red Bull?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"You&#39;re going to be successful, and rich. But you&#39;re going to go through life thinking that girls don&#39;t like you because you&#39;re a geek. And I want you to know, from the bottom of my heart, that that won&#39;t be true. It&#39;ll be because you&#39;re an asshole. \"<br />
+[i]- from The Social Network (2010)[/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32581")) (item nil (title nil "News: Something To Wear") (category nil "News") (pubDate nil "Sun, 03 Oct 2010 19:19:35 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/_3KKfES-1dM/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32565") (description nil "It's been some time since we've unveiled a new t-shirt here at LICD. To rectify that (that word is super close to rectum, anyone else ever notice that?), we've got 2 new designs for you today.<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;][img]http://static.leasticoulddo.com/uploads/bomber-motorboats-shirt-post.jpg[/img][/url]<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16197&amp;cat=244&amp;page=1&quot;]The F Bomb[/url] and [url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16198&amp;cat=244&quot;]Free Motorboats[/url] were both ideas Lar and I had been toying with for months. It's rather nice, and gratifying, to see them both come out looking so gorgeous.<br />
+<br />
+Both shirts are shipping out immediately, so why not head to [url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;]the store[/url] and pick one of them (or both) up?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"There is no situation that you could not escape from. There is no situation that you could not turn to your advantage. \"<br />
+[i]- from Redbelt (2008) [/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32565")))) ("News: Happy Hallow-stream!" "Hey fiends and ghouls!<br />
+<br />
+After a month away I'm itching to get back in your faces with a Ustream tonight! I hope you'll be able to join me in some art and fun.<br />
+<br />
+[ustream][/ustream]<br />
+<br />
+http://tinyurl.com/9eukhm<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/Qyn5rY418qg/index.php" (19659 22994) new 1 nil nil ((title nil "News: Happy Hallow-stream!") (category nil "News") (pubDate nil "Fri, 29 Oct 2010 19:33:38 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/Qyn5rY418qg/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32688") (description nil "Hey fiends and ghouls&#33;<br />
+<br />
+After a month away I&#39;m itching to get back in your faces with a Ustream tonight&#33; I hope you&#39;ll be able to join me in some art and fun.<br />
+<br />
+[ustream][/ustream]<br />
+<br />
+http://tinyurl.com/9eukhm<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=Qyn5rY418qg:Iik7_v3AoZY:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32688"))) ("Least I Could Do: 2010-10-29" "<img src=\"http://www.leasticoulddo.com/comics/20101029.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/1Hm6_c7X3dg/20101029" (19658 18112) new 2 nil nil ((title nil "Least I Could Do: 2010-10-29") (category nil "Comic") (pubDate nil "Fri, 29 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/1Hm6_c7X3dg/20101029") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101029") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101029.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=1Hm6_c7X3dg:RVXy1oi28OA:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101029"))) ("Least I Could Do: 2010-10-28" "<img src=\"http://www.leasticoulddo.com/comics/20101028.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/ZY-KMxqLPjg/20101028" (19656 62784) new 3 nil nil ((title nil "Least I Could Do: 2010-10-28") (category nil "Comic") (pubDate nil "Thu, 28 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ZY-KMxqLPjg/20101028") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101028") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101028.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZY-KMxqLPjg:qpEZZKVp0-g:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101028"))) ("Least I Could Do: 2010-10-27" "<img src=\"http://www.leasticoulddo.com/comics/20101027.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/5RYc4KpRobw/20101027" (19655 41920) new 4 nil nil ((title nil "Least I Could Do: 2010-10-27") (category nil "Comic") (pubDate nil "Wed, 27 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/5RYc4KpRobw/20101027") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101027") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101027.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=5RYc4KpRobw:07rQuFsHi48:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101027"))) ("Least I Could Do: 2010-10-26" "<img src=\"http://www.leasticoulddo.com/comics/20101026.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/u8kBYsqmD8A/20101026" (19654 21056) new 5 nil nil ((title nil "Least I Could Do: 2010-10-26") (category nil "Comic") (pubDate nil "Tue, 26 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/u8kBYsqmD8A/20101026") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101026") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101026.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=u8kBYsqmD8A:OsBthRrYc2c:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101026"))) ("Least I Could Do: 2010-10-25" "<img src=\"http://www.leasticoulddo.com/comics/20101025.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/mjWZEAB6eZs/20101025" (19653 192) new 6 nil nil ((title nil "Least I Could Do: 2010-10-25") (category nil "Comic") (pubDate nil "Mon, 25 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/mjWZEAB6eZs/20101025") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101025") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101025.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=mjWZEAB6eZs:PCBfqzWcyHk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101025"))) ("Least I Could Do: 2010-10-24" "<img src=\"http://www.leasticoulddo.com/comics/20101024.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/zH9fuTgMayw/20101024" (19651 44864) new 7 nil nil ((title nil "Least I Could Do: 2010-10-24") (category nil "Comic") (pubDate nil "Sun, 24 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/zH9fuTgMayw/20101024") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101024") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101024.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=zH9fuTgMayw:JIRH8EoPt74:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101024"))) ("Least I Could Do: 2010-10-23" "<img src=\"http://www.leasticoulddo.com/comics/20101023.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/tPhlndHtjCk/20101023" (19650 24000) new 8 nil nil ((title nil "Least I Could Do: 2010-10-23") (category nil "Comic") (pubDate nil "Sat, 23 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/tPhlndHtjCk/20101023") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101023") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101023.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=tPhlndHtjCk:CRF0EsGneag:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101023"))) ("News: In New Zealand" "Just a quick reminder, folks, that Lar and I will be at [url=&quot;http://armageddonexpo.com/nz/&quot;]Armageddon Expo[/url] this weekend in New Zealand, at the Blind Ferret Booth. <br />
+<br />
+Do come and stop by, won't you?<br />
+<br />
+-Because I Can<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/F-rjDK54Euw/index.php" (19649 23031) new 9 nil nil ((title nil "News: In New Zealand") (category nil "News") (pubDate nil "Fri, 22 Oct 2010 05:31:35 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/F-rjDK54Euw/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32654") (description nil "Just a quick reminder, folks, that Lar and I will be at [url=&quot;http://armageddonexpo.com/nz/&quot;]Armageddon Expo[/url] this weekend in New Zealand, at the Blind Ferret Booth. <br />
+<br />
+Do come and stop by, won&#39;t you?<br />
+<br />
+-Because I Can<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=F-rjDK54Euw:iKBuH2pAVTQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32654"))) ("Least I Could Do: 2010-10-22" "<img src=\"http://www.leasticoulddo.com/comics/20101022.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/YktV8ulLO48/20101022" (19649 3136) new 10 nil nil ((title nil "Least I Could Do: 2010-10-22") (category nil "Comic") (pubDate nil "Fri, 22 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/YktV8ulLO48/20101022") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101022") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101022.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=YktV8ulLO48:ckf2NBvIeuE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101022"))) ("Least I Could Do: 2010-10-21" "<img src=\"http://www.leasticoulddo.com/comics/20101021.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/6NZvGBg1LCE/20101021" (19647 47808) new 11 nil nil ((title nil "Least I Could Do: 2010-10-21") (category nil "Comic") (pubDate nil "Thu, 21 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/6NZvGBg1LCE/20101021") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101021") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101021.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=6NZvGBg1LCE:jnnoX6S_aHM:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101021"))) ("Least I Could Do: 2010-10-20" "<img src=\"http://www.leasticoulddo.com/comics/20101020.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/U4Q6Dz3U2Sk/20101020" (19646 26944) new 12 nil nil ((title nil "Least I Could Do: 2010-10-20") (category nil "Comic") (pubDate nil "Wed, 20 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/U4Q6Dz3U2Sk/20101020") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101020") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101020.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=U4Q6Dz3U2Sk:DjdQ4t6QM30:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101020"))) ("Least I Could Do: 2010-10-19" "<img src=\"http://www.leasticoulddo.com/comics/20101019.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/4Y72oA4YbDM/20101019" (19645 6080) new 13 nil nil ((title nil "Least I Could Do: 2010-10-19") (category nil "Comic") (pubDate nil "Tue, 19 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/4Y72oA4YbDM/20101019") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101019") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101019.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=4Y72oA4YbDM:6vEVzRWXJfg:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101019"))) ("Least I Could Do: 2010-10-18" "<img src=\"http://www.leasticoulddo.com/comics/20101018.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/ybJFGjFHzL0/20101018" (19643 50752) new 14 nil nil ((title nil "Least I Could Do: 2010-10-18") (category nil "Comic") (pubDate nil "Mon, 18 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ybJFGjFHzL0/20101018") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101018") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101018.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ybJFGjFHzL0:II7IIjCF2bI:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101018"))) ("Least I Could Do: 2010-10-17" "<img src=\"http://www.leasticoulddo.com/comics/20101017.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/ZQF5cX3aOcY/20101017" (19642 29888) new 15 nil nil ((title nil "Least I Could Do: 2010-10-17") (category nil "Comic") (pubDate nil "Sun, 17 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/ZQF5cX3aOcY/20101017") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101017") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101017.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=ZQF5cX3aOcY:zwbY1Lz1PD4:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101017"))) ("Least I Could Do: 2010-10-16" "<img src=\"http://www.leasticoulddo.com/comics/20101016.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/FYrFgHBnbYU/20101016" (19641 9024) new 16 nil nil ((title nil "Least I Could Do: 2010-10-16") (category nil "Comic") (pubDate nil "Sat, 16 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/FYrFgHBnbYU/20101016") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101016") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101016.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=FYrFgHBnbYU:Kg7xtr2Za6Y:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101016"))) ("Least I Could Do: 2010-10-15" "<img src=\"http://www.leasticoulddo.com/comics/20101015.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/aKcLKxZKM8Y/20101015" (19639 53696) new 17 nil nil ((title nil "Least I Could Do: 2010-10-15") (category nil "Comic") (pubDate nil "Fri, 15 Oct 2010 00:00:00 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/aKcLKxZKM8Y/20101015") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/comic/20101015") (description nil "<img src=\"http://www.leasticoulddo.com/comics/20101015.gif\" /><div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=aKcLKxZKM8Y:_YA28E1kskc:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/comic/20101015"))) ("News: Upside Down" "3 Flights, dozens of annoyed flight attendants and 13,000 kilometers later, the Sohmer Clan has arrived in Melbourne, Australia.<br />
+<br />
+I wish I could tell you more about my thoughts on this place, but the fact that I have no idea what time or day it is, is starting to have an affect on me. I will tell you, however, that for a people who are upside down, the aussies are awfully gracious.<br />
+<br />
+Plus, they have Red Bull in a bottle here.<br />
+<br />
+Which is awesome.<br />
+<br />
+For those of you in and around the Melbourne area, be sure to come by [url=&quot;http://armageddonexpo.com/au/&quot;]Armageddon[/url] this weekend to say hello. It's our first time meeting Australian readers and we can't wait.<br />
+<br />
+Even though they're upside down.<br />
+<br />
+As I previously stated.<br />
+<br />
+-Because I Can.<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/R_lf1I0N_rQ/index.php" (19638 51566) new 18 nil nil ((title nil "News: Upside Down") (category nil "News") (pubDate nil "Thu, 14 Oct 2010 05:12:14 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/R_lf1I0N_rQ/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32616") (description nil "3 Flights, dozens of annoyed flight attendants and 13,000 kilometers later, the Sohmer Clan has arrived in Melbourne, Australia.<br />
+<br />
+I wish I could tell you more about my thoughts on this place, but the fact that I have no idea what time or day it is, is starting to have an affect on me. I will tell you, however, that for a people who are upside down, the aussies are awfully gracious.<br />
+<br />
+Plus, they have Red Bull in a bottle here.<br />
+<br />
+Which is awesome.<br />
+<br />
+For those of you in and around the Melbourne area, be sure to come by [url=&quot;http://armageddonexpo.com/au/&quot;]Armageddon[/url] this weekend to say hello. It's our first time meeting Australian readers and we can't wait.<br />
+<br />
+Even though they're upside down.<br />
+<br />
+As I previously stated.<br />
+<br />
+-Because I Can.<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=R_lf1I0N_rQ:FNKPmHMdRRk:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32616"))) ("News: New York Comic Con, Booth #2457" "The time has come.<br />
+<br />
+In the wee hours of the morning, I'll be heading to the airport and boarding a flight for New York City. While I doubt this will be the occasion where the Air Canada pilots let me fly the plane, I'm still looking forward to the trip.<br />
+<br />
+Lar and I, along with Becker &amp; McCahan, will be at [url=&quot;http://www.newyorkcomiccon.com/&quot;]New York Comic Con[/url] at the [b]Blind Ferret Booth #2457[/b].<br />
+<br />
+[url=&quot;http://www.newyorkcomiccon.com/&quot;][img]http://static.leasticoulddo.com/uploads/nycc-logo-thumb.jpg[/img][/url]<br />
+<br />
+Please do come by and say hello. We'll have plenty of LFG, LICD and Gutters merch on sale and we're always more than happy to sign whatever you like.<br />
+<br />
+That said, we'll see you in New York…<br />
+<br />
+…with Red Bull?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"You're going to be successful, and rich. But you're going to go through life thinking that girls don't like you because you're a geek. And I want you to know, from the bottom of my heart, that that won't be true. It'll be because you're an asshole. \"<br />
+[i]- from The Social Network (2010)[/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/TuRLPe7t0aI/index.php" (19628 40770) new 19 nil nil ((title nil "News: New York Comic Con, Booth #2457") (category nil "News") (pubDate nil "Wed, 06 Oct 2010 12:09:38 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/TuRLPe7t0aI/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32581") (description nil "The time has come.<br />
+<br />
+In the wee hours of the morning, I'll be heading to the airport and boarding a flight for New York City. While I doubt this will be the occasion where the Air Canada pilots let me fly the plane, I'm still looking forward to the trip.<br />
+<br />
+Lar and I, along with Becker &amp; McCahan, will be at [url=&quot;http://www.newyorkcomiccon.com/&quot;]New York Comic Con[/url] at the [b]Blind Ferret Booth #2457[/b].<br />
+<br />
+[url=&quot;http://www.newyorkcomiccon.com/&quot;][img]http://static.leasticoulddo.com/uploads/nycc-logo-thumb.jpg[/img][/url]<br />
+<br />
+Please do come by and say hello. We'll have plenty of LFG, LICD and Gutters merch on sale and we're always more than happy to sign whatever you like.<br />
+<br />
+That said, we'll see you in New York&#8230;<br />
+<br />
+&#8230;with Red Bull?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"You&#39;re going to be successful, and rich. But you&#39;re going to go through life thinking that girls don&#39;t like you because you&#39;re a geek. And I want you to know, from the bottom of my heart, that that won&#39;t be true. It&#39;ll be because you&#39;re an asshole. \"<br />
+[i]- from The Social Network (2010)[/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=TuRLPe7t0aI:m7UVnOU3TCQ:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32581"))) ("News: Something To Wear" "It's been some time since we've unveiled a new t-shirt here at LICD. To rectify that (that word is super close to rectum, anyone else ever notice that?), we've got 2 new designs for you today.<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;][img]http://static.leasticoulddo.com/uploads/bomber-motorboats-shirt-post.jpg[/img][/url]<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16197&amp;cat=244&amp;page=1&quot;]The F Bomb[/url] and [url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16198&amp;cat=244&quot;]Free Motorboats[/url] were both ideas Lar and I had been toying with for months. It's rather nice, and gratifying, to see them both come out looking so gorgeous.<br />
+<br />
+Both shirts are shipping out immediately, so why not head to [url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;]the store[/url] and pick one of them (or both) up?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"There is no situation that you could not escape from. There is no situation that you could not turn to your advantage. \"<br />
+[i]- from Redbelt (2008) [/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>" "http://feedproxy.google.com/~r/LICD/~3/_3KKfES-1dM/index.php" (19625 3975) new 20 nil nil ((title nil "News: Something To Wear") (category nil "News") (pubDate nil "Sun, 03 Oct 2010 19:19:35 -0400") (link nil "http://feedproxy.google.com/~r/LICD/~3/_3KKfES-1dM/index.php") (guid ((isPermaLink . "false")) "http://www.leasticoulddo.com/forum/index.php?showtopic=32565") (description nil "It's been some time since we've unveiled a new t-shirt here at LICD. To rectify that (that word is super close to rectum, anyone else ever notice that?), we've got 2 new designs for you today.<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;][img]http://static.leasticoulddo.com/uploads/bomber-motorboats-shirt-post.jpg[/img][/url]<br />
+<br />
+[url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16197&amp;cat=244&amp;page=1&quot;]The F Bomb[/url] and [url=&quot;https://secure.leasticoulddo.com/store/product.php?productid=16198&amp;cat=244&quot;]Free Motorboats[/url] were both ideas Lar and I had been toying with for months. It's rather nice, and gratifying, to see them both come out looking so gorgeous.<br />
+<br />
+Both shirts are shipping out immediately, so why not head to [url=&quot;https://secure.leasticoulddo.com/store/home.php?cat=244&quot;]the store[/url] and pick one of them (or both) up?<br />
+<br />
+-Because I Can.<br />
+<br />
+[b]Quote of the Day[/b]<br />
+<br />
+\"There is no situation that you could not escape from. There is no situation that you could not turn to your advantage. \"<br />
+[i]- from Redbelt (2008) [/i]<div class=\"feedflare\">
+<a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:yIl2AUoC8zA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=yIl2AUoC8zA\" border=\"0\"></img></a> <a href=\"http://feeds.feedburner.com/~ff/LICD?a=_3KKfES-1dM:dRDlVUjUAbE:7Q72WNTAKBA\"><img src=\"http://feeds.feedburner.com/~ff/LICD?d=7Q72WNTAKBA\" border=\"0\"></img></a>
+</div>") (author nil "sohmer@leasticoulddo.com") (feedburner:origLink nil "http://www.leasticoulddo.com/forum/index.php?showtopic=32565"))))

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='Non-IM Contacts'/>
+		<group name='Other Contacts'/>
+		<group name='Buddies'/>
+		<group name='General'>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>nribas13@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>log.23@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>tziortzia@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>fani_a@windowslive.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>nairoth@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>cs00041@icsd.aegean.gr</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>moysikhmitsaras@hotmail.com</name>
+					<alias>mitsaras</alias>
+					<setting name='last_seen' type='int'>1285858525</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>lyrassteve1986@hotmail.com</name>
+					<setting name='icon_checksum' type='string'>N6Vh92JyRm76EUqjVsez65NFGUo=</setting>
+					<setting name='buddy_icon' type='string'>37a561f76272466efa114aa356c7b3eb9345194a.png</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>sanctus2003@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>stripe_wing@yahoo.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>theodosis.fox@gmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>eleni_1982@hotmail.com</name>
+					<setting name='icon_checksum' type='string'>Vcw1jEDeIO3iLRHZUT3XwZPHhVE=</setting>
+					<setting name='buddy_icon' type='string'>55cc358c40de20ede22d11d9513dd7c193c78551.png</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>tina_icsd@hotmail.com</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='glyras@gmail.com' proto='prpl-msn'>
+					<name>redhillmin@hotmail.com</name>
+				</buddy>
+			</contact>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-msn' name='glyras@gmail.com' mode='1'>
+			<permit>redhillmin@hotmail.com</permit>
+			<permit>nribas13@hotmail.com</permit>
+			<permit>log.23@hotmail.com</permit>
+			<permit>tziortzia@hotmail.com</permit>
+			<permit>fani_a@windowslive.com</permit>
+			<permit>nairoth@hotmail.com</permit>
+			<permit>cs00041@icsd.aegean.gr</permit>
+			<permit>moysikhmitsaras@hotmail.com</permit>
+			<permit>lyrassteve1986@hotmail.com</permit>
+			<permit>sanctus2003@hotmail.com</permit>
+			<permit>theodosis.fox@gmail.com</permit>
+			<permit>eleni_1982@hotmail.com</permit>
+			<permit>tina_icsd@hotmail.com</permit>
+			<permit>stripe_wing@yahoo.com</permit>
+		</account>
+	</privacy>
+</purple>

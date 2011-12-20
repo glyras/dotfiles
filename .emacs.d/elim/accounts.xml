@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-msn</protocol>
+		<name>glyras@gmail.com</name>
+		<alias>George</alias>
+		<statuses>
+			<status type='available' name='Available' active='true'>
+				<attributes/>
+			</status>
+			<status type='away' name='Away' active='false'>
+				<attributes/>
+			</status>
+			<status type='brb' name='Be Right Back' active='false'>
+				<attributes/>
+			</status>
+			<status type='busy' name='Busy' active='false'>
+				<attributes/>
+			</status>
+			<status type='phone' name='On the Phone' active='false'>
+				<attributes/>
+			</status>
+			<status type='lunch' name='Out to Lunch' active='false'>
+				<attributes/>
+			</status>
+			<status type='invisible' name='Invisible' active='false'>
+				<attributes/>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='display-name' type='string'>George</setting>
+			<setting name='http_method' type='bool'>0</setting>
+			<setting name='DynamicItemLastChanged' type='string'>0001-01-01T00:00:00</setting>
+			<setting name='http_method_server' type='string'>gateway.messenger.hotmail.com</setting>
+			<setting name='CLLastChange' type='string'>2010-07-25T05:45:10.753-07:00</setting>
+			<setting name='custom_smileys' type='bool'>1</setting>
+			<setting name='server' type='string'>messenger.hotmail.com</setting>
+			<setting name='port' type='int'>1863</setting>
+			<setting name='ablastChange' type='string'>2010-09-30T07:46:53.027-07:00</setting>
+			<setting name='direct_connect' type='bool'>1</setting>
+		</settings>
+		<settings ui='(elim . garak)'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>

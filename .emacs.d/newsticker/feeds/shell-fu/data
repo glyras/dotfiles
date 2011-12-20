@@ -1,0 +1,311 @@
+;; -*- coding: utf-8 -*-
+(("shell-fu" nil "http://www.shell-fu.org" (19644 10128 271514) feed 0 nil nil ((title nil "shell-fu") (link nil "http://www.shell-fu.org") (description nil) (language nil "en") (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "self") (type . "application/rss+xml") (href . "http://feeds.feedburner.com/Shell-fu"))) (feedburner:info ((xmlns:feedburner . "http://rssnamespace.org/feedburner/ext/1.0") (uri . "shell-fu"))) (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "hub") (href . "http://pubsubhubbub.appspot.com/"))) (item nil (title nil "Tip #894: Watch for Ubuntu 9.10 Launch") (link nil "http://www.shell-fu.org/lister.php?id=894") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=894") (pubDate nil "Thu, 29 Oct 2009 04:25:42 -0700") (description nil "This script will run check a for the Ubuntu 9.10 launch once every 5 mins and let you know when it's available:
+<br /><br />
+<pre>while [ 1 ]; do if [ -z \"`curl -I \"http://cdimage.ubuntu.com/releases/9.10/release/\"|grep \"404\"`\" ];
+then kdialog --msgbox \"9.10 Released\"; exit; fi; sleep 300;  done</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #892: Check memory and swap from command line") (link nil "http://www.shell-fu.org/lister.php?id=892") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=892") (pubDate nil "Mon, 26 Oct 2009 03:21:56 -0700") (description nil "Want to check the amount of used, free and total memory and swap from the command line? This script displays memory and swap information. Fully posix compliant and should work with all 2.[2-6].* kernels .
+<br /><br />
+<pre>
+#fetch and process memory information
+[ -f /proc/meminfo ] && {
+Buffers=`grep -we 'Buffers' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+Cached=`grep -we 'Cached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemFree=`grep -ie 'MemFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemTotal=`grep -ie 'MemTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapCached=`grep -ie 'SwapCached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapFree=`grep -ie 'SwapFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapTotal=`grep -ie 'SwapTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+}
+MEMUSED=\"$(( ( ( ( $MemTotal - $MemFree ) - $Cached ) - $Buffers ) / 1024 ))\"
+MEMTOTAL=\"$(( $MemTotal / 1024))\"
+MEMFREE=\"$(( $MEMTOTAL - $MEMUSED ))\"
+MEMPER=\"$(( ( $MEMUSED * 100 ) / $MEMTOTAL ))\"
+[ \"$SwapTotal\" -gt \"1\" ] && {
+  SWAPUSED=\"$(( ( ( $SwapTotal - $SwapFree ) - $SwapCached ) / 1024 ))\"
+  SWAPTOTAL=\"$(( $SwapTotal / 1024))\"
+  SWAPFREE=\"$(( $SWAPTOTAL - $SWAPUSED ))\"
+  SWAPPER=\"$(( ( $SWAPUSED * 100 ) / $SWAPTOTAL ))\" 
+} || {
+  SWAPUSED=\"0\"
+  SWAPTOTAL=\"0\"
+  SWAPPER=\"0\" 
+}
+
+# display the information
+/bin/echo
+/bin/echo \"Memory\"
+/bin/echo \"Used: $MEMUSED\"
+/bin/echo \"Free: $MEMFREE\"
+/bin/echo \"Total: $MEMTOTAL\"
+/bin/echo
+/bin/echo \"Swap\"
+/bin/echo \"Used: $SWAPUSED\"
+/bin/echo \"Free: $SWAPFREE\"
+/bin/echo \"Total: $SWAPTOTAL\"
+/bin/echo
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #889: Convert virtually any video into a DVD-valid MPEG2 stream") (link nil "http://www.shell-fu.org/lister.php?id=889") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=889") (pubDate nil "Mon, 26 Oct 2009 03:12:14 -0700") (description nil "<pre>mencoder -oac lavc -ovc lavc -of mpeg -mpegopts format=dvd -vf scale=720:480,harddup -srate 48000 
+-af lavcresample=48000 -lavcopts  
+codec=mpeg2video:vrc_buf_size=1835:vrc_maxrate=9800:vbitrate=5000:keyint=18:aspect=16/9:acodec=ac3:abitrate=192 
+-ofps 30000/1001 -o output.mpg input.extension</pre>
+<br />
+<br />Options you might want to change:
+<br />
+<br />scale: 720:480 for NTSC, 720:576 for PAL
+<br />ofps: 30000/1001 for NTSC, 25 for PAL
+<br />aspect: 16/9 or 4/3 depending on your video
+<p><a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #885: Random password generator.") (link nil "http://www.shell-fu.org/lister.php?id=885") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=885") (pubDate nil "Wed, 16 Sep 2009 08:43:32 -0700") (description nil "Generate a random 8 character password containing a-z, A-Z and 0-9:
+<br /><br />
+<pre>egrep -ioam1 '[a-z0-9]{8}' /dev/urandom</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #882: Find last modified files on a filesystem") (link nil "http://www.shell-fu.org/lister.php?id=882") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=882") (pubDate nil "Tue, 15 Sep 2009 04:29:44 -0700") (description nil "To find the last modified files in a directory you can use ls -ltr. To find the last modified file on a file system it will not work, but the following command will work:
+<br />
+<br /><pre>
+find /etc -type f -printf \"%T@ %T+ %p\" | sort -n
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #879: Learn not to mistype ls") (link nil "http://www.shell-fu.org/lister.php?id=879") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=879") (pubDate nil "Mon, 14 Sep 2009 08:51:49 -0700") (description nil "<pre>apt-get install sl</pre>
+(or equivalent on your particular distro).
+<br /><br />
+A \"good\" way of learning not to mistype ls.
+<p><a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #878: Random xkcd comic") (link nil "http://www.shell-fu.org/lister.php?id=878") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=878") (pubDate nil "Mon, 14 Sep 2009 08:42:35 -0700") (description nil "Displays a random xkcd comic. Requires ImageMagick.<br /><br />
+
+<pre>wget http://dynamic.xkcd.com/comic/random/ -O -| grep &lt;img src=\"http://imgs.xkcd.com/comics | 
+ sed s/&lt;img src=\"// | sed s/\"[a-z]*.*// | wget -i - -O -| display
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #874: Count how many packages have been installed by pacman") (link nil "http://www.shell-fu.org/lister.php?id=874") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=874") (pubDate nil "Thu, 10 Sep 2009 13:48:31 -0700") (description nil "Count how many packages have been installed by pacman:
+<br />
+<br />
+<pre>pacman -Q|wc -l</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #873: Import ssh host keys without verification") (link nil "http://www.shell-fu.org/lister.php?id=873") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=873") (pubDate nil "Wed, 09 Sep 2009 12:58:15 -0700") (description nil "Automatically import host keys for cluster of machines named 'all'
+<br />
+<br />Using the 'dsh' command from the clusterit tools - http://sourceforge.net/projects/clusterit
+<br /><br />
+<pre>RCMD_CMD_ARGS='-o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=no' dsh -g all -e true</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")) (item nil (title nil "Tip #872: Reverse geocode with bash") (link nil "http://www.shell-fu.org/lister.php?id=872") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=872") (pubDate nil "Wed, 19 Aug 2009 10:12:26 -0700") (description nil "The following bash script, which depends on lynx web browser, uses Google's reverse geocode service to find a nearby address given a latitude and longitude pair:
+<br />
+<br />
+<pre>#!/bin/bash
+# findnearest
+# Usage: findnearest latitude longitude
+# Ex.  findnearest  17.976227 -66.111016
+
+lat=$1
+long=$2
+result=$(lynx -dump \"http://maps.google.com/maps/geo?output=csv&oe=utf-8&ll=$lat,$long\")
+echo $result | cut -f3- -d,
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/di\" border=\"0\" ismap=\"true\"></img></a></p>")))) ("Tip #894: Watch for Ubuntu 9.10 Launch" "This script will run check a for the Ubuntu 9.10 launch once every 5 mins and let you know when it's available:
+<br /><br />
+<pre>while [ 1 ]; do if [ -z \"`curl -I \"http://cdimage.ubuntu.com/releases/9.10/release/\"|grep \"404\"`\" ];
+then kdialog --msgbox \"9.10 Released\"; exit; fi; sleep 300;  done</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=894" (19177 31670) new 1 nil nil ((title nil "Tip #894: Watch for Ubuntu 9.10 Launch") (link nil "http://www.shell-fu.org/lister.php?id=894") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=894") (pubDate nil "Thu, 29 Oct 2009 04:25:42 -0700") (description nil "This script will run check a for the Ubuntu 9.10 launch once every 5 mins and let you know when it's available:
+<br /><br />
+<pre>while [ 1 ]; do if [ -z \"`curl -I \"http://cdimage.ubuntu.com/releases/9.10/release/\"|grep \"404\"`\" ];
+then kdialog --msgbox \"9.10 Released\"; exit; fi; sleep 300;  done</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/99XcDO7_UNXZESNlOirXkV4_tfA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #892: Check memory and swap from command line" "Want to check the amount of used, free and total memory and swap from the command line? This script displays memory and swap information. Fully posix compliant and should work with all 2.[2-6].* kernels .
+<br /><br />
+<pre>
+#fetch and process memory information
+[ -f /proc/meminfo ] && {
+Buffers=`grep -we 'Buffers' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+Cached=`grep -we 'Cached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemFree=`grep -ie 'MemFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemTotal=`grep -ie 'MemTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapCached=`grep -ie 'SwapCached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapFree=`grep -ie 'SwapFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapTotal=`grep -ie 'SwapTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+}
+MEMUSED=\"$(( ( ( ( $MemTotal - $MemFree ) - $Cached ) - $Buffers ) / 1024 ))\"
+MEMTOTAL=\"$(( $MemTotal / 1024))\"
+MEMFREE=\"$(( $MEMTOTAL - $MEMUSED ))\"
+MEMPER=\"$(( ( $MEMUSED * 100 ) / $MEMTOTAL ))\"
+[ \"$SwapTotal\" -gt \"1\" ] && {
+SWAPUSED=\"$(( ( ( $SwapTotal - $SwapFree ) - $SwapCached ) / 1024 ))\"
+SWAPTOTAL=\"$(( $SwapTotal / 1024))\"
+SWAPFREE=\"$(( $SWAPTOTAL - $SWAPUSED ))\"
+SWAPPER=\"$(( ( $SWAPUSED * 100 ) / $SWAPTOTAL ))\"
+} || {
+SWAPUSED=\"0\"
+SWAPTOTAL=\"0\"
+SWAPPER=\"0\"
+}
+# display the information
+/bin/echo
+/bin/echo \"Memory\"
+/bin/echo \"Used: $MEMUSED\"
+/bin/echo \"Free: $MEMFREE\"
+/bin/echo \"Total: $MEMTOTAL\"
+/bin/echo
+/bin/echo \"Swap\"
+/bin/echo \"Used: $SWAPUSED\"
+/bin/echo \"Free: $SWAPFREE\"
+/bin/echo \"Total: $SWAPTOTAL\"
+/bin/echo
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=892" (19173 30788) new 2 nil nil ((title nil "Tip #892: Check memory and swap from command line") (link nil "http://www.shell-fu.org/lister.php?id=892") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=892") (pubDate nil "Mon, 26 Oct 2009 03:21:56 -0700") (description nil "Want to check the amount of used, free and total memory and swap from the command line? This script displays memory and swap information. Fully posix compliant and should work with all 2.[2-6].* kernels .
+<br /><br />
+<pre>
+#fetch and process memory information
+[ -f /proc/meminfo ] && {
+Buffers=`grep -we 'Buffers' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+Cached=`grep -we 'Cached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemFree=`grep -ie 'MemFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+MemTotal=`grep -ie 'MemTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapCached=`grep -ie 'SwapCached' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapFree=`grep -ie 'SwapFree' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+SwapTotal=`grep -ie 'SwapTotal' /proc/meminfo | cut -d' ' -f2- | tr -d \"[A-Z][a-z] \"`
+}
+MEMUSED=\"$(( ( ( ( $MemTotal - $MemFree ) - $Cached ) - $Buffers ) / 1024 ))\"
+MEMTOTAL=\"$(( $MemTotal / 1024))\"
+MEMFREE=\"$(( $MEMTOTAL - $MEMUSED ))\"
+MEMPER=\"$(( ( $MEMUSED * 100 ) / $MEMTOTAL ))\"
+[ \"$SwapTotal\" -gt \"1\" ] && {
+  SWAPUSED=\"$(( ( ( $SwapTotal - $SwapFree ) - $SwapCached ) / 1024 ))\"
+  SWAPTOTAL=\"$(( $SwapTotal / 1024))\"
+  SWAPFREE=\"$(( $SWAPTOTAL - $SWAPUSED ))\"
+  SWAPPER=\"$(( ( $SWAPUSED * 100 ) / $SWAPTOTAL ))\" 
+} || {
+  SWAPUSED=\"0\"
+  SWAPTOTAL=\"0\"
+  SWAPPER=\"0\" 
+}
+
+# display the information
+/bin/echo
+/bin/echo \"Memory\"
+/bin/echo \"Used: $MEMUSED\"
+/bin/echo \"Free: $MEMFREE\"
+/bin/echo \"Total: $MEMTOTAL\"
+/bin/echo
+/bin/echo \"Swap\"
+/bin/echo \"Used: $SWAPUSED\"
+/bin/echo \"Free: $SWAPFREE\"
+/bin/echo \"Total: $SWAPTOTAL\"
+/bin/echo
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/TEUHuolDVvkj-_erhFDgkcoTZj0/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #889: Convert virtually any video into a DVD-valid MPEG2 stream" "<pre>mencoder -oac lavc -ovc lavc -of mpeg -mpegopts format=dvd -vf scale=720:480,harddup -srate 48000
+-af lavcresample=48000 -lavcopts
+codec=mpeg2video:vrc_buf_size=1835:vrc_maxrate=9800:vbitrate=5000:keyint=18:aspect=16/9:acodec=ac3:abitrate=192
+-ofps 30000/1001 -o output.mpg input.extension</pre>
+<br />
+<br />Options you might want to change:
+<br />
+<br />scale: 720:480 for NTSC, 720:576 for PAL
+<br />ofps: 30000/1001 for NTSC, 25 for PAL
+<br />aspect: 16/9 or 4/3 depending on your video
+<p><a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=889" (19173 30206) new 3 nil nil ((title nil "Tip #889: Convert virtually any video into a DVD-valid MPEG2 stream") (link nil "http://www.shell-fu.org/lister.php?id=889") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=889") (pubDate nil "Mon, 26 Oct 2009 03:12:14 -0700") (description nil "<pre>mencoder -oac lavc -ovc lavc -of mpeg -mpegopts format=dvd -vf scale=720:480,harddup -srate 48000 
+-af lavcresample=48000 -lavcopts  
+codec=mpeg2video:vrc_buf_size=1835:vrc_maxrate=9800:vbitrate=5000:keyint=18:aspect=16/9:acodec=ac3:abitrate=192 
+-ofps 30000/1001 -o output.mpg input.extension</pre>
+<br />
+<br />Options you might want to change:
+<br />
+<br />scale: 720:480 for NTSC, 720:576 for PAL
+<br />ofps: 30000/1001 for NTSC, 25 for PAL
+<br />aspect: 16/9 or 4/3 depending on your video
+<p><a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/SphYDWIYAXuaDmLTh8lhbmH1Lpw/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #885: Random password generator." "Generate a random 8 character password containing a-z, A-Z and 0-9:
+<br /><br />
+<pre>egrep -ioam1 '[a-z0-9]{8}' /dev/urandom</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=885" (19121 1956) new 4 nil nil ((title nil "Tip #885: Random password generator.") (link nil "http://www.shell-fu.org/lister.php?id=885") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=885") (pubDate nil "Wed, 16 Sep 2009 08:43:32 -0700") (description nil "Generate a random 8 character password containing a-z, A-Z and 0-9:
+<br /><br />
+<pre>egrep -ioam1 '[a-z0-9]{8}' /dev/urandom</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/eXe_YmP04J_iZzq4qu93hlgSXSQ/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #882: Find last modified files on a filesystem" "To find the last modified files in a directory you can use ls -ltr. To find the last modified file on a file system it will not work, but the following command will work:
+<br />
+<br /><pre>
+find /etc -type f -printf \"%T@ %T+ %p\" | sort -n
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=882" (19119 31400) new 5 nil nil ((title nil "Tip #882: Find last modified files on a filesystem") (link nil "http://www.shell-fu.org/lister.php?id=882") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=882") (pubDate nil "Tue, 15 Sep 2009 04:29:44 -0700") (description nil "To find the last modified files in a directory you can use ls -ltr. To find the last modified file on a file system it will not work, but the following command will work:
+<br />
+<br /><pre>
+find /etc -type f -printf \"%T@ %T+ %p\" | sort -n
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/0EfeXGec_TBuq2nLspIreGGlvJc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #879: Learn not to mistype ls" "<pre>apt-get install sl</pre>
+(or equivalent on your particular distro).
+<br /><br />
+A \"good\" way of learning not to mistype ls.
+<p><a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=879" (19118 26261) new 6 nil nil ((title nil "Tip #879: Learn not to mistype ls") (link nil "http://www.shell-fu.org/lister.php?id=879") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=879") (pubDate nil "Mon, 14 Sep 2009 08:51:49 -0700") (description nil "<pre>apt-get install sl</pre>
+(or equivalent on your particular distro).
+<br /><br />
+A \"good\" way of learning not to mistype ls.
+<p><a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/vdJesOtOJlF5HEbVFve0pXCmsxA/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #878: Random xkcd comic" "Displays a random xkcd comic. Requires ImageMagick.<br /><br />
+<pre>wget http://dynamic.xkcd.com/comic/random/ -O -| grep &lt;img src=\"http://imgs.xkcd.com/comics |
+sed s/&lt;img src=\"// | sed s/\"[a-z]*.*// | wget -i - -O -| display
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=878" (19118 25707) new 7 nil nil ((title nil "Tip #878: Random xkcd comic") (link nil "http://www.shell-fu.org/lister.php?id=878") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=878") (pubDate nil "Mon, 14 Sep 2009 08:42:35 -0700") (description nil "Displays a random xkcd comic. Requires ImageMagick.<br /><br />
+
+<pre>wget http://dynamic.xkcd.com/comic/random/ -O -| grep &lt;img src=\"http://imgs.xkcd.com/comics | 
+ sed s/&lt;img src=\"// | sed s/\"[a-z]*.*// | wget -i - -O -| display
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ApqWKIIl9VdVH3LSooVEE3RDN_I/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #874: Count how many packages have been installed by pacman" "Count how many packages have been installed by pacman:
+<br />
+<br />
+<pre>pacman -Q|wc -l</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=874" (19113 26143) new 8 nil nil ((title nil "Tip #874: Count how many packages have been installed by pacman") (link nil "http://www.shell-fu.org/lister.php?id=874") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=874") (pubDate nil "Thu, 10 Sep 2009 13:48:31 -0700") (description nil "Count how many packages have been installed by pacman:
+<br />
+<br />
+<pre>pacman -Q|wc -l</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/mW96KXmwwFJ5U2itysAeDLFfJcc/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #873: Import ssh host keys without verification" "Automatically import host keys for cluster of machines named 'all'
+<br />
+<br />Using the 'dsh' command from the clusterit tools - http://sourceforge.net/projects/clusterit
+<br /><br />
+<pre>RCMD_CMD_ARGS='-o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=no' dsh -g all -e true</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=873" (19112 2263) new 9 nil nil ((title nil "Tip #873: Import ssh host keys without verification") (link nil "http://www.shell-fu.org/lister.php?id=873") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=873") (pubDate nil "Wed, 09 Sep 2009 12:58:15 -0700") (description nil "Automatically import host keys for cluster of machines named 'all'
+<br />
+<br />Using the 'dsh' command from the clusterit tools - http://sourceforge.net/projects/clusterit
+<br /><br />
+<pre>RCMD_CMD_ARGS='-o VerifyHostKeyDNS=yes -o StrictHostKeyChecking=no' dsh -g all -e true</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/ADm6qM9xUocoapAdYi1faoD8chE/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))) ("Tip #872: Reverse geocode with bash" "The following bash script, which depends on lynx web browser, uses Google's reverse geocode service to find a nearby address given a latitude and longitude pair:
+<br />
+<br />
+<pre>#!/bin/bash
+# findnearest
+# Usage: findnearest latitude longitude
+# Ex.  findnearest  17.976227 -66.111016
+lat=$1
+long=$2
+result=$(lynx -dump \"http://maps.google.com/maps/geo?output=csv&oe=utf-8&ll=$lat,$long\")
+echo $result | cut -f3- -d,
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/di\" border=\"0\" ismap=\"true\"></img></a></p>" "http://www.shell-fu.org/lister.php?id=872" (19084 12922) new 10 nil nil ((title nil "Tip #872: Reverse geocode with bash") (link nil "http://www.shell-fu.org/lister.php?id=872") (guid ((isPermaLink . "true")) "http://www.shell-fu.org/lister.php?id=872") (pubDate nil "Wed, 19 Aug 2009 10:12:26 -0700") (description nil "The following bash script, which depends on lynx web browser, uses Google's reverse geocode service to find a nearby address given a latitude and longitude pair:
+<br />
+<br />
+<pre>#!/bin/bash
+# findnearest
+# Usage: findnearest latitude longitude
+# Ex.  findnearest  17.976227 -66.111016
+
+lat=$1
+long=$2
+result=$(lynx -dump \"http://maps.google.com/maps/geo?output=csv&oe=utf-8&ll=$lat,$long\")
+echo $result | cut -f3- -d,
+</pre>
+<p><a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/0/di\" border=\"0\" ismap=\"true\"></img></a><br/>
+<a href=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/da\"><img src=\"http://feedads.g.doubleclick.net/~a/u8ilX6cA0aeqS92y05I2SxBkLEU/1/di\" border=\"0\" ismap=\"true\"></img></a></p>"))))

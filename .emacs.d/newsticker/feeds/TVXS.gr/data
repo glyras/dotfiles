@@ -1,0 +1,551 @@
+;; -*- coding: utf-8 -*-
+(("TVXS.gr" nil "http://tvxs.gr" (19659 25251 152224) feed 0 nil nil ((title nil "TVXS.gr") (link nil "http://tvxs.gr") (description nil) (language nil "el") (item nil (title nil "30/10/2010") (link nil "http://tvxs.gr/node/69476") (description nil "<p>Απολλωνία, Ζηνοβία, Αστέρης, Κλεόπας, Κρονίων, Μαρκιανός, Τέρτιος</p>
+") (comments nil "http://tvxs.gr/node/69476#comments") (pubDate nil "Fri, 29 Oct 2010 21:03:23 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69476 at http://tvxs.gr")) (item nil (title nil "Σε απεργία πείνας ο Ταρέκ Αζίζ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/tarekaziz.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"165\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:35</span>        </div>
+        </div>
+</div>
+<blockquote><p>Ο Ταρέκ Αζίζ, πρώην υπουργός Εξωτερικών και αντιπρόεδρος της ιρακινής κυβέρνησης επί Σαντάμ Χουσέιν, που <a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B8%CE%AC%CE%BD%CE%B1%CF%84%CE%BF-%CE%BA%CE%B1%CF%84%CE%B1%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BF-%CF%84%CE%AC%CF%81%CE%B5%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6  \">καταδικάστηκε σε θάνατο δια απαγχονισμού</a> από το Ανώτατο Ποινικό Δικαστήριο του Ιράκ, ξεκίνησε απεργία πείνας σε ένδειξη διαμαρτυρίας, καθώς οι αρχές δεν του επέτρεψαν να συναντηθεί με την οικογένεια του, αλλά και επειδ</p>
+</blockquote><div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/12931")) "απαγχονισμός") (category ((domain . "http://tvxs.gr/taxonomy/term/722")) "θάνατος") (category ((domain . "http://tvxs.gr/taxonomy/term/342")) "Ιράκ") (category ((domain . "http://tvxs.gr/taxonomy/term/848")) "καταδίκη") (category ((domain . "http://tvxs.gr/taxonomy/term/26871")) "Ταρέκ Αζίζ") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:37:01 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69474 at http://tvxs.gr")) (item nil (title nil "Νέα έκρηξη του ηφαιστείου Μεράπι στην Ινδονησία") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/IndonesiaMerapi.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:27</span>        </div>
+        </div>
+</div>
+<blockquote><p>Το ηφαίστειο Μεράπι, στην Ινδονησία, από την έκρηξη του οποίου σκοτώθηκαν 34 άνθρωποι την Τρίτη, άρχισε και πάλι να εκρήγνηται προκαλώντας τον πανικό σε μία ακτίνα άνω των δώδεκα χιλιομέτρων, δήλωσαν αυτόπτες μάρτυρες.</p></blockquote>
+<p>Σύμφωνα με τις μαρτυρίες η έκρηξη ήταν πιο ισχυρή από αυτήν της Τρίτης, εκτοξεύοντας τέφρα έως και δέκα χιλιόμετρα από τον κρατήρα.</p>
+<p>Πολλοί κάτοικοι πανικόβλητοι αποφάσισαν να εγκαταλείψουν την περιοχή, χωρίς ωστόσο να έχει δοθεί κα΄ποια επίσημη οδηγία. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/1462")) "ηφαίστειο") (category ((domain . "http://tvxs.gr/taxonomy/term/524")) "Ινδονησία") (category ((domain . "http://tvxs.gr/taxonomy/term/26881")) "Μεράπι") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:28:55 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69473 at http://tvxs.gr")) (item nil (title nil "Ολοκληρώθηκε η συνάντηση Παπανδρέου και Γκρούεφσκι") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/papandreiugruefski.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:16</span>        </div>
+        </div>
+</div>
+<blockquote><p>Ολοκληρώθηκε η συνάντηση του Γιώργου Παπανδρέου με τον ομόλογό του της ΠΓΔΜ, Νίκολα Γκρούεφσκι, στις Βρυξέλλες. Οι δύο πρωθυπουργοί δήλωσαν ότι παραμένουν προσηλωμένοι στη διαδικασία υπό τον ΟΗΕ για την εξεύρεση κοινά αποδεκτής λύσης για την ονομασία. </p></blockquote>
+<p>Ο πρωθυπουργός τόνισε στο συνομιλητή του ότι η Ελλάδα θα είναι ο πιο αποτελεσματικός σύμμαχος της ΠΓΔΜ στην ενταξιακή διαδικασία, αρκεί να επιλυθεί η διαφορά. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/522")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/1642")) "ΠΓΔΜ") (category ((domain . "http://tvxs.gr/taxonomy/term/10091")) "σκοπιανό") (category ((domain . "http://tvxs.gr/taxonomy/term/741")) "Γιώργος Παπανδρέου") (category ((domain . "http://tvxs.gr/taxonomy/term/6448")) "Νικολά Γκρούεφσκι") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:17:24 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69472 at http://tvxs.gr")) (item nil (title nil "Γερμανία: Εγκρίθηκε με αντιδράσεις το νομοσχέδιο για τα πυρηνικά εργοστάσια ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/parliament_5.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"159\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:04</span>        </div>
+        </div>
+</div>
+<blockquote><p>Εγκρίθηκε από τη γερμανική βουλή το νομοσχέδιο για παράταση λειτουργίας των πυρηνικών αντιδραστήρων, με την αντιπολίτευση να προειδοποιεί για κοινωνικές αναταραχές αλλά και να κατηγορεί τη κυβέρνηση για πελατειακές σχέσεις με 4 πυρηνικά εργοστάσια.</p></blockquote>
+<p>Το νομοσχέδιο έρχεται να ανατρέψει την απόφαση των Σοσιαλδημοκρατών και των Πρασίνων, οι οποίοι όταν βρισκόντουσαν στην κυβέρνηση  με νόμο έθεταν το 2012 ως έτος που η χώρα θα σταματούσε τη χρήση πυρηνικής ενέργειας για κάλυψη ενεργειακών αναγκών. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:05:03 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69471 at http://tvxs.gr")) (item nil (title nil "Κερδίστε προσκλήσεις για την προβολή του \"Essential Killing\" του Γιέρζι Σκολιμόφσκι") (link nil "http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/kr.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"186\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:54</span>        </div>
+        </div>
+</div>
+<p>To Tvxs προσφέρει στα Μέλη Χωρίς Σύνορα, δέκα διπλές προσκλήσεις για τη ταινία Essential Killing\" του Γιέρζι Σκολιμόφσκι, η οποία προβάλλεται στα πλαίσια του 23ου φεστιβάλ Πανοράματος Ευρωπαϊκού Κινηματογράφου .</p>
+<p>Επιμέλεια: Τζένη Τσιροπούλου</p>
+<p>Όταν ο Γιέρζι Σκολιμόφσκι ξανασυνάντησε τη Σοφία Κόπολα...<br />
+Δεν ξέρουμε αν οι δύο σκηνοθέτες γνωρίζονται, στην πραγματικότητα, αλλά οι νέες ταινίες τους συναντιούνται φέτος για τρίτη φορά σε κινηματογραφικό φεστιβάλ ευρωπαϊκής πόλης. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/75")) "Σινεμά") (category ((domain . "http://tvxs.gr/taxonomy/term/47")) "feature") (category ((domain . "http://tvxs.gr/taxonomy/term/101")) "front page") (pubDate nil "Fri, 29 Oct 2010 20:04:24 +0000") (dc:creator nil "xristina") (guid ((isPermaLink . "false")) "69470 at http://tvxs.gr")) (item nil (title nil "Αθώοι οι καταληψίες μαθητές της Ορεστιάδας") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/Image_77.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:39</span>        </div>
+        </div>
+</div>
+<blockquote><p>Αθώοι κρίθηκαν σήμερα το πρωί από το δικαστήριο ανηλίκων Ορεστιάδας οι 115 μαθητές της Ορεστιάδας οι οποίοι κατηγορούνταν για τις καταλήψεις που έκαναν πέρυσι το φθινόπωρο.</p></blockquote>
+<p>Την ώρα της δίκης, 300 μαθητές, εκπαιδευτικοί γονείς και πολυμελής αντιπροσωπεία της Ένωσης Συλλόγων Γονέων και Κηδεμόνων Ορεστιάδας, συγκεντρώθηκαν έξω από το κτίριο του δικαστηρίου, συμπαραστεκόμενοι στους ανήλικους κατηγορούμενους. Νωρίτερα πραγματοποίησαν συγκένυρωση και πορεία στους κεντρικούς δρόμους της πόλης.</p>
+<p><strong>Πηγή: Ελευθεροτυπία</strong></p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:42:27 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69469 at http://tvxs.gr")) (item nil (title nil "Αστυνομικοί πουλούσαν  προστασία σε καταστήματα με «φρουτάκια»") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/froutakia_0.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:34</span>        </div>
+        </div>
+</div>
+<blockquote><p>Για παροχή προστασίας σε ιδιοκτήτες καταστημάτων με παράνομα ηλεκτρονικά τυχερά παιχνίδια, σε διάφορες περιοχές της Θεσσαλονίκης, κατηγορούνται 21 αστυνομικοί. </p></blockquote>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/4707")) "αστυνομικοί") (category ((domain . "http://tvxs.gr/taxonomy/term/5588")) "προστασία") (category ((domain . "http://tvxs.gr/taxonomy/term/1514")) "φρουτάκια") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:38:33 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69468 at http://tvxs.gr")) (item nil (title nil "Ιταλία: Πορεία θυμάτων σεξουαλικής κακοποίησης από ιερείς ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/iereis.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:10</span>        </div>
+        </div>
+</div>
+<blockquote><p>Πορεία προς το Βατικανό θα επιχειρήσουν να κάνουν την Κυριακή τα θύματα σεξουαλικής κακοποίησης από Ρωμαιοκαθολικούς ιερείς με αίτημα την προστασία των παιδιών από την Εκκλησία και την τιμωρία των δραστών. Σημειώνεται ότι στους διαδηλωτές δεν έχει δοθεί η σχετική άδεια από τις αστυνομικές αρχές. </p></blockquote>
+<p>Ο Μπέρνι Μακέιντ και ο Γκάρι Μπέργκερον, ιδρυτές του «survivorsvoice.org», δήλωσαν σε συνέντευξη τύπου που παραχώρησαν σήμερα ότι σκοπεύουν να ζητήσουν από τα Ηνωμένα Έθνη να κηρύξουν τη συστηματική παιδεραστία «έγκλημα κατά της ανθρωπότητας».</p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/384")) "Βατικανό") (category ((domain . "http://tvxs.gr/taxonomy/term/2417")) "εκκλησία") (category ((domain . "http://tvxs.gr/taxonomy/term/958")) "θύματα") (category ((domain . "http://tvxs.gr/taxonomy/term/464")) "σεξουαλική κακοποίηση") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:12:02 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69467 at http://tvxs.gr")) (item nil (title nil "Συλλήψεις Ρώσων κατασκόπων στη Γεωργία; ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/RussiaGeorgia.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 21:38</span>        </div>
+        </div>
+</div>
+<blockquote><p>Στη σύλληψη 20 ατόμων με την κατηγορία της κατασκοπείας για λογαριασμό της Ρωσίας, προχώρησε η αστυνομία της Γεωργίας.</p></blockquote>
+<p>Ειδικότερα, οι 20 γεωργιανοί πολίτες φέρονται να είχαν δημιουργήσει ένα κατασκοπευτικό δίκτυο το οποίο παρέδιδε απόρρητες πληροφορίες στη Ρωσία.</p>
+<p>Ωστόσο, το υπουργείο Εσωτερικών της Γεωργίας απέφυγε να επιβεβαιώσει ή να διαψεύσει τις πληροφορίες και οι πληροφορίες προέρχονται κυρίως από ανώνυμες πηγές. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 18:48:07 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69465 at http://tvxs.gr")))) ("30/10/2010" "<p>Απολλωνία, Ζηνοβία, Αστέρης, Κλεόπας, Κρονίων, Μαρκιανός, Τέρτιος</p>" "http://tvxs.gr/node/69476" (19659 13979) new 1 nil nil ((title nil "30/10/2010") (link nil "http://tvxs.gr/node/69476") (description nil "<p>Απολλωνία, Ζηνοβία, Αστέρης, Κλεόπας, Κρονίων, Μαρκιανός, Τέρτιος</p>
+") (comments nil "http://tvxs.gr/node/69476#comments") (pubDate nil "Fri, 29 Oct 2010 21:03:23 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69476 at http://tvxs.gr"))) ("Σε απεργία πείνας ο Ταρέκ Αζίζ" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/tarekaziz.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"165\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:35</span>        </div>
+</div>
+</div>
+<blockquote><p>Ο Ταρέκ Αζίζ, πρώην υπουργός Εξωτερικών και αντιπρόεδρος της ιρακινής κυβέρνησης επί Σαντάμ Χουσέιν, που <a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B8%CE%AC%CE%BD%CE%B1%CF%84%CE%BF-%CE%BA%CE%B1%CF%84%CE%B1%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BF-%CF%84%CE%AC%CF%81%CE%B5%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6  \">καταδικάστηκε σε θάνατο δια απαγχονισμού</a> από το Ανώτατο Ποινικό Δικαστήριο του Ιράκ, ξεκίνησε απεργία πείνας σε ένδειξη διαμαρτυρίας, καθώς οι αρχές δεν του επέτρεψαν να συναντηθεί με την οικογένεια του, αλλά και επειδ</p>
+</blockquote><div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6" (19659 12397) new 2 nil nil ((title nil "Σε απεργία πείνας ο Ταρέκ Αζίζ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/tarekaziz.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"165\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:35</span>        </div>
+        </div>
+</div>
+<blockquote><p>Ο Ταρέκ Αζίζ, πρώην υπουργός Εξωτερικών και αντιπρόεδρος της ιρακινής κυβέρνησης επί Σαντάμ Χουσέιν, που <a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B8%CE%AC%CE%BD%CE%B1%CF%84%CE%BF-%CE%BA%CE%B1%CF%84%CE%B1%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BF-%CF%84%CE%AC%CF%81%CE%B5%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6  \">καταδικάστηκε σε θάνατο δια απαγχονισμού</a> από το Ανώτατο Ποινικό Δικαστήριο του Ιράκ, ξεκίνησε απεργία πείνας σε ένδειξη διαμαρτυρίας, καθώς οι αρχές δεν του επέτρεψαν να συναντηθεί με την οικογένεια του, αλλά και επειδ</p>
+</blockquote><div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CE%B5-%CE%B1%CF%80%CE%B5%CF%81%CE%B3%CE%AF%CE%B1-%CF%80%CE%B5%CE%AF%CE%BD%CE%B1%CF%82-%CE%BF-%CF%84%CE%B1%CF%81%CE%AD%CE%BA-%CE%B1%CE%B6%CE%AF%CE%B6#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/12931")) "απαγχονισμός") (category ((domain . "http://tvxs.gr/taxonomy/term/722")) "θάνατος") (category ((domain . "http://tvxs.gr/taxonomy/term/342")) "Ιράκ") (category ((domain . "http://tvxs.gr/taxonomy/term/848")) "καταδίκη") (category ((domain . "http://tvxs.gr/taxonomy/term/26871")) "Ταρέκ Αζίζ") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:37:01 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69474 at http://tvxs.gr"))) ("Νέα έκρηξη του ηφαιστείου Μεράπι στην Ινδονησία" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/IndonesiaMerapi.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:27</span>        </div>
+</div>
+</div>
+<blockquote><p>Το ηφαίστειο Μεράπι, στην Ινδονησία, από την έκρηξη του οποίου σκοτώθηκαν 34 άνθρωποι την Τρίτη, άρχισε και πάλι να εκρήγνηται προκαλώντας τον πανικό σε μία ακτίνα άνω των δώδεκα χιλιομέτρων, δήλωσαν αυτόπτες μάρτυρες.</p></blockquote>
+<p>Σύμφωνα με τις μαρτυρίες η έκρηξη ήταν πιο ισχυρή από αυτήν της Τρίτης, εκτοξεύοντας τέφρα έως και δέκα χιλιόμετρα από τον κρατήρα.</p>
+<p>Πολλοί κάτοικοι πανικόβλητοι αποφάσισαν να εγκαταλείψουν την περιοχή, χωρίς ωστόσο να έχει δοθεί κα΄ποια επίσημη οδηγία. </p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>" "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1" (19659 11911) new 3 nil nil ((title nil "Νέα έκρηξη του ηφαιστείου Μεράπι στην Ινδονησία") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/IndonesiaMerapi.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:27</span>        </div>
+        </div>
+</div>
+<blockquote><p>Το ηφαίστειο Μεράπι, στην Ινδονησία, από την έκρηξη του οποίου σκοτώθηκαν 34 άνθρωποι την Τρίτη, άρχισε και πάλι να εκρήγνηται προκαλώντας τον πανικό σε μία ακτίνα άνω των δώδεκα χιλιομέτρων, δήλωσαν αυτόπτες μάρτυρες.</p></blockquote>
+<p>Σύμφωνα με τις μαρτυρίες η έκρηξη ήταν πιο ισχυρή από αυτήν της Τρίτης, εκτοξεύοντας τέφρα έως και δέκα χιλιόμετρα από τον κρατήρα.</p>
+<p>Πολλοί κάτοικοι πανικόβλητοι αποφάσισαν να εγκαταλείψουν την περιοχή, χωρίς ωστόσο να έχει δοθεί κα΄ποια επίσημη οδηγία. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%BD%CE%AD%CE%B1-%CE%AD%CE%BA%CF%81%CE%B7%CE%BE%CE%B7-%CF%84%CE%BF%CF%85-%CE%B7%CF%86%CE%B1%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%BF%CF%85-%CE%BC%CE%B5%CF%81%CE%AC%CF%80%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B9%CE%BD%CE%B4%CE%BF%CE%BD%CE%B7%CF%83%CE%AF%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/1462")) "ηφαίστειο") (category ((domain . "http://tvxs.gr/taxonomy/term/524")) "Ινδονησία") (category ((domain . "http://tvxs.gr/taxonomy/term/26881")) "Μεράπι") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:28:55 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69473 at http://tvxs.gr"))) ("Ολοκληρώθηκε η συνάντηση Παπανδρέου και Γκρούεφσκι" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/papandreiugruefski.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:16</span>        </div>
+</div>
+</div>
+<blockquote><p>Ολοκληρώθηκε η συνάντηση του Γιώργου Παπανδρέου με τον ομόλογό του της ΠΓΔΜ, Νίκολα Γκρούεφσκι, στις Βρυξέλλες. Οι δύο πρωθυπουργοί δήλωσαν ότι παραμένουν προσηλωμένοι στη διαδικασία υπό τον ΟΗΕ για την εξεύρεση κοινά αποδεκτής λύσης για την ονομασία. </p></blockquote>
+<p>Ο πρωθυπουργός τόνισε στο συνομιλητή του ότι η Ελλάδα θα είναι ο πιο αποτελεσματικός σύμμαχος της ΠΓΔΜ στην ενταξιακή διαδικασία, αρκεί να επιλυθεί η διαφορά. </p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9" (19659 11220) new 4 nil nil ((title nil "Ολοκληρώθηκε η συνάντηση Παπανδρέου και Γκρούεφσκι") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/papandreiugruefski.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:16</span>        </div>
+        </div>
+</div>
+<blockquote><p>Ολοκληρώθηκε η συνάντηση του Γιώργου Παπανδρέου με τον ομόλογό του της ΠΓΔΜ, Νίκολα Γκρούεφσκι, στις Βρυξέλλες. Οι δύο πρωθυπουργοί δήλωσαν ότι παραμένουν προσηλωμένοι στη διαδικασία υπό τον ΟΗΕ για την εξεύρεση κοινά αποδεκτής λύσης για την ονομασία. </p></blockquote>
+<p>Ο πρωθυπουργός τόνισε στο συνομιλητή του ότι η Ελλάδα θα είναι ο πιο αποτελεσματικός σύμμαχος της ΠΓΔΜ στην ενταξιακή διαδικασία, αρκεί να επιλυθεί η διαφορά. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%8E%CE%B8%CE%B7%CE%BA%CE%B5-%CE%B7-%CF%83%CF%85%CE%BD%CE%AC%CE%BD%CF%84%CE%B7%CF%83%CE%B7-%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CE%B4%CF%81%CE%AD%CE%BF%CF%85-%CE%BA%CE%B1%CE%B9-%CE%B3%CE%BA%CF%81%CE%BF%CF%8D%CE%B5%CF%86%CF%83%CE%BA%CE%B9#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/522")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/1642")) "ΠΓΔΜ") (category ((domain . "http://tvxs.gr/taxonomy/term/10091")) "σκοπιανό") (category ((domain . "http://tvxs.gr/taxonomy/term/741")) "Γιώργος Παπανδρέου") (category ((domain . "http://tvxs.gr/taxonomy/term/6448")) "Νικολά Γκρούεφσκι") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:17:24 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69472 at http://tvxs.gr"))) ("Γερμανία: Εγκρίθηκε με αντιδράσεις το νομοσχέδιο για τα πυρηνικά εργοστάσια" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/parliament_5.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"159\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:04</span>        </div>
+</div>
+</div>
+<blockquote><p>Εγκρίθηκε από τη γερμανική βουλή το νομοσχέδιο για παράταση λειτουργίας των πυρηνικών αντιδραστήρων, με την αντιπολίτευση να προειδοποιεί για κοινωνικές αναταραχές αλλά και να κατηγορεί τη κυβέρνηση για πελατειακές σχέσεις με 4 πυρηνικά εργοστάσια.</p></blockquote>
+<p>Το νομοσχέδιο έρχεται να ανατρέψει την απόφαση των Σοσιαλδημοκρατών και των Πρασίνων, οι οποίοι όταν βρισκόντουσαν στην κυβέρνηση  με νόμο έθεταν το 2012 ως έτος που η χώρα θα σταματούσε τη χρήση πυρηνικής ενέργειας για κάλυψη ενεργειακών αναγκών. </p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1" (19659 10479) new 5 nil nil ((title nil "Γερμανία: Εγκρίθηκε με αντιδράσεις το νομοσχέδιο για τα πυρηνικά εργοστάσια ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/parliament_5.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"159\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 23:04</span>        </div>
+        </div>
+</div>
+<blockquote><p>Εγκρίθηκε από τη γερμανική βουλή το νομοσχέδιο για παράταση λειτουργίας των πυρηνικών αντιδραστήρων, με την αντιπολίτευση να προειδοποιεί για κοινωνικές αναταραχές αλλά και να κατηγορεί τη κυβέρνηση για πελατειακές σχέσεις με 4 πυρηνικά εργοστάσια.</p></blockquote>
+<p>Το νομοσχέδιο έρχεται να ανατρέψει την απόφαση των Σοσιαλδημοκρατών και των Πρασίνων, οι οποίοι όταν βρισκόντουσαν στην κυβέρνηση  με νόμο έθεταν το 2012 ως έτος που η χώρα θα σταματούσε τη χρήση πυρηνικής ενέργειας για κάλυψη ενεργειακών αναγκών. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%AF%CE%B1-%CE%B5%CE%B3%CE%BA%CF%81%CE%AF%CE%B8%CE%B7%CE%BA%CE%B5-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%B9%CE%B4%CF%81%CE%AC%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF-%CE%BD%CE%BF%CE%BC%CE%BF%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CF%80%CF%85%CF%81%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC-%CE%B5%CF%81%CE%B3%CE%BF%CF%83%CF%84%CE%AC%CF%83%CE%B9%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 20:05:03 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69471 at http://tvxs.gr"))) ("Κερδίστε προσκλήσεις για την προβολή του \"Essential Killing\" του Γιέρζι Σκολιμόφσκι" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/kr.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"186\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:54</span>        </div>
+</div>
+</div>
+<p>To Tvxs προσφέρει στα Μέλη Χωρίς Σύνορα, δέκα διπλές προσκλήσεις για τη ταινία Essential Killing\" του Γιέρζι Σκολιμόφσκι, η οποία προβάλλεται στα πλαίσια του 23ου φεστιβάλ Πανοράματος Ευρωπαϊκού Κινηματογράφου .</p>
+<p>Επιμέλεια: Τζένη Τσιροπούλου</p>
+<p>Όταν ο Γιέρζι Σκολιμόφσκι ξανασυνάντησε τη Σοφία Κόπολα...<br />
+Δεν ξέρουμε αν οι δύο σκηνοθέτες γνωρίζονται, στην πραγματικότητα, αλλά οι νέες ταινίες τους συναντιούνται φέτος για τρίτη φορά σε κινηματογραφικό φεστιβάλ ευρωπαϊκής πόλης. </p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9" (19659 10440) new 6 nil nil ((title nil "Κερδίστε προσκλήσεις για την προβολή του \"Essential Killing\" του Γιέρζι Σκολιμόφσκι") (link nil "http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/kr.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"186\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:54</span>        </div>
+        </div>
+</div>
+<p>To Tvxs προσφέρει στα Μέλη Χωρίς Σύνορα, δέκα διπλές προσκλήσεις για τη ταινία Essential Killing\" του Γιέρζι Σκολιμόφσκι, η οποία προβάλλεται στα πλαίσια του 23ου φεστιβάλ Πανοράματος Ευρωπαϊκού Κινηματογράφου .</p>
+<p>Επιμέλεια: Τζένη Τσιροπούλου</p>
+<p>Όταν ο Γιέρζι Σκολιμόφσκι ξανασυνάντησε τη Σοφία Κόπολα...<br />
+Δεν ξέρουμε αν οι δύο σκηνοθέτες γνωρίζονται, στην πραγματικότητα, αλλά οι νέες ταινίες τους συναντιούνται φέτος για τρίτη φορά σε κινηματογραφικό φεστιβάλ ευρωπαϊκής πόλης. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CF%83%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC/%CE%BA%CE%B5%CF%81%CE%B4%CE%AF%CF%83%CF%84%CE%B5-%CF%80%CF%81%CE%BF%CF%83%CE%BA%CE%BB%CE%AE%CF%83%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-essential-killing-%CF%84%CE%BF%CF%85-%CE%B3%CE%B9%CE%AD%CF%81%CE%B6%CE%B9-%CF%83%CE%BA%CE%BF%CE%BB%CE%B9%CE%BC%CF%8C%CF%86%CF%83%CE%BA%CE%B9#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/75")) "Σινεμά") (category ((domain . "http://tvxs.gr/taxonomy/term/47")) "feature") (category ((domain . "http://tvxs.gr/taxonomy/term/101")) "front page") (pubDate nil "Fri, 29 Oct 2010 20:04:24 +0000") (dc:creator nil "xristina") (guid ((isPermaLink . "false")) "69470 at http://tvxs.gr"))) ("Αθώοι οι καταληψίες μαθητές της Ορεστιάδας" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/Image_77.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:39</span>        </div>
+</div>
+</div>
+<blockquote><p>Αθώοι κρίθηκαν σήμερα το πρωί από το δικαστήριο ανηλίκων Ορεστιάδας οι 115 μαθητές της Ορεστιάδας οι οποίοι κατηγορούνταν για τις καταλήψεις που έκαναν πέρυσι το φθινόπωρο.</p></blockquote>
+<p>Την ώρα της δίκης, 300 μαθητές, εκπαιδευτικοί γονείς και πολυμελής αντιπροσωπεία της Ένωσης Συλλόγων Γονέων και Κηδεμόνων Ορεστιάδας, συγκεντρώθηκαν έξω από το κτίριο του δικαστηρίου, συμπαραστεκόμενοι στους ανήλικους κατηγορούμενους. Νωρίτερα πραγματοποίησαν συγκένυρωση και πορεία στους κεντρικούς δρόμους της πόλης.</p>
+<p><strong>Πηγή: Ελευθεροτυπία</strong></p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>" "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82" (19659 9123) new 7 nil nil ((title nil "Αθώοι οι καταληψίες μαθητές της Ορεστιάδας") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/Image_77.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:39</span>        </div>
+        </div>
+</div>
+<blockquote><p>Αθώοι κρίθηκαν σήμερα το πρωί από το δικαστήριο ανηλίκων Ορεστιάδας οι 115 μαθητές της Ορεστιάδας οι οποίοι κατηγορούνταν για τις καταλήψεις που έκαναν πέρυσι το φθινόπωρο.</p></blockquote>
+<p>Την ώρα της δίκης, 300 μαθητές, εκπαιδευτικοί γονείς και πολυμελής αντιπροσωπεία της Ένωσης Συλλόγων Γονέων και Κηδεμόνων Ορεστιάδας, συγκεντρώθηκαν έξω από το κτίριο του δικαστηρίου, συμπαραστεκόμενοι στους ανήλικους κατηγορούμενους. Νωρίτερα πραγματοποίησαν συγκένυρωση και πορεία στους κεντρικούς δρόμους της πόλης.</p>
+<p><strong>Πηγή: Ελευθεροτυπία</strong></p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CE%B8%CF%8E%CE%BF%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B7%CF%88%CE%AF%CE%B5%CF%82-%CE%BC%CE%B1%CE%B8%CE%B7%CF%84%CE%AD%CF%82-%CF%84%CE%B7%CF%82-%CE%BF%CF%81%CE%B5%CF%83%CF%84%CE%B9%CE%AC%CE%B4%CE%B1%CF%82#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:42:27 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69469 at http://tvxs.gr"))) ("Αστυνομικοί πουλούσαν  προστασία σε καταστήματα με «φρουτάκια»" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/froutakia_0.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:34</span>        </div>
+</div>
+</div>
+<blockquote><p>Για παροχή προστασίας σε ιδιοκτήτες καταστημάτων με παράνομα ηλεκτρονικά τυχερά παιχνίδια, σε διάφορες περιοχές της Θεσσαλονίκης, κατηγορούνται 21 αστυνομικοί. </p></blockquote>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB" (19659 8889) new 8 nil nil ((title nil "Αστυνομικοί πουλούσαν  προστασία σε καταστήματα με «φρουτάκια»") (link nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/froutakia_0.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:34</span>        </div>
+        </div>
+</div>
+<blockquote><p>Για παροχή προστασίας σε ιδιοκτήτες καταστημάτων με παράνομα ηλεκτρονικά τυχερά παιχνίδια, σε διάφορες περιοχές της Θεσσαλονίκης, κατηγορούνται 21 αστυνομικοί. </p></blockquote>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/%CE%B1%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF-%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%8D%CF%83%CE%B1%CE%BD-%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1-%CF%83%CE%B5-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%BC%CE%B5-%C2%AB%CF%86%CF%81%CE%BF%CF%85%CF%84%CE%AC%CE%BA%CE%B9%CE%B1%C2%BB#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/62")) "Ελλάδα") (category ((domain . "http://tvxs.gr/taxonomy/term/4707")) "αστυνομικοί") (category ((domain . "http://tvxs.gr/taxonomy/term/5588")) "προστασία") (category ((domain . "http://tvxs.gr/taxonomy/term/1514")) "φρουτάκια") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:38:33 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69468 at http://tvxs.gr"))) ("Ιταλία: Πορεία θυμάτων σεξουαλικής κακοποίησης από ιερείς" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/iereis.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:10</span>        </div>
+</div>
+</div>
+<blockquote><p>Πορεία προς το Βατικανό θα επιχειρήσουν να κάνουν την Κυριακή τα θύματα σεξουαλικής κακοποίησης από Ρωμαιοκαθολικούς ιερείς με αίτημα την προστασία των παιδιών από την Εκκλησία και την τιμωρία των δραστών. Σημειώνεται ότι στους διαδηλωτές δεν έχει δοθεί η σχετική άδεια από τις αστυνομικές αρχές. </p></blockquote>
+<p>Ο Μπέρνι Μακέιντ και ο Γκάρι Μπέργκερον, ιδρυτές του «survivorsvoice.org», δήλωσαν σε συνέντευξη τύπου που παραχώρησαν σήμερα ότι σκοπεύουν να ζητήσουν από τα Ηνωμένα Έθνη να κηρύξουν τη συστηματική παιδεραστία «έγκλημα κατά της ανθρωπότητας».</p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82" (19659 7298) new 9 nil nil ((title nil "Ιταλία: Πορεία θυμάτων σεξουαλικής κακοποίησης από ιερείς ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/iereis.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 22:10</span>        </div>
+        </div>
+</div>
+<blockquote><p>Πορεία προς το Βατικανό θα επιχειρήσουν να κάνουν την Κυριακή τα θύματα σεξουαλικής κακοποίησης από Ρωμαιοκαθολικούς ιερείς με αίτημα την προστασία των παιδιών από την Εκκλησία και την τιμωρία των δραστών. Σημειώνεται ότι στους διαδηλωτές δεν έχει δοθεί η σχετική άδεια από τις αστυνομικές αρχές. </p></blockquote>
+<p>Ο Μπέρνι Μακέιντ και ο Γκάρι Μπέργκερον, ιδρυτές του «survivorsvoice.org», δήλωσαν σε συνέντευξη τύπου που παραχώρησαν σήμερα ότι σκοπεύουν να ζητήσουν από τα Ηνωμένα Έθνη να κηρύξουν τη συστηματική παιδεραστία «έγκλημα κατά της ανθρωπότητας».</p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CE%B9%CF%84%CE%B1%CE%BB%CE%AF%CE%B1-%CF%80%CE%BF%CF%81%CE%B5%CE%AF%CE%B1-%CE%B8%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE%CF%82-%CE%BA%CE%B1%CE%BA%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82-%CE%B1%CF%80%CF%8C-%CE%B9%CE%B5%CF%81%CE%B5%CE%AF%CF%82#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/384")) "Βατικανό") (category ((domain . "http://tvxs.gr/taxonomy/term/2417")) "εκκλησία") (category ((domain . "http://tvxs.gr/taxonomy/term/958")) "θύματα") (category ((domain . "http://tvxs.gr/taxonomy/term/464")) "σεξουαλική κακοποίηση") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 19:12:02 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69467 at http://tvxs.gr"))) ("Συλλήψεις Ρώσων κατασκόπων στη Γεωργία;" "<div class=\"field field-type-filefield field-field-image\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/RussiaGeorgia.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+</div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<span class=\"date-display-single\">29. Οκτωβρίου 2010 - 21:38</span>        </div>
+</div>
+</div>
+<blockquote><p>Στη σύλληψη 20 ατόμων με την κατηγορία της κατασκοπείας για λογαριασμό της Ρωσίας, προχώρησε η αστυνομία της Γεωργίας.</p></blockquote>
+<p>Ειδικότερα, οι 20 γεωργιανοί πολίτες φέρονται να είχαν δημιουργήσει ένα κατασκοπευτικό δίκτυο το οποίο παρέδιδε απόρρητες πληροφορίες στη Ρωσία.</p>
+<p>Ωστόσο, το υπουργείο Εσωτερικών της Γεωργίας απέφυγε να επιβεβαιώσει ή να διαψεύσει τις πληροφορίες και οι πληροφορίες προέρχονται κυρίως από ανώνυμες πηγές. </p>
+<div class=\"field field-type-userreference field-field-author\">
+<div class=\"field-items\">
+<div class=\"field-item odd\">
+<a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+</div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>" "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1" (19659 5863) new 10 nil nil ((title nil "Συλλήψεις Ρώσων κατασκόπων στη Γεωργία; ") (link nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1") (description nil "<div class=\"field field-type-filefield field-field-image\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" class=\"imagecache imagecache-scale_span4 imagecache-linked imagecache-scale_span4_linked\"><img src=\"http://tvxs.gr/sites/default/files/imagecache/scale_span4/images/story/RussiaGeorgia.jpg\" alt=\"\" title=\"\"  class=\"imagecache imagecache-scale_span4\" width=\"220\" height=\"160\" /></a>        </div>
+        </div>
+</div>
+<div class=\"field field-type-datestamp field-field-published-date\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <span class=\"date-display-single\">29. Οκτωβρίου 2010 - 21:38</span>        </div>
+        </div>
+</div>
+<blockquote><p>Στη σύλληψη 20 ατόμων με την κατηγορία της κατασκοπείας για λογαριασμό της Ρωσίας, προχώρησε η αστυνομία της Γεωργίας.</p></blockquote>
+<p>Ειδικότερα, οι 20 γεωργιανοί πολίτες φέρονται να είχαν δημιουργήσει ένα κατασκοπευτικό δίκτυο το οποίο παρέδιδε απόρρητες πληροφορίες στη Ρωσία.</p>
+<p>Ωστόσο, το υπουργείο Εσωτερικών της Γεωργίας απέφυγε να επιβεβαιώσει ή να διαψεύσει τις πληροφορίες και οι πληροφορίες προέρχονται κυρίως από ανώνυμες πηγές. </p>
+<div class=\"field field-type-userreference field-field-author\">
+    <div class=\"field-items\">
+            <div class=\"field-item odd\">
+                    <a href=\"/users/tvxsteam\" title=\"Προβολή προσωπικού προφίλ.\">tvxsteam</a>        </div>
+        </div>
+</div>
+<p><a href=\"http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1\" target=\"_blank\">διαβάστε περισσότερα</a></p>") (comments nil "http://tvxs.gr/news/%CE%BA%CF%8C%CF%83%CE%BC%CE%BF%CF%82/%CF%83%CF%85%CE%BB%CE%BB%CE%AE%CF%88%CE%B5%CE%B9%CF%82-%CF%81%CF%8E%CF%83%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1#comments") (category ((domain . "http://tvxs.gr/taxonomy/term/63")) "Κόσμος") (category ((domain . "http://tvxs.gr/taxonomy/term/99")) "Τελευταία νέα ") (pubDate nil "Fri, 29 Oct 2010 18:48:07 +0000") (dc:creator nil "Παναγιώτης Κωνσταντίνου") (guid ((isPermaLink . "false")) "69465 at http://tvxs.gr"))))

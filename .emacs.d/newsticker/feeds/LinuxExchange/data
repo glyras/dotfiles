@@ -1,0 +1,1410 @@
+;; -*- coding: utf-8 -*-
+(("Top Questions - LinuxExchange" "most recent 30 from http://linuxexchange.org" nil (19659 25273 428217) feed 0 nil nil ((title ((type . "text")) "Top Questions - LinuxExchange") (link ((rel . "self") (href . "http://linuxexchange.org/feeds") (type . "application/atom+xml"))) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions") (type . "text/html"))) (subtitle nil "most recent 30 from http://linuxexchange.org") (updated nil "2010-10-30T00:06:36Z") (id nil "http://linuxexchange.org/feeds") (creativeCommons:license nil "http://www.creativecommons.org/licenses/by-nc/2.5/rdf") (entry nil (id nil "http://linuxexchange.org/questions/897/howto-enable-sound-for-gwibber-empathy-and-memenu-in-ubuntu-10-04-lucid-lynix") (title ((type . "text")) "Howto enable sound for Gwibber, Empathy and MeMenu in Ubuntu 10.04 Lucid Lynix?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "sound"))) (author nil (name nil "abgalphabet")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/897/howto-enable-sound-for-gwibber-empathy-and-memenu-in-ubuntu-10-04-lucid-lynix"))) (published nil "2010-06-22T02:12:46Z") (updated nil "2010-10-29T21:23:10Z") (summary ((type . "html")) "
+            <p>I did what this link told: <a href=\"http://ubuntuforums.org/showthread.php?t=1194501\" rel=\"nofollow\">http://ubuntuforums.org/showthread.php?t=1194501</a> however, the sound doesn't come out. Is there any other way to configure the sound?
+I use fujitsu S6420 notebook.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1169/how-can-we-use-wifi-card-in-back-track-4-pre-final") (title ((type . "text")) "how can we use wifi card in back track  4 pre final ") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wireless"))) (author nil (name nil "rajesh")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1169/how-can-we-use-wifi-card-in-back-track-4-pre-final"))) (published nil "2010-08-02T08:26:54Z") (updated nil "2010-10-29T19:23:12Z") (summary ((type . "html")) "
+            <p>how can we use wifi card in back track  4 pre final if it is not detectable ?
+i am using compaq 510 and 
+my network adapter is of </p>
+
+<p>Marvell Yukon 88E8042 PCI-E Fast Ethernet Controller
+Realtek RTL8191SE Wireless LAN 802.11n PCI-E NIC</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1184/finding-wireless-cards") (title ((type . "text")) "Finding wireless cards") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wireless"))) (author nil (name nil "oldgamer")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1184/finding-wireless-cards"))) (published nil "2010-08-06T12:07:41Z") (updated nil "2010-10-29T19:23:12Z") (summary ((type . "html")) "
+            <p>I am looking for a wireless card for my Linux laptop (not too happy with my Broadcom adapter) is there a list of wireless adapters that don't have a binary blob as a main part of their operation and can go into promiscuous mode?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/355/nagios-event-handlers-not-executing") (title ((type . "text")) "Nagios: Event handlers not executing.") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "nagios"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "event-handler"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "not-execute"))) (author nil (name nil "micheal")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/355/nagios-event-handlers-not-executing"))) (published nil "2010-05-07T05:08:06Z") (updated nil "2010-10-29T18:23:05Z") (summary ((type . "html")) "
+            <p>Greetings:</p>
+
+<p>I am using Nagios to monitor a host. If the host looses connectivity, I want Nagios to execute an event handler.</p>
+
+<p>The host definition contains a defined event_handler directive. The host inherits from generic-host and; therefore, event_handler_enabled is 1. In my main configuration file event handling is enabled. The associated command configuration file has also been defined.</p>
+
+<p>While troubleshooting I tried the following as root:</p>
+
+<h1>su nagios</h1>
+
+<h1>./test-handler [and my args here of course]</h1>
+
+<p>The output is correct as user nagios. However, the nagios binary that runs under user nagios will not execute the script. Here is a bit of my nagios.log file:</p>
+
+<p>[1273208210] HOST ALERT: vXP;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.0.21)
+[1273208210] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$
+[1273208212] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;vXP;1273208211
+[1273208220] HOST ALERT: vXP;UP;SOFT;3;PING OK - Packet loss = 0%, RTA = 35.37 ms
+[1273208220] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$</p>
+
+<p>According to the output, nagios appears to be running my command; however, based on the output it is actually doing nothing at all. I know that whatever I'm missing is probably very simple (and knowing me; it's right under my nose), but I'm at a loss.</p>
+
+<p>Any takers?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1329/kernel-for-8-core-xeon") (title ((type . "text")) "kernel for 8 core XEON") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "system-administration"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kernel"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "smp"))) (author nil (name nil "Dr. Gavin Seddon")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1329/kernel-for-8-core-xeon"))) (published nil "2010-09-01T09:36:09Z") (updated nil "2010-10-29T17:00:40Z") (summary ((type . "html")) "
+            <p>Hi,
+I have started using the xeon for large intensive jobs.  However, only 1 core runs at 100percent.  The rest at ~20.  My software is for all 8cores.  The developer says it's a Linux issue.</p>
+
+<p>On reading it appears Ubuntu isn't ready for 8cores by default and I need to rebuild the kernel.  This isn't a prob.  However, before starting will someone pls tell me is it ok to find the current ker. source and re configure rather than worry about supporting all necessary drivers in a new file?</p>
+
+<p>Or, is there a better Linux distro for parallel use?  I used Gentoo for years so rebuilding is easy.  But will someone advise me on this since I don't want any mistakes with Ubuntu?</p>
+
+<p>Thank you.
+Gav.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1339/how-to-get-tighter-code") (title ((type . "text")) "How to get tighter code") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "scripting"))) (author nil (name nil "Dean Clemmons")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1339/how-to-get-tighter-code"))) (published nil "2010-09-07T11:03:11Z") (updated nil "2010-10-29T16:23:06Z") (summary ((type . "html")) "
+            <p>I use an embedded terminal (Tilda) full time on my desktop, as I connect to my network of Ubuntu machines mainly thru SSH. I set up an update notification script that tells me update staus remotely, but it's kind o' clunky (I know my scripting skills are far from pro). Here's what I set up: </p>
+
+<p>Create a folder ~/.updates.<br>
+Create script called updates as follows:  </p>
+
+<pre><code>#!/bin/bash
+# cat updates
+# A script to print out update status in bash
+#
+sudo apt-get update &gt; ~/.updates/updates.log
+sudo apt-get -s dist-upgrade &gt;&gt; ~/.updates/updates.log
+cat ~/.updates/updates.log | grep upgraded,
+</code></pre>
+
+<p>This does the job, but I'm sure it's far from optimal. Anyone have any suggestions on how to get it tightened up? This sort of thing is easy to do in some distros (Arch comes to mind), but Ubuntu is designed more for things like Update Manager and other graphical tools, so this was the best I could come up with so far. I want to be able to just get the line for available updates (for use in other scripts), not all the associated printout.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1390/king-games-using-ubuntu") (title ((type . "text")) "King Games using Ubuntu") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "game"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "browser"))) (author nil (name nil "Yvonne Callaghan")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1390/king-games-using-ubuntu"))) (published nil "2010-10-27T10:32:40Z") (updated nil "2010-10-29T09:46:38Z") (summary ((type . "html")) "
+            <p><em>Why can't I play King Games using Ubuntu Linux?  On the site a message states that I need windows to play their games.  I don't have windows internet explorer because it kept crashing. Is there anything I can do to get round this please?</em></p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1393/is-there-is-any-ide-or-gui-available-to-work-with-cassandra-database-with-php") (title ((type . "text")) "is there is any IDE or GUI available to work with CASSANDRA DATABASE with PHP?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "programming"))) (author nil (name nil "selvakumar")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1393/is-there-is-any-ide-or-gui-available-to-work-with-cassandra-database-with-php"))) (published nil "2010-10-28T18:18:01Z") (updated nil "2010-10-29T01:46:13Z") (summary ((type . "html")) "
+            <p>we are doing project currently on php and we want to use cassandra no sql database and is there is any API available like MYSQL? LAMP</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1241/rhel5-0-in-virtual-box") (title ((type . "text")) "rhel5.0 in virtual box") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "rhel"))) (author nil (name nil "Chirag991")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1241/rhel5-0-in-virtual-box"))) (published nil "2010-08-18T16:28:03Z") (updated nil "2010-10-28T19:23:07Z") (summary ((type . "html")) "
+            <p>help me guys !</p>
+
+<p>my host adapter of virtual box (xp)is not communicating to my RHEL5.0 (eth0) in virtual box..</p>
+
+<p>suggest all settings required 4 it!! i have assigned ip on eth0 = 192.168.1.100, on host adapter client (xp) -192.168.1.1.
+although its not pinging each other.</p>
+
+<p>thanks in advance !
+suggestthebest
+chirag.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1245/how-to-make-docky-appear-over-other-windows") (title ((type . "text")) "How to make Docky appear over other windows") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1245/how-to-make-docky-appear-over-other-windows"))) (published nil "2010-08-19T05:00:12Z") (updated nil "2010-10-28T19:23:07Z") (summary ((type . "html")) "
+            <p>I have Docky in autohide mode. The problem is that if a window is in the area where docky is supposed to pop up, like say if a window is maximized and takes up the whole screen, docky will appear under it, and it will be covered. How can Docky be made to appear above other windows?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1237/cant-run-nfs-most-wanted-on-wine") (title ((type . "text")) "Can't run NFS Most Wanted on Wine") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wine"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "debian"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "game"))) (author nil (name nil "Dezfor")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1237/cant-run-nfs-most-wanted-on-wine"))) (published nil "2010-08-18T07:55:00Z") (updated nil "2010-10-28T13:23:11Z") (summary ((type . "html")) "
+            <p>I run Debian lenny amd64, video card ATI x1250 on Catalyst 9.2.</p>
+
+<p><strong>Kernel</strong>: 2.6.26
+<strong>Wine version</strong> : 1.1.42</p>
+
+<p>When i try to launch NFS Most Wanted v.1.3 I get error:</p>
+
+<pre><code>$ wine \"/home/media/nfs_be/speed.exe\"
+fixme:imm:ImmDisableIME (0): stub
+fixme:win:EnumDisplayDevicesW ((null),0,0x32f81c,0x00000000), stub!
+fixme:d3d:debug_d3dformat Unrecognized 909198916 (as fourcc: DF16) WINED3DFORMAT!
+fixme:d3d:getFormatDescEntry Can't find format unrecognized(909198916) in the format lookup table
+wine: Call from 0x7eddcdd3 to unimplemented function d3dx9_36.dll.D3DXCreateEffectFromResourceA, aborting
+err:seh:raise_exception Unhandled exception code 80000100 flags 1 addr 0x7eddcdd3
+</code></pre>
+
+<p>Any ideas?
+In winecfg i enabled \"allow DirectX to hold mouse in it's window\" and \"emulate virtual desktop\"</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1348/audio-usb-streaming") (title ((type . "text")) "Audio USB-streaming") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "audio"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "streaming"))) (author nil (name nil "Tommy Skogsberg")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1348/audio-usb-streaming"))) (published nil "2010-09-15T14:45:49Z") (updated nil "2010-10-28T00:23:05Z") (summary ((type . "html")) "
+            <p>Hello. </p>
+
+<p>Audio-streaming is becoming increasingly popular and there are several programs that can stream for example PCM-signals to a soundcard. </p>
+
+<p>Now I have a CD-player with a really good DA-converter that can recieve and play digital PCM-signals from another DVD player through an optical or coaxial cable. </p>
+
+<p>My question is: -How do I make the computer send the PCM-stream straight to the CD-players digital inlet? For instance through the USB outlet straight into a coaxial cable? </p>
+
+<p>Is that possible, mabe some kind of handshake between the machines is needed? </p>
+
+<p>I have been thrugh the SOX manuel papers without finding a solution. 
+Is there a hacker out there that can enlight me on this subject? </p>
+
+<p>Kind Regards / Tommy</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/493/ustream-audio-not-working") (title ((type . "text")) "ustream audio not working") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "audio"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "streaming"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "video"))) (author nil (name nil "keith")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/493/ustream-audio-not-working"))) (published nil "2010-05-11T23:31:57Z") (updated nil "2010-10-27T19:23:13Z") (summary ((type . "html")) "
+            <p>running ubuntu 8.04 lts. thought that it had previously worked with ustream. skype works and also shoutcast for example. perhaps it only works with windows. i am not very handy with the command line if it come to that. any help will be appreciated thanks. </p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1112/pam-authentication-against-active-directory-fedora") (title ((type . "text")) "Pam authentication against Active Directory Fedora") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "fedora"))) (author nil (name nil "Joe")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1112/pam-authentication-against-active-directory-fedora"))) (published nil "2010-07-21T08:08:32Z") (updated nil "2010-10-27T17:23:13Z") (summary ((type . "html")) "
+            <p>Hi, </p>
+
+<p>I'm trying to set up a file server and I'm having problems authenticating users in Active Directory on the new Linux file server..</p>
+
+<p>Here's what's going on.. </p>
+
+<p>I had added the system to active directory.. Winbind trusts the system server that it's authenticating against and what it looks like is my problem is lying in my /etc/pam.d/login and my /etc/pam.d/system-auth file.. (I'm not editing the gdm file yet, because I want to wait until I can login first with Active Directory passwords before I work on getting GDM to work.)</p>
+
+<p>Here are my /etc/pam.d/login and my /etc/pam.d/system-auth files.. </p>
+
+<p>'#system-auth</p>
+
+<h1>PAM-1.0</h1>
+
+<h1>This file is auto-generated.</h1>
+
+<h1>User changes will be destroyed the next time authconfig is run.</h1>
+
+<p>auth        required      pam_env.so
+auth        sufficient    pam_fprintd.so
+auth        sufficient    pam_unix.so nullok try_first_pass
+auth        requisite     pam_succeed_if.so uid >= 500 quiet
+auth        required      pam_deny.so</p>
+
+<p>account     required      pam_unix.so
+account     sufficient    pam_localuser.so
+account     sufficient    pam_succeed_if.so uid &lt; 500 quiet
+account     required      pam_permit.so</p>
+
+<p>password    requisite     pam_cracklib.so try_first_pass retry=3 type=
+password    sufficient    pam_unix.so md5 shadow nullok try_first_pass use_authtok
+password    required      pam_deny.so</p>
+
+<p>session     optional      pam_keyinit.so revoke
+session     required      pam_limits.so
+session     [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
+session     required      pam_unix.so'</p>
+
+<p>'#login file</p>
+
+<h1>PAM-1.0</h1>
+
+<p>auth [user_unknown=ignore success=ok ignore=ignore default=bad] pam_securetty.so
+auth       sufficient   /lib/security/pam_krb5.so use_first_pass
+auth       include      system-auth
+account    required     pam_nologin.so
+account    include      system-auth
+password   include      system-auth</p>
+
+<h1>pam_selinux.so close should be the first session rule</h1>
+
+<p>session    required     pam_selinux.so close
+session    required     pam_loginuid.so
+session    optional     pam_console.so</p>
+
+<h1>pam_selinux.so open should only be followed by sessions to be executed in the user context</h1>
+
+<p>session    required     pam_selinux.so open
+session    required     pam_namespace.so
+session    optional     pam_keyinit.so force revoke
+session    include      system-auth
+-session   optional     pam_ck_connector.so'</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/144/bluetooth-headset-a-lot-of-buzzing-and-slow-playback") (title ((type . "text")) "Bluetooth headset: A lot of buzzing and \"slow\" playback.") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bluetooth"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "headset"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "fedora"))) (author nil (name nil "polemon")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/144/bluetooth-headset-a-lot-of-buzzing-and-slow-playback"))) (published nil "2010-04-28T11:48:32Z") (updated nil "2010-10-27T17:23:13Z") (summary ((type . "html")) "
+            <p>Hello, I used to use a Bluetooth headset when communicating with Skype, etc.</p>
+
+<p>This works quite OK with my Sony-Ericsson HBH-600 headset, paired to my Computer running Fedoara 11.</p>
+
+<p>The headset died on me, so I got myself a new one, a Bluetrek Tattoo.</p>
+
+<p>Now, pairing went well and all, but when I activate it, I get a loud buzzing, and playback sounds garbled (you can't understand people talking, music is not recognizable as such, etc) sometimes it appears as if the playback was in slow motion.</p>
+
+<p>Any Ideas why that is?</p>
+
+<p>Also, which headsets would you recommend for PC use, rather than pairing with a cell phone?</p>
+
+<p>Regards,
+--polemon</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1392/acer-netbook-d260") (title ((type . "text")) "Acer Netbook D260") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bluetooth"))) (author nil (name nil "Marty")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1392/acer-netbook-d260"))) (published nil "2010-10-27T16:03:15Z") (updated nil "2010-10-27T16:03:15Z") (summary ((type . "html")) "
+            <p>I have obviously disabled my bluetooth as my little Acer will not recognize the USB Kodak wireless bluetooth adapter for my all in one Kodak printer.  Where is the bluetooth enabler hiding?  I have talked to Kodak several times and they say it is the Acer and the bluetooth has to be enabled but going through the system we cannot find it.</p>
+
+<p>Help.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1287/nfs-over-ssh-rpc-error") (title ((type . "text")) "NFS over SSH. RPC Error") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "nfs"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ssh"))) (author nil (name nil "Dave")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1287/nfs-over-ssh-rpc-error"))) (published nil "2010-08-24T17:50:10Z") (updated nil "2010-10-27T11:18:16Z") (summary ((type . "html")) "
+            <p>Hi,</p>
+
+<p>I have seen many articles saying that to get rid of this error I should be using portmap, that's fine but how do I use it over ssh...</p>
+
+<p>I am trying to mount NFS over SSH. I have the server configured to export the share and I can mount it correctly over the network, however company policy is to ONLY allow ssh access.</p>
+
+<p>On the server side;
+]# cat /etc/exports</p>
+
+<p>/home/Shared    localhost(rw,no_root_squash,async)</p>
+
+<p>]# rpcinfo -p</p>
+
+<p>program vers proto   port</p>
+
+<pre><code>100000    2   tcp    111  portmapper
+100000    2   udp    111  portmapper
+100024    1   udp  49449  status
+100024    1   tcp  36697  status
+100021    1   udp  34934  nlockmgr
+100021    3   udp  34934  nlockmgr
+100021    4   udp  34934  nlockmgr
+100021    1   tcp  37221  nlockmgr
+100021    3   tcp  37221  nlockmgr
+100021    4   tcp  37221  nlockmgr
+100003    2   udp   2049  nfs
+100003    3   udp   2049  nfs
+100003    4   udp   2049  nfs
+100003    2   tcp   2049  nfs
+100003    3   tcp   2049  nfs
+100003    4   tcp   2049  nfs
+100005    1   udp   2051  mountd
+100005    1   tcp   2051  mountd
+100005    2   udp   2051  mountd
+100005    2   tcp   2051  mountd
+100005    3   udp   2051  mountd
+100005    3   tcp   2051  mountd
+</code></pre>
+
+<p>The on the client side I use 2 ssh tunnels;</p>
+
+<p>]# ssh -f -N -L 52051:localhost:2051 my.server</p>
+
+<p>]# ssh -f -N -L 52049:localhost:2049 my.server</p>
+
+<p>I can telnet to these ports and receive a response.
+So now I try to mount;</p>
+
+<p>]# mount -t nfs -o nolock,port=52049,mountport=52051 localhost:/home/Shared /mnt/Shared</p>
+
+<p>mount.nfs: mount to NFS server 'localhost:/home/Shared' failed: RPC Error: Program not registered</p>
+
+<p>So it <em>seems</em> as if the problem is caused by mount talking to the local portmap, however I thought the mount options were supposed to stop that. Obviously I cannot forward portmapper from the server to the client's port 111 as that would disrupt the client's portmapper.</p>
+
+<p>I am using SUSE 11.2 for the client and Ubuntu 10.04 as the server.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1046/login-problem-in-rhel-6-0-beta") (title ((type . "text")) "Login problem in RHEL 6.0 Beta") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "login"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "security"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "root"))) (author nil (name nil "Ashi Sharma")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1046/login-problem-in-rhel-6-0-beta"))) (published nil "2010-07-13T10:15:34Z") (updated nil "2010-10-26T23:23:06Z") (summary ((type . "html")) "
+            <p>I have downloaded RHEL 6 beta from www.redhat.com site and installed it on my PC   successfully. When I want to login with root in GNOME/KDE, the system gives me
+a error message that <em>AUTHENTICATION FAILED</em> and I'm unable to login while I can login with root from terminal/text mode.</p>
+
+<p>But I can login with other user or local user successfully.</p>
+
+<p>Please help me and solve my this problem.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1170/sshfs-drives-not-owned-by-current-login-show-up-on-desktop-gnome") (title ((type . "text")) "SSHFS drives not owned by current login show up on desktop (GNOME)") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "sshfs"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "mount"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (author nil (name nil "Andy")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1170/sshfs-drives-not-owned-by-current-login-show-up-on-desktop-gnome"))) (published nil "2010-08-02T16:15:44Z") (updated nil "2010-10-26T21:23:08Z") (summary ((type . "html")) "
+            <p>I use sshfs everyday and find it very useful.  One item I have not been able to figure out is when the mount takes place, the mount points show up as \"drives\" on my desktop.  I'm okay with that except for some of the mount points are not owned by my current login.  In other words, I have one mount point that is owned by \"root\" but it appears on my desktop.  I get permission denied when I try to access the drive but I'd prefer it not show up if I can't view it.  I use GNOME so I'm not sure if that makes a difference.  Any thoughts?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1017/iptables-firewall-problem-openvpn-bridged") (title ((type . "text")) "iptables firewall problem openvpn bridged") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "iptables"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bridge"))) (author nil (name nil "Grobi")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1017/iptables-firewall-problem-openvpn-bridged"))) (published nil "2010-07-09T17:10:05Z") (updated nil "2010-10-26T15:23:10Z") (summary ((type . "html")) "
+            <p>Hi,
+i think i got some probs with my iptables firewall, my setup is i got a pc (debian installed) with 2 ethernetcard, eth0 connected to my lan(192.168.1.0/24) eth1 for internet connection (ppp0)
+I have an openvpn server on that pc in bridged mode, the vpn clients can connect but can't ping the server or any other pc on my lan and the server or my lan pcs can't ping the clients. The bridge is setup correctly and the setup of the openvpn server looks right and the clients got an ip from my lan and a route to it so routing looks fine, problem must be the iptables firewall. 
+The requierements for the firewall are : 
+my Lan can do anything except receiving or posting windows shares, netbios etc over the internet or vpn
+the vpn clients can do anything except receiving or posting windows shares, netbios etc over the vpn and
+they can not access the internet over the vpn.</p>
+
+<p>Please if someone could have a look at my script?</p>
+
+<p>Heres the interesting part of my firewall script:
+<code></p>
+
+<h3>The iptables command. Shorter and sure</h3>
+
+<p>ipt=\"/sbin/iptables\"</p>
+
+<h3>The network interface</h3>
+
+<p>ifLan=eth0
+ifWan=ppp0
+ifVpnB=br0
+ifVpn=tap+</p>
+
+<p>VPN_PORT=1195</p>
+
+<h3>FIREWALL STOP</h3>
+
+<p>...</p>
+
+<h3>FIREWALL START/RELOAD/RESTART</h3>
+
+<p>echo \"Building firewall...\"</p>
+
+<h3>Modules</h3>
+
+<p>modprobe ip_tables
+modprobe ip_conntrack
+modprobe ip_conntrack_ftp
+modprobe ipt_MASQUERADE
+modprobe ipt_state
+modprobe ipt_LOG
+modprobe iptable_nat
+modprobe iptable_filter</p>
+
+<h3>Flush current rules.</h3>
+
+<p>$ipt -F INPUT
+$ipt -F OUTPUT
+$ipt -F FORWARD
+$ipt -t nat -F PREROUTING
+$ipt -t nat -F POSTROUTING
+$ipt -t nat -F OUTPUT
+$ipt -F
+$ipt -X</p>
+
+<h3>Set default policies</h3>
+
+<p>$ipt --policy INPUT DROP
+$ipt --policy OUTPUT ACCEPT
+$ipt --policy FORWARD DROP
+$ipt -t nat --policy PREROUTING ACCEPT
+$ipt -t nat --policy POSTROUTING ACCEPT</p>
+
+<h3>SYN flood protection</h3>
+
+<p>echo \"1\" > /proc/sys/net/ipv4/tcp_syncookies</p>
+
+<h3>Forwarding</h3>
+
+<p>echo \"1\" > /proc/sys/net/ipv4/ip_forward</p>
+
+<h3>LOOPBACK</h3>
+
+<p>echo \"Setting LOOPBACK rules\"
+$ipt -A INPUT -i lo -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -o lo -j ACCEPT</p>
+
+<h3>WAN</h3>
+
+<p>echo \"Setting WAN rules\"
+$ipt -A INPUT -i $ifWan -p udp --dport $VPN_PORT -m state --state NEW -j ACCEPT
+$ipt -A INPUT -p tcp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p tcp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -i $ifWan -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -o $ifWan -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 445 -o $ifWan -j DROP</p>
+
+<p>$ipt -A FORWARD -i $ifWan -o $ifLan -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpnB -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<h3>VPN</h3>
+
+<p>echo \"Setting VPN rules\"
+$ipt -A INPUT -i $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -o $ifVpn -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -i $ifVpn -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifVpnB -j ACCEPT</p>
+
+<h3>BRIDGE</h3>
+
+<p>echo \"Setting BRIDGE rules\"
+$ipt -A INPUT -i $ifVpnB -j ACCEPT </p>
+
+<p>$ipt -A OUTPUT -o $ifVpnB -j ACCEPT </p>
+
+<p>$ipt -A FORWARD -i $ifVpnB -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifVpn -j ACCEPT</p>
+
+<h3>LAN</h3>
+
+<p>echo \"Setting LAN rules\"
+$ipt -A INPUT -i $ifLan -j ACCEPT </p>
+
+<p>$ipt -A OUTPUT -o $ifLan -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -i $ifLan -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpnB -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpn -j ACCEPT</p>
+
+<h3>Portforwarding</h3>
+
+<p>...</p>
+
+<h3>Masquerading</h3>
+
+<p>$ipt -t nat -A POSTROUTING -j MASQUERADE
+echo \"Done!\" 
+</code></p>
+
+<p>thx Grobi</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1320/how-does-one-direct-traffic-to-different-network-interfaces") (title ((type . "text")) "How does one direct traffic to different network interfaces?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "networking"))) (author nil (name nil "Joehillen")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1320/how-does-one-direct-traffic-to-different-network-interfaces"))) (published nil "2010-08-30T05:19:34Z") (updated nil "2010-10-26T14:23:14Z") (summary ((type . "html")) "
+            <p>Let's say I have two network interfaces, eth0 and eth1, and I want to route traffic from different applications to either one or the other on demand. </p>
+
+<p>How would one do this?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1258/how-to-make-videos-play-in-the-main-monitor") (title ((type . "text")) "How to make videos play in the main monitor") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "video"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "youtube"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1258/how-to-make-videos-play-in-the-main-monitor"))) (published nil "2010-08-21T17:20:40Z") (updated nil "2010-10-25T23:23:05Z") (summary ((type . "html")) "
+            <p>In Ubuntu 10.04 when I go to Youtube and try to play a video full-screen, it plays on my other monitor (monitor 1), not my main monitor (monitor 2). How do I change the settings in Linux to make it play on my main monitor?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/135/revive-dead-consoles-after-suspend") (title ((type . "text")) "Revive Dead Consoles after Suspend") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "slackware"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "console"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "tty"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde4"))) (author nil (name nil "Slug")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/135/revive-dead-consoles-after-suspend"))) (published nil "2010-04-25T19:48:25Z") (updated nil "2010-10-25T12:23:08Z") (summary ((type . "html")) "
+            <p>Hello everyone. I'm using Slackware13.0 &amp; I've encountered a rather perplexing situation. I was wondering if there where any fellow slackers or wizened gnu 'rus out there who could lend a hand.</p>
+
+<p>While using the kde4 desktop environment, after using the suspend to ram feature, I cannot revive the other consoles? tty0-7, or the consoles you get when you ctrl+alt+fn\". The only one I can revive is the one I last used;  xwindows, or tty7.</p>
+
+<p>If anyone could help point me in the right direction towards a resolution, I'd be most grateful! </p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1259/which-linux-distribution-is-better-for-newbies") (title ((type . "text")) "Which Linux distribution is better for newbies?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "install"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "distribution"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "windows"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1259/which-linux-distribution-is-better-for-newbies"))) (published nil "2010-08-21T17:31:48Z") (updated nil "2010-10-25T11:22:04Z") (summary ((type . "html")) "
+            <p>I'm going to install Linux for someone who isn't even very good with Windows. I've narrowed it down to either Linux Mint or PCLinuxOS. Which one should I install? Are there any other Linux distributions I should be considering?</p>
+
+<p>Also, should I install Gnome, KDE, or something else?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/122/compiz-jolicloud") (title ((type . "text")) "Compiz + Jolicloud") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "compiz"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "jolicloud"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "graphics"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "screen"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (author nil (name nil "george")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/122/compiz-jolicloud"))) (published nil "2010-04-23T11:58:48Z") (updated nil "2010-10-25T10:23:08Z") (summary ((type . "html")) "
+            <p>I have installed Compiz in jolicloud and I am getting artifacts.  Has anyone else had this problem?  I understand it is not installed by default possibly because of this reason in UNR/Jolicloud.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1179/how-to-build-gcc-4-5") (title ((type . "text")) "how to build gcc 4.5?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gcc"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "build"))) (author nil (name nil "Dov")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1179/how-to-build-gcc-4-5"))) (published nil "2010-08-04T11:16:18Z") (updated nil "2010-10-23T00:23:09Z") (summary ((type . "html")) "
+            <p>I am having a remarkable amount of trouble building gcc 4.5 on Linux (Red Hat Enterprise 4).  For good measure, I also tried on my mac running Leopard.</p>
+
+<p>I would love to just install an rpm, but the Red hat version we are running is old enough that no one has rpms for it.  So I thought I would build off source, no problem, right?</p>
+
+<p>First, /opt/tools was created for me, so I could write the results in there without being sysadmin</p>
+
+<p>gcc 4.5 now requires three packages: GMP, MPFR, and MPC, all math primitives.</p>
+
+<p>I successfully built all three wth:</p>
+
+<p>./configure --prefix=/opt/tools
+make
+make install
+(for GMP I also did make check)</p>
+
+<p>For MPFR and MPC, configuration was slightly different:</p>
+
+<p>./configure --prefix=/opt/tools --with-gmp=/opt/tools</p>
+
+<p>So I have gmp-5.0.1, mpfr-3.0.0, mpc-0.8.2</p>
+
+<p>gcc instructions are more complicated, because it bootstraps itself.
+The compiler that I have on the system is 3.4.6.</p>
+
+<p>In my directory with all the packages, I first create a directory to build into:
+mkdir gcc451
+cd gcc451
+Then from inside the empty directory, I call configure in the gcc directory:</p>
+
+<p>../gcc-4.5.1/configure --prefix=/opt/tools --with-gmp=/opt/tools --with-mpfr=/opt/tools --with-mpc=/opt/tools</p>
+
+<p>On the mac, I also had to add target directives, I am a little hazy as to why, but something is messed up in the configuration evidently</p>
+
+<p>--build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --target=x86_64-apple-darwin10</p>
+
+<p>On the mac, configure reports:
+checking for the correct version of gmp.h... yes
+checking for the correct version of mpfr.h... yes
+checking for the correct version of mpc.h... yes
+checking for the correct version of the gmp/mpfr/mpc libraries... no
+configure: error: Building GCC requires GMP 4.2+, MPFR 2.3.1+ and MPC 0.8.0+.</p>
+
+<p>I export DYLD_LIBRARY_PATH=/opt/lib
+still, it doesn't find those libraries, but they are there:</p>
+
+<p>libgmp.10.dylib libgmp.la   libmpc.dylib    libmpfr.a
+libgmp.a    libmpc.2.dylib  libmpc.la   libmpfr.dylib
+libgmp.dylib    libmpc.a    libmpfr.4.dylib libmpfr.la</p>
+
+<p>On the Linux box, I somehow got it to recognize the libs in /opt/tools, and ./configure was successful.  I am not there now, but will append the details later at work.  However, after compiling, the code is unable to find libgmp, even though it's built, and
+export LD_LIBRARY_PATH=/opt/tools/lib containing all three libraries.  So the problem is similar even though there, configure reports no problems.</p>
+
+<p>I'm not surprised that there's a little difficulty on the Mac, but I was startled at how hard this was on Linux.  I remembered about the multi-pass build, but still there is no hardware dependency, no odd drivers to contend with....</p>
+
+<p>Any help?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1372/lighttpd-php-and-sqlite-problem") (title ((type . "text")) "lighttpd php and sqlite problem") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "server"))) (author nil (name nil "slothcheetah")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1372/lighttpd-php-and-sqlite-problem"))) (published nil "2010-09-30T08:21:51Z") (updated nil "2010-10-22T19:39:05Z") (summary ((type . "html")) "
+            <p>Hi.  When I try to write data to an sqlite file via lighttpd and php I get the error:</p>
+
+<p>\"Unable to open database file\"</p>
+
+<p>When I write the data directly using</p>
+
+<p>$ /usr/lib/cgi-bin/php5 sqlite-test.php</p>
+
+<p>it works fine.</p>
+
+<p>Also, php works with lighttpd when not writing to sqlite.</p>
+
+<p>I've done some research and put the line</p>
+
+<p>extension=sqlite.so</p>
+
+<p>into php.ini, but still no joy.</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/1374/problem-in-installing-softwares-through-wine") (title ((type . "text")) "problem in installing softwares through wine") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wine"))) (author nil (name nil "tushar")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1374/problem-in-installing-softwares-through-wine"))) (published nil "2010-10-05T05:26:16Z") (updated nil "2010-10-22T18:55:21Z") (summary ((type . "html")) "
+            <p>can anybody tell me how i can install any exe file through wine?</p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/856/java-support-on-linux-for-applets") (title ((type . "text")) "Java support on Linux for applets") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "security"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "encryption"))) (author nil (name nil "William")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/856/java-support-on-linux-for-applets"))) (published nil "2010-06-15T15:07:43Z") (updated nil "2010-10-21T14:23:15Z") (summary ((type . "html")) "
+            <p>I am setting up a new web site for a client using image encryption displayed by applets and a colleague of the client using Linux has reported that he cannot see the images. Although they display fine for me on all platforms using the test computers at the office I am worried that there may be a lack of support that I am missing.</p>
+
+<p>So I am wondering who can and who cannot see these images and if there is a problem, is it due to older browser cross java versions available? Some encrypted images for testing can be found at <a href=\"http://www.artistscope.com/secure_image_demos.asp\" rel=\"nofollow\">http://www.artistscope.com/secure_image_demos.asp</a></p>
+
+        ")) (entry nil (id nil "http://linuxexchange.org/questions/961/which-is-smallest-linux-flavor-for-thin-client") (title ((type . "text")) "Which is smallest Linux flavor for Thin Client :") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (author nil (name nil "Chetan Diwani")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/961/which-is-smallest-linux-flavor-for-thin-client"))) (published nil "2010-07-01T09:21:57Z") (updated nil "2010-10-21T08:15:27Z") (summary ((type . "html")) "
+            <p>First , what is my requirement:
+I have Python + gtk base application which can be run  on Gnome , KDE , LXDE Gui environment</p>
+
+<p>What storage I would like to use: 
+currently I am using Flash drives , SATA DOM , IDE DOM , Portable HDD etc for Installation,
+I want to start this Thin Client os in just 250 MB ,
+What I’m expecting from OS:
+Keymap configuration, Network Configuration, + Audio Video Support that’s it.</p>
+
+<p>Friends please suggest me the Linux os which can best fit to my requirement.</p>
+
+        ")))) ("Howto enable sound for Gwibber, Empathy and MeMenu in Ubuntu 10.04 Lucid Lynix?" "<p>I did what this link told: <a href=\"http://ubuntuforums.org/showthread.php?t=1194501\" rel=\"nofollow\">http://ubuntuforums.org/showthread.php?t=1194501</a> however, the sound doesn't come out. Is there any other way to configure the sound?
+I use fujitsu S6420 notebook.</p>" "http://linuxexchange.org/questions/897/howto-enable-sound-for-gwibber-empathy-and-memenu-in-ubuntu-10-04-lucid-lynix" (19659 15166) new 1 nil nil ((id nil "http://linuxexchange.org/questions/897/howto-enable-sound-for-gwibber-empathy-and-memenu-in-ubuntu-10-04-lucid-lynix") (title ((type . "text")) "Howto enable sound for Gwibber, Empathy and MeMenu in Ubuntu 10.04 Lucid Lynix?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "sound"))) (author nil (name nil "abgalphabet")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/897/howto-enable-sound-for-gwibber-empathy-and-memenu-in-ubuntu-10-04-lucid-lynix"))) (published nil "2010-06-22T02:12:46Z") (updated nil "2010-10-29T21:23:10Z") (summary ((type . "html")) "
+            <p>I did what this link told: <a href=\"http://ubuntuforums.org/showthread.php?t=1194501\" rel=\"nofollow\">http://ubuntuforums.org/showthread.php?t=1194501</a> however, the sound doesn't come out. Is there any other way to configure the sound?
+I use fujitsu S6420 notebook.</p>
+
+        "))) ("how can we use wifi card in back track  4 pre final" "<p>how can we use wifi card in back track  4 pre final if it is not detectable ?
+i am using compaq 510 and
+my network adapter is of </p>
+<p>Marvell Yukon 88E8042 PCI-E Fast Ethernet Controller
+Realtek RTL8191SE Wireless LAN 802.11n PCI-E NIC</p>" "http://linuxexchange.org/questions/1169/how-can-we-use-wifi-card-in-back-track-4-pre-final" (19659 7968) new 2 nil nil ((id nil "http://linuxexchange.org/questions/1169/how-can-we-use-wifi-card-in-back-track-4-pre-final") (title ((type . "text")) "how can we use wifi card in back track  4 pre final ") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wireless"))) (author nil (name nil "rajesh")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1169/how-can-we-use-wifi-card-in-back-track-4-pre-final"))) (published nil "2010-08-02T08:26:54Z") (updated nil "2010-10-29T19:23:12Z") (summary ((type . "html")) "
+            <p>how can we use wifi card in back track  4 pre final if it is not detectable ?
+i am using compaq 510 and 
+my network adapter is of </p>
+
+<p>Marvell Yukon 88E8042 PCI-E Fast Ethernet Controller
+Realtek RTL8191SE Wireless LAN 802.11n PCI-E NIC</p>
+
+        "))) ("Finding wireless cards" "<p>I am looking for a wireless card for my Linux laptop (not too happy with my Broadcom adapter) is there a list of wireless adapters that don't have a binary blob as a main part of their operation and can go into promiscuous mode?</p>" "http://linuxexchange.org/questions/1184/finding-wireless-cards" (19659 7968) new 3 nil nil ((id nil "http://linuxexchange.org/questions/1184/finding-wireless-cards") (title ((type . "text")) "Finding wireless cards") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wireless"))) (author nil (name nil "oldgamer")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1184/finding-wireless-cards"))) (published nil "2010-08-06T12:07:41Z") (updated nil "2010-10-29T19:23:12Z") (summary ((type . "html")) "
+            <p>I am looking for a wireless card for my Linux laptop (not too happy with my Broadcom adapter) is there a list of wireless adapters that don't have a binary blob as a main part of their operation and can go into promiscuous mode?</p>
+
+        "))) ("Nagios: Event handlers not executing." "<p>Greetings:</p>
+<p>I am using Nagios to monitor a host. If the host looses connectivity, I want Nagios to execute an event handler.</p>
+<p>The host definition contains a defined event_handler directive. The host inherits from generic-host and; therefore, event_handler_enabled is 1. In my main configuration file event handling is enabled. The associated command configuration file has also been defined.</p>
+<p>While troubleshooting I tried the following as root:</p>
+<h1>su nagios</h1>
+<h1>./test-handler [and my args here of course]</h1>
+<p>The output is correct as user nagios. However, the nagios binary that runs under user nagios will not execute the script. Here is a bit of my nagios.log file:</p>
+<p>[1273208210] HOST ALERT: vXP;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.0.21)
+[1273208210] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$
+[1273208212] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;vXP;1273208211
+[1273208220] HOST ALERT: vXP;UP;SOFT;3;PING OK - Packet loss = 0%, RTA = 35.37 ms
+[1273208220] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$</p>
+<p>According to the output, nagios appears to be running my command; however, based on the output it is actually doing nothing at all. I know that whatever I'm missing is probably very simple (and knowing me; it's right under my nose), but I'm at a loss.</p>
+<p>Any takers?</p>" "http://linuxexchange.org/questions/355/nagios-event-handlers-not-executing" (19659 4361) new 4 nil nil ((id nil "http://linuxexchange.org/questions/355/nagios-event-handlers-not-executing") (title ((type . "text")) "Nagios: Event handlers not executing.") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "nagios"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "event-handler"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "not-execute"))) (author nil (name nil "micheal")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/355/nagios-event-handlers-not-executing"))) (published nil "2010-05-07T05:08:06Z") (updated nil "2010-10-29T18:23:05Z") (summary ((type . "html")) "
+            <p>Greetings:</p>
+
+<p>I am using Nagios to monitor a host. If the host looses connectivity, I want Nagios to execute an event handler.</p>
+
+<p>The host definition contains a defined event_handler directive. The host inherits from generic-host and; therefore, event_handler_enabled is 1. In my main configuration file event handling is enabled. The associated command configuration file has also been defined.</p>
+
+<p>While troubleshooting I tried the following as root:</p>
+
+<h1>su nagios</h1>
+
+<h1>./test-handler [and my args here of course]</h1>
+
+<p>The output is correct as user nagios. However, the nagios binary that runs under user nagios will not execute the script. Here is a bit of my nagios.log file:</p>
+
+<p>[1273208210] HOST ALERT: vXP;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.0.21)
+[1273208210] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$
+[1273208212] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;vXP;1273208211
+[1273208220] HOST ALERT: vXP;UP;SOFT;3;PING OK - Packet loss = 0%, RTA = 35.37 ms
+[1273208220] HOST EVENT HANDLER: vXP;(null);(null);(null);test-handler!$HOSTADDRESS$</p>
+
+<p>According to the output, nagios appears to be running my command; however, based on the output it is actually doing nothing at all. I know that whatever I'm missing is probably very simple (and knowing me; it's right under my nose), but I'm at a loss.</p>
+
+<p>Any takers?</p>
+
+        "))) ("kernel for 8 core XEON" "<p>Hi,
+I have started using the xeon for large intensive jobs.  However, only 1 core runs at 100percent.  The rest at ~20.  My software is for all 8cores.  The developer says it's a Linux issue.</p>
+<p>On reading it appears Ubuntu isn't ready for 8cores by default and I need to rebuild the kernel.  This isn't a prob.  However, before starting will someone pls tell me is it ok to find the current ker. source and re configure rather than worry about supporting all necessary drivers in a new file?</p>
+<p>Or, is there a better Linux distro for parallel use?  I used Gentoo for years so rebuilding is easy.  But will someone advise me on this since I don't want any mistakes with Ubuntu?</p>
+<p>Thank you.
+Gav.</p>" "http://linuxexchange.org/questions/1329/kernel-for-8-core-xeon" (19658 64952) new 5 nil nil ((id nil "http://linuxexchange.org/questions/1329/kernel-for-8-core-xeon") (title ((type . "text")) "kernel for 8 core XEON") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "system-administration"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kernel"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "smp"))) (author nil (name nil "Dr. Gavin Seddon")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1329/kernel-for-8-core-xeon"))) (published nil "2010-09-01T09:36:09Z") (updated nil "2010-10-29T17:00:40Z") (summary ((type . "html")) "
+            <p>Hi,
+I have started using the xeon for large intensive jobs.  However, only 1 core runs at 100percent.  The rest at ~20.  My software is for all 8cores.  The developer says it's a Linux issue.</p>
+
+<p>On reading it appears Ubuntu isn't ready for 8cores by default and I need to rebuild the kernel.  This isn't a prob.  However, before starting will someone pls tell me is it ok to find the current ker. source and re configure rather than worry about supporting all necessary drivers in a new file?</p>
+
+<p>Or, is there a better Linux distro for parallel use?  I used Gentoo for years so rebuilding is easy.  But will someone advise me on this since I don't want any mistakes with Ubuntu?</p>
+
+<p>Thank you.
+Gav.</p>
+
+        "))) ("How to get tighter code" "<p>I use an embedded terminal (Tilda) full time on my desktop, as I connect to my network of Ubuntu machines mainly thru SSH. I set up an update notification script that tells me update staus remotely, but it's kind o' clunky (I know my scripting skills are far from pro). Here's what I set up: </p>
+<p>Create a folder ~/.updates.<br>
+Create script called updates as follows:  </p>
+<pre><code>#!/bin/bash
+# cat updates
+# A script to print out update status in bash
+#
+sudo apt-get update &gt; ~/.updates/updates.log
+sudo apt-get -s dist-upgrade &gt;&gt; ~/.updates/updates.log
+cat ~/.updates/updates.log | grep upgraded,
+</code></pre>
+<p>This does the job, but I'm sure it's far from optimal. Anyone have any suggestions on how to get it tightened up? This sort of thing is easy to do in some distros (Arch comes to mind), but Ubuntu is designed more for things like Update Manager and other graphical tools, so this was the best I could come up with so far. I want to be able to just get the line for available updates (for use in other scripts), not all the associated printout.</p>" "http://linuxexchange.org/questions/1339/how-to-get-tighter-code" (19658 62698) new 6 nil nil ((id nil "http://linuxexchange.org/questions/1339/how-to-get-tighter-code") (title ((type . "text")) "How to get tighter code") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "scripting"))) (author nil (name nil "Dean Clemmons")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1339/how-to-get-tighter-code"))) (published nil "2010-09-07T11:03:11Z") (updated nil "2010-10-29T16:23:06Z") (summary ((type . "html")) "
+            <p>I use an embedded terminal (Tilda) full time on my desktop, as I connect to my network of Ubuntu machines mainly thru SSH. I set up an update notification script that tells me update staus remotely, but it's kind o' clunky (I know my scripting skills are far from pro). Here's what I set up: </p>
+
+<p>Create a folder ~/.updates.<br>
+Create script called updates as follows:  </p>
+
+<pre><code>#!/bin/bash
+# cat updates
+# A script to print out update status in bash
+#
+sudo apt-get update &gt; ~/.updates/updates.log
+sudo apt-get -s dist-upgrade &gt;&gt; ~/.updates/updates.log
+cat ~/.updates/updates.log | grep upgraded,
+</code></pre>
+
+<p>This does the job, but I'm sure it's far from optimal. Anyone have any suggestions on how to get it tightened up? This sort of thing is easy to do in some distros (Arch comes to mind), but Ubuntu is designed more for things like Update Manager and other graphical tools, so this was the best I could come up with so far. I want to be able to just get the line for available updates (for use in other scripts), not all the associated printout.</p>
+
+        "))) ("King Games using Ubuntu" "<p><em>Why can't I play King Games using Ubuntu Linux?  On the site a message states that I need windows to play their games.  I don't have windows internet explorer because it kept crashing. Is there anything I can do to get round this please?</em></p>" "http://linuxexchange.org/questions/1390/king-games-using-ubuntu" (19658 38910) new 7 nil nil ((id nil "http://linuxexchange.org/questions/1390/king-games-using-ubuntu") (title ((type . "text")) "King Games using Ubuntu") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "game"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "browser"))) (author nil (name nil "Yvonne Callaghan")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1390/king-games-using-ubuntu"))) (published nil "2010-10-27T10:32:40Z") (updated nil "2010-10-29T09:46:38Z") (summary ((type . "html")) "
+            <p><em>Why can't I play King Games using Ubuntu Linux?  On the site a message states that I need windows to play their games.  I don't have windows internet explorer because it kept crashing. Is there anything I can do to get round this please?</em></p>
+
+        "))) ("is there is any IDE or GUI available to work with CASSANDRA DATABASE with PHP?" "<p>we are doing project currently on php and we want to use cassandra no sql database and is there is any API available like MYSQL? LAMP</p>" "http://linuxexchange.org/questions/1393/is-there-is-any-ide-or-gui-available-to-work-with-cassandra-database-with-php" (19658 10085) new 8 nil nil ((id nil "http://linuxexchange.org/questions/1393/is-there-is-any-ide-or-gui-available-to-work-with-cassandra-database-with-php") (title ((type . "text")) "is there is any IDE or GUI available to work with CASSANDRA DATABASE with PHP?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "programming"))) (author nil (name nil "selvakumar")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1393/is-there-is-any-ide-or-gui-available-to-work-with-cassandra-database-with-php"))) (published nil "2010-10-28T18:18:01Z") (updated nil "2010-10-29T01:46:13Z") (summary ((type . "html")) "
+            <p>we are doing project currently on php and we want to use cassandra no sql database and is there is any API available like MYSQL? LAMP</p>
+
+        "))) ("rhel5.0 in virtual box" "<p>help me guys !</p>
+<p>my host adapter of virtual box (xp)is not communicating to my RHEL5.0 (eth0) in virtual box..</p>
+<p>suggest all settings required 4 it!! i have assigned ip on eth0 = 192.168.1.100, on host adapter client (xp) -192.168.1.1.
+although its not pinging each other.</p>
+<p>thanks in advance !
+suggestthebest
+chirag.</p>" "http://linuxexchange.org/questions/1241/rhel5-0-in-virtual-box" (19657 52635) new 9 nil nil ((id nil "http://linuxexchange.org/questions/1241/rhel5-0-in-virtual-box") (title ((type . "text")) "rhel5.0 in virtual box") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "rhel"))) (author nil (name nil "Chirag991")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1241/rhel5-0-in-virtual-box"))) (published nil "2010-08-18T16:28:03Z") (updated nil "2010-10-28T19:23:07Z") (summary ((type . "html")) "
+            <p>help me guys !</p>
+
+<p>my host adapter of virtual box (xp)is not communicating to my RHEL5.0 (eth0) in virtual box..</p>
+
+<p>suggest all settings required 4 it!! i have assigned ip on eth0 = 192.168.1.100, on host adapter client (xp) -192.168.1.1.
+although its not pinging each other.</p>
+
+<p>thanks in advance !
+suggestthebest
+chirag.</p>
+
+        "))) ("How to make Docky appear over other windows" "<p>I have Docky in autohide mode. The problem is that if a window is in the area where docky is supposed to pop up, like say if a window is maximized and takes up the whole screen, docky will appear under it, and it will be covered. How can Docky be made to appear above other windows?</p>" "http://linuxexchange.org/questions/1245/how-to-make-docky-appear-over-other-windows" (19657 52635) new 10 nil nil ((id nil "http://linuxexchange.org/questions/1245/how-to-make-docky-appear-over-other-windows") (title ((type . "text")) "How to make Docky appear over other windows") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1245/how-to-make-docky-appear-over-other-windows"))) (published nil "2010-08-19T05:00:12Z") (updated nil "2010-10-28T19:23:07Z") (summary ((type . "html")) "
+            <p>I have Docky in autohide mode. The problem is that if a window is in the area where docky is supposed to pop up, like say if a window is maximized and takes up the whole screen, docky will appear under it, and it will be covered. How can Docky be made to appear above other windows?</p>
+
+        "))) ("Can't run NFS Most Wanted on Wine" "<p>I run Debian lenny amd64, video card ATI x1250 on Catalyst 9.2.</p>
+<p><strong>Kernel</strong>: 2.6.26
+<strong>Wine version</strong> : 1.1.42</p>
+<p>When i try to launch NFS Most Wanted v.1.3 I get error:</p>
+<pre><code>$ wine \"/home/media/nfs_be/speed.exe\"
+fixme:imm:ImmDisableIME (0): stub
+fixme:win:EnumDisplayDevicesW ((null),0,0x32f81c,0x00000000), stub!
+fixme:d3d:debug_d3dformat Unrecognized 909198916 (as fourcc: DF16) WINED3DFORMAT!
+fixme:d3d:getFormatDescEntry Can't find format unrecognized(909198916) in the format lookup table
+wine: Call from 0x7eddcdd3 to unimplemented function d3dx9_36.dll.D3DXCreateEffectFromResourceA, aborting
+err:seh:raise_exception Unhandled exception code 80000100 flags 1 addr 0x7eddcdd3
+</code></pre>
+<p>Any ideas?
+In winecfg i enabled \"allow DirectX to hold mouse in it's window\" and \"emulate virtual desktop\"</p>" "http://linuxexchange.org/questions/1237/cant-run-nfs-most-wanted-on-wine" (19657 31039) new 11 nil nil ((id nil "http://linuxexchange.org/questions/1237/cant-run-nfs-most-wanted-on-wine") (title ((type . "text")) "Can't run NFS Most Wanted on Wine") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wine"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "debian"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "game"))) (author nil (name nil "Dezfor")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1237/cant-run-nfs-most-wanted-on-wine"))) (published nil "2010-08-18T07:55:00Z") (updated nil "2010-10-28T13:23:11Z") (summary ((type . "html")) "
+            <p>I run Debian lenny amd64, video card ATI x1250 on Catalyst 9.2.</p>
+
+<p><strong>Kernel</strong>: 2.6.26
+<strong>Wine version</strong> : 1.1.42</p>
+
+<p>When i try to launch NFS Most Wanted v.1.3 I get error:</p>
+
+<pre><code>$ wine \"/home/media/nfs_be/speed.exe\"
+fixme:imm:ImmDisableIME (0): stub
+fixme:win:EnumDisplayDevicesW ((null),0,0x32f81c,0x00000000), stub!
+fixme:d3d:debug_d3dformat Unrecognized 909198916 (as fourcc: DF16) WINED3DFORMAT!
+fixme:d3d:getFormatDescEntry Can't find format unrecognized(909198916) in the format lookup table
+wine: Call from 0x7eddcdd3 to unimplemented function d3dx9_36.dll.D3DXCreateEffectFromResourceA, aborting
+err:seh:raise_exception Unhandled exception code 80000100 flags 1 addr 0x7eddcdd3
+</code></pre>
+
+<p>Any ideas?
+In winecfg i enabled \"allow DirectX to hold mouse in it's window\" and \"emulate virtual desktop\"</p>
+
+        "))) ("Audio USB-streaming" "<p>Hello. </p>
+<p>Audio-streaming is becoming increasingly popular and there are several programs that can stream for example PCM-signals to a soundcard. </p>
+<p>Now I have a CD-player with a really good DA-converter that can recieve and play digital PCM-signals from another DVD player through an optical or coaxial cable. </p>
+<p>My question is: -How do I make the computer send the PCM-stream straight to the CD-players digital inlet? For instance through the USB outlet straight into a coaxial cable? </p>
+<p>Is that possible, mabe some kind of handshake between the machines is needed? </p>
+<p>I have been thrugh the SOX manuel papers without finding a solution.
+Is there a hacker out there that can enlight me on this subject? </p>
+<p>Kind Regards / Tommy</p>" "http://linuxexchange.org/questions/1348/audio-usb-streaming" (19656 49769) new 12 nil nil ((id nil "http://linuxexchange.org/questions/1348/audio-usb-streaming") (title ((type . "text")) "Audio USB-streaming") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "audio"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "streaming"))) (author nil (name nil "Tommy Skogsberg")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1348/audio-usb-streaming"))) (published nil "2010-09-15T14:45:49Z") (updated nil "2010-10-28T00:23:05Z") (summary ((type . "html")) "
+            <p>Hello. </p>
+
+<p>Audio-streaming is becoming increasingly popular and there are several programs that can stream for example PCM-signals to a soundcard. </p>
+
+<p>Now I have a CD-player with a really good DA-converter that can recieve and play digital PCM-signals from another DVD player through an optical or coaxial cable. </p>
+
+<p>My question is: -How do I make the computer send the PCM-stream straight to the CD-players digital inlet? For instance through the USB outlet straight into a coaxial cable? </p>
+
+<p>Is that possible, mabe some kind of handshake between the machines is needed? </p>
+
+<p>I have been thrugh the SOX manuel papers without finding a solution. 
+Is there a hacker out there that can enlight me on this subject? </p>
+
+<p>Kind Regards / Tommy</p>
+
+        "))) ("ustream audio not working" "<p>running ubuntu 8.04 lts. thought that it had previously worked with ustream. skype works and also shoutcast for example. perhaps it only works with windows. i am not very handy with the command line if it come to that. any help will be appreciated thanks. </p>" "http://linuxexchange.org/questions/493/ustream-audio-not-working" (19656 31777) new 13 nil nil ((id nil "http://linuxexchange.org/questions/493/ustream-audio-not-working") (title ((type . "text")) "ustream audio not working") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "audio"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "streaming"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "video"))) (author nil (name nil "keith")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/493/ustream-audio-not-working"))) (published nil "2010-05-11T23:31:57Z") (updated nil "2010-10-27T19:23:13Z") (summary ((type . "html")) "
+            <p>running ubuntu 8.04 lts. thought that it had previously worked with ustream. skype works and also shoutcast for example. perhaps it only works with windows. i am not very handy with the command line if it come to that. any help will be appreciated thanks. </p>
+
+        "))) ("Pam authentication against Active Directory Fedora" "<p>Hi, </p>
+<p>I'm trying to set up a file server and I'm having problems authenticating users in Active Directory on the new Linux file server..</p>
+<p>Here's what's going on.. </p>
+<p>I had added the system to active directory.. Winbind trusts the system server that it's authenticating against and what it looks like is my problem is lying in my /etc/pam.d/login and my /etc/pam.d/system-auth file.. (I'm not editing the gdm file yet, because I want to wait until I can login first with Active Directory passwords before I work on getting GDM to work.)</p>
+<p>Here are my /etc/pam.d/login and my /etc/pam.d/system-auth files.. </p>
+<p>'#system-auth</p>
+<h1>PAM-1.0</h1>
+<h1>This file is auto-generated.</h1>
+<h1>User changes will be destroyed the next time authconfig is run.</h1>
+<p>auth        required      pam_env.so
+auth        sufficient    pam_fprintd.so
+auth        sufficient    pam_unix.so nullok try_first_pass
+auth        requisite     pam_succeed_if.so uid >= 500 quiet
+auth        required      pam_deny.so</p>
+<p>account     required      pam_unix.so
+account     sufficient    pam_localuser.so
+account     sufficient    pam_succeed_if.so uid &lt; 500 quiet
+account     required      pam_permit.so</p>
+<p>password    requisite     pam_cracklib.so try_first_pass retry=3 type=
+password    sufficient    pam_unix.so md5 shadow nullok try_first_pass use_authtok
+password    required      pam_deny.so</p>
+<p>session     optional      pam_keyinit.so revoke
+session     required      pam_limits.so
+session     [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
+session     required      pam_unix.so'</p>
+<p>'#login file</p>
+<h1>PAM-1.0</h1>
+<p>auth [user_unknown=ignore success=ok ignore=ignore default=bad] pam_securetty.so
+auth       sufficient   /lib/security/pam_krb5.so use_first_pass
+auth       include      system-auth
+account    required     pam_nologin.so
+account    include      system-auth
+password   include      system-auth</p>
+<h1>pam_selinux.so close should be the first session rule</h1>
+<p>session    required     pam_selinux.so close
+session    required     pam_loginuid.so
+session    optional     pam_console.so</p>
+<h1>pam_selinux.so open should only be followed by sessions to be executed in the user context</h1>
+<p>session    required     pam_selinux.so open
+session    required     pam_namespace.so
+session    optional     pam_keyinit.so force revoke
+session    include      system-auth
+-session   optional     pam_ck_connector.so'</p>" "http://linuxexchange.org/questions/1112/pam-authentication-against-active-directory-fedora" (19656 24577) new 14 nil nil ((id nil "http://linuxexchange.org/questions/1112/pam-authentication-against-active-directory-fedora") (title ((type . "text")) "Pam authentication against Active Directory Fedora") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "fedora"))) (author nil (name nil "Joe")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1112/pam-authentication-against-active-directory-fedora"))) (published nil "2010-07-21T08:08:32Z") (updated nil "2010-10-27T17:23:13Z") (summary ((type . "html")) "
+            <p>Hi, </p>
+
+<p>I'm trying to set up a file server and I'm having problems authenticating users in Active Directory on the new Linux file server..</p>
+
+<p>Here's what's going on.. </p>
+
+<p>I had added the system to active directory.. Winbind trusts the system server that it's authenticating against and what it looks like is my problem is lying in my /etc/pam.d/login and my /etc/pam.d/system-auth file.. (I'm not editing the gdm file yet, because I want to wait until I can login first with Active Directory passwords before I work on getting GDM to work.)</p>
+
+<p>Here are my /etc/pam.d/login and my /etc/pam.d/system-auth files.. </p>
+
+<p>'#system-auth</p>
+
+<h1>PAM-1.0</h1>
+
+<h1>This file is auto-generated.</h1>
+
+<h1>User changes will be destroyed the next time authconfig is run.</h1>
+
+<p>auth        required      pam_env.so
+auth        sufficient    pam_fprintd.so
+auth        sufficient    pam_unix.so nullok try_first_pass
+auth        requisite     pam_succeed_if.so uid >= 500 quiet
+auth        required      pam_deny.so</p>
+
+<p>account     required      pam_unix.so
+account     sufficient    pam_localuser.so
+account     sufficient    pam_succeed_if.so uid &lt; 500 quiet
+account     required      pam_permit.so</p>
+
+<p>password    requisite     pam_cracklib.so try_first_pass retry=3 type=
+password    sufficient    pam_unix.so md5 shadow nullok try_first_pass use_authtok
+password    required      pam_deny.so</p>
+
+<p>session     optional      pam_keyinit.so revoke
+session     required      pam_limits.so
+session     [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
+session     required      pam_unix.so'</p>
+
+<p>'#login file</p>
+
+<h1>PAM-1.0</h1>
+
+<p>auth [user_unknown=ignore success=ok ignore=ignore default=bad] pam_securetty.so
+auth       sufficient   /lib/security/pam_krb5.so use_first_pass
+auth       include      system-auth
+account    required     pam_nologin.so
+account    include      system-auth
+password   include      system-auth</p>
+
+<h1>pam_selinux.so close should be the first session rule</h1>
+
+<p>session    required     pam_selinux.so close
+session    required     pam_loginuid.so
+session    optional     pam_console.so</p>
+
+<h1>pam_selinux.so open should only be followed by sessions to be executed in the user context</h1>
+
+<p>session    required     pam_selinux.so open
+session    required     pam_namespace.so
+session    optional     pam_keyinit.so force revoke
+session    include      system-auth
+-session   optional     pam_ck_connector.so'</p>
+
+        "))) ("Bluetooth headset: A lot of buzzing and \"slow\" playback." "<p>Hello, I used to use a Bluetooth headset when communicating with Skype, etc.</p>
+<p>This works quite OK with my Sony-Ericsson HBH-600 headset, paired to my Computer running Fedoara 11.</p>
+<p>The headset died on me, so I got myself a new one, a Bluetrek Tattoo.</p>
+<p>Now, pairing went well and all, but when I activate it, I get a loud buzzing, and playback sounds garbled (you can't understand people talking, music is not recognizable as such, etc) sometimes it appears as if the playback was in slow motion.</p>
+<p>Any Ideas why that is?</p>
+<p>Also, which headsets would you recommend for PC use, rather than pairing with a cell phone?</p>
+<p>Regards,
+--polemon</p>" "http://linuxexchange.org/questions/144/bluetooth-headset-a-lot-of-buzzing-and-slow-playback" (19656 24577) new 15 nil nil ((id nil "http://linuxexchange.org/questions/144/bluetooth-headset-a-lot-of-buzzing-and-slow-playback") (title ((type . "text")) "Bluetooth headset: A lot of buzzing and \"slow\" playback.") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bluetooth"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "headset"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "fedora"))) (author nil (name nil "polemon")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/144/bluetooth-headset-a-lot-of-buzzing-and-slow-playback"))) (published nil "2010-04-28T11:48:32Z") (updated nil "2010-10-27T17:23:13Z") (summary ((type . "html")) "
+            <p>Hello, I used to use a Bluetooth headset when communicating with Skype, etc.</p>
+
+<p>This works quite OK with my Sony-Ericsson HBH-600 headset, paired to my Computer running Fedoara 11.</p>
+
+<p>The headset died on me, so I got myself a new one, a Bluetrek Tattoo.</p>
+
+<p>Now, pairing went well and all, but when I activate it, I get a loud buzzing, and playback sounds garbled (you can't understand people talking, music is not recognizable as such, etc) sometimes it appears as if the playback was in slow motion.</p>
+
+<p>Any Ideas why that is?</p>
+
+<p>Also, which headsets would you recommend for PC use, rather than pairing with a cell phone?</p>
+
+<p>Regards,
+--polemon</p>
+
+        "))) ("Acer Netbook D260" "<p>I have obviously disabled my bluetooth as my little Acer will not recognize the USB Kodak wireless bluetooth adapter for my all in one Kodak printer.  Where is the bluetooth enabler hiding?  I have talked to Kodak several times and they say it is the Acer and the bluetooth has to be enabled but going through the system we cannot find it.</p>
+<p>Help.</p>" "http://linuxexchange.org/questions/1392/acer-netbook-d260" (19656 19779) new 16 nil nil ((id nil "http://linuxexchange.org/questions/1392/acer-netbook-d260") (title ((type . "text")) "Acer Netbook D260") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bluetooth"))) (author nil (name nil "Marty")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1392/acer-netbook-d260"))) (published nil "2010-10-27T16:03:15Z") (updated nil "2010-10-27T16:03:15Z") (summary ((type . "html")) "
+            <p>I have obviously disabled my bluetooth as my little Acer will not recognize the USB Kodak wireless bluetooth adapter for my all in one Kodak printer.  Where is the bluetooth enabler hiding?  I have talked to Kodak several times and they say it is the Acer and the bluetooth has to be enabled but going through the system we cannot find it.</p>
+
+<p>Help.</p>
+
+        "))) ("NFS over SSH. RPC Error" "<p>Hi,</p>
+<p>I have seen many articles saying that to get rid of this error I should be using portmap, that's fine but how do I use it over ssh...</p>
+<p>I am trying to mount NFS over SSH. I have the server configured to export the share and I can mount it correctly over the network, however company policy is to ONLY allow ssh access.</p>
+<p>On the server side;
+]# cat /etc/exports</p>
+<p>/home/Shared    localhost(rw,no_root_squash,async)</p>
+<p>]# rpcinfo -p</p>
+<p>program vers proto   port</p>
+<pre><code>100000    2   tcp    111  portmapper
+100000    2   udp    111  portmapper
+100024    1   udp  49449  status
+100024    1   tcp  36697  status
+100021    1   udp  34934  nlockmgr
+100021    3   udp  34934  nlockmgr
+100021    4   udp  34934  nlockmgr
+100021    1   tcp  37221  nlockmgr
+100021    3   tcp  37221  nlockmgr
+100021    4   tcp  37221  nlockmgr
+100003    2   udp   2049  nfs
+100003    3   udp   2049  nfs
+100003    4   udp   2049  nfs
+100003    2   tcp   2049  nfs
+100003    3   tcp   2049  nfs
+100003    4   tcp   2049  nfs
+100005    1   udp   2051  mountd
+100005    1   tcp   2051  mountd
+100005    2   udp   2051  mountd
+100005    2   tcp   2051  mountd
+100005    3   udp   2051  mountd
+100005    3   tcp   2051  mountd
+</code></pre>
+<p>The on the client side I use 2 ssh tunnels;</p>
+<p>]# ssh -f -N -L 52051:localhost:2051 my.server</p>
+<p>]# ssh -f -N -L 52049:localhost:2049 my.server</p>
+<p>I can telnet to these ports and receive a response.
+So now I try to mount;</p>
+<p>]# mount -t nfs -o nolock,port=52049,mountport=52051 localhost:/home/Shared /mnt/Shared</p>
+<p>mount.nfs: mount to NFS server 'localhost:/home/Shared' failed: RPC Error: Program not registered</p>
+<p>So it <em>seems</em> as if the problem is caused by mount talking to the local portmap, however I thought the mount options were supposed to stop that. Obviously I cannot forward portmapper from the server to the client's port 111 as that would disrupt the client's portmapper.</p>
+<p>I am using SUSE 11.2 for the client and Ubuntu 10.04 as the server.</p>" "http://linuxexchange.org/questions/1287/nfs-over-ssh-rpc-error" (19656 2680) new 17 nil nil ((id nil "http://linuxexchange.org/questions/1287/nfs-over-ssh-rpc-error") (title ((type . "text")) "NFS over SSH. RPC Error") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "nfs"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ssh"))) (author nil (name nil "Dave")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1287/nfs-over-ssh-rpc-error"))) (published nil "2010-08-24T17:50:10Z") (updated nil "2010-10-27T11:18:16Z") (summary ((type . "html")) "
+            <p>Hi,</p>
+
+<p>I have seen many articles saying that to get rid of this error I should be using portmap, that's fine but how do I use it over ssh...</p>
+
+<p>I am trying to mount NFS over SSH. I have the server configured to export the share and I can mount it correctly over the network, however company policy is to ONLY allow ssh access.</p>
+
+<p>On the server side;
+]# cat /etc/exports</p>
+
+<p>/home/Shared    localhost(rw,no_root_squash,async)</p>
+
+<p>]# rpcinfo -p</p>
+
+<p>program vers proto   port</p>
+
+<pre><code>100000    2   tcp    111  portmapper
+100000    2   udp    111  portmapper
+100024    1   udp  49449  status
+100024    1   tcp  36697  status
+100021    1   udp  34934  nlockmgr
+100021    3   udp  34934  nlockmgr
+100021    4   udp  34934  nlockmgr
+100021    1   tcp  37221  nlockmgr
+100021    3   tcp  37221  nlockmgr
+100021    4   tcp  37221  nlockmgr
+100003    2   udp   2049  nfs
+100003    3   udp   2049  nfs
+100003    4   udp   2049  nfs
+100003    2   tcp   2049  nfs
+100003    3   tcp   2049  nfs
+100003    4   tcp   2049  nfs
+100005    1   udp   2051  mountd
+100005    1   tcp   2051  mountd
+100005    2   udp   2051  mountd
+100005    2   tcp   2051  mountd
+100005    3   udp   2051  mountd
+100005    3   tcp   2051  mountd
+</code></pre>
+
+<p>The on the client side I use 2 ssh tunnels;</p>
+
+<p>]# ssh -f -N -L 52051:localhost:2051 my.server</p>
+
+<p>]# ssh -f -N -L 52049:localhost:2049 my.server</p>
+
+<p>I can telnet to these ports and receive a response.
+So now I try to mount;</p>
+
+<p>]# mount -t nfs -o nolock,port=52049,mountport=52051 localhost:/home/Shared /mnt/Shared</p>
+
+<p>mount.nfs: mount to NFS server 'localhost:/home/Shared' failed: RPC Error: Program not registered</p>
+
+<p>So it <em>seems</em> as if the problem is caused by mount talking to the local portmap, however I thought the mount options were supposed to stop that. Obviously I cannot forward portmapper from the server to the client's port 111 as that would disrupt the client's portmapper.</p>
+
+<p>I am using SUSE 11.2 for the client and Ubuntu 10.04 as the server.</p>
+
+        "))) ("Login problem in RHEL 6.0 Beta" "<p>I have downloaded RHEL 6 beta from www.redhat.com site and installed it on my PC   successfully. When I want to login with root in GNOME/KDE, the system gives me
+a error message that <em>AUTHENTICATION FAILED</em> and I'm unable to login while I can login with root from terminal/text mode.</p>
+<p>But I can login with other user or local user successfully.</p>
+<p>Please help me and solve my this problem.</p>" "http://linuxexchange.org/questions/1046/login-problem-in-rhel-6-0-beta" (19655 25306) new 18 nil nil ((id nil "http://linuxexchange.org/questions/1046/login-problem-in-rhel-6-0-beta") (title ((type . "text")) "Login problem in RHEL 6.0 Beta") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "login"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "security"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "root"))) (author nil (name nil "Ashi Sharma")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1046/login-problem-in-rhel-6-0-beta"))) (published nil "2010-07-13T10:15:34Z") (updated nil "2010-10-26T23:23:06Z") (summary ((type . "html")) "
+            <p>I have downloaded RHEL 6 beta from www.redhat.com site and installed it on my PC   successfully. When I want to login with root in GNOME/KDE, the system gives me
+a error message that <em>AUTHENTICATION FAILED</em> and I'm unable to login while I can login with root from terminal/text mode.</p>
+
+<p>But I can login with other user or local user successfully.</p>
+
+<p>Please help me and solve my this problem.</p>
+
+        "))) ("SSHFS drives not owned by current login show up on desktop (GNOME)" "<p>I use sshfs everyday and find it very useful.  One item I have not been able to figure out is when the mount takes place, the mount points show up as \"drives\" on my desktop.  I'm okay with that except for some of the mount points are not owned by my current login.  In other words, I have one mount point that is owned by \"root\" but it appears on my desktop.  I get permission denied when I try to access the drive but I'd prefer it not show up if I can't view it.  I use GNOME so I'm not sure if that makes a difference.  Any thoughts?</p>" "http://linuxexchange.org/questions/1170/sshfs-drives-not-owned-by-current-login-show-up-on-desktop-gnome" (19655 18108) new 19 nil nil ((id nil "http://linuxexchange.org/questions/1170/sshfs-drives-not-owned-by-current-login-show-up-on-desktop-gnome") (title ((type . "text")) "SSHFS drives not owned by current login show up on desktop (GNOME)") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "sshfs"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "mount"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gnome"))) (author nil (name nil "Andy")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1170/sshfs-drives-not-owned-by-current-login-show-up-on-desktop-gnome"))) (published nil "2010-08-02T16:15:44Z") (updated nil "2010-10-26T21:23:08Z") (summary ((type . "html")) "
+            <p>I use sshfs everyday and find it very useful.  One item I have not been able to figure out is when the mount takes place, the mount points show up as \"drives\" on my desktop.  I'm okay with that except for some of the mount points are not owned by my current login.  In other words, I have one mount point that is owned by \"root\" but it appears on my desktop.  I get permission denied when I try to access the drive but I'd prefer it not show up if I can't view it.  I use GNOME so I'm not sure if that makes a difference.  Any thoughts?</p>
+
+        "))) ("iptables firewall problem openvpn bridged" "<p>Hi,
+i think i got some probs with my iptables firewall, my setup is i got a pc (debian installed) with 2 ethernetcard, eth0 connected to my lan(192.168.1.0/24) eth1 for internet connection (ppp0)
+I have an openvpn server on that pc in bridged mode, the vpn clients can connect but can't ping the server or any other pc on my lan and the server or my lan pcs can't ping the clients. The bridge is setup correctly and the setup of the openvpn server looks right and the clients got an ip from my lan and a route to it so routing looks fine, problem must be the iptables firewall.
+The requierements for the firewall are :
+my Lan can do anything except receiving or posting windows shares, netbios etc over the internet or vpn
+the vpn clients can do anything except receiving or posting windows shares, netbios etc over the vpn and
+they can not access the internet over the vpn.</p>
+<p>Please if someone could have a look at my script?</p>
+<p>Heres the interesting part of my firewall script:
+<code></p>
+<h3>The iptables command. Shorter and sure</h3>
+<p>ipt=\"/sbin/iptables\"</p>
+<h3>The network interface</h3>
+<p>ifLan=eth0
+ifWan=ppp0
+ifVpnB=br0
+ifVpn=tap+</p>
+<p>VPN_PORT=1195</p>
+<h3>FIREWALL STOP</h3>
+<p>...</p>
+<h3>FIREWALL START/RELOAD/RESTART</h3>
+<p>echo \"Building firewall...\"</p>
+<h3>Modules</h3>
+<p>modprobe ip_tables
+modprobe ip_conntrack
+modprobe ip_conntrack_ftp
+modprobe ipt_MASQUERADE
+modprobe ipt_state
+modprobe ipt_LOG
+modprobe iptable_nat
+modprobe iptable_filter</p>
+<h3>Flush current rules.</h3>
+<p>$ipt -F INPUT
+$ipt -F OUTPUT
+$ipt -F FORWARD
+$ipt -t nat -F PREROUTING
+$ipt -t nat -F POSTROUTING
+$ipt -t nat -F OUTPUT
+$ipt -F
+$ipt -X</p>
+<h3>Set default policies</h3>
+<p>$ipt --policy INPUT DROP
+$ipt --policy OUTPUT ACCEPT
+$ipt --policy FORWARD DROP
+$ipt -t nat --policy PREROUTING ACCEPT
+$ipt -t nat --policy POSTROUTING ACCEPT</p>
+<h3>SYN flood protection</h3>
+<p>echo \"1\" > /proc/sys/net/ipv4/tcp_syncookies</p>
+<h3>Forwarding</h3>
+<p>echo \"1\" > /proc/sys/net/ipv4/ip_forward</p>
+<h3>LOOPBACK</h3>
+<p>echo \"Setting LOOPBACK rules\"
+$ipt -A INPUT -i lo -j ACCEPT</p>
+<p>$ipt -A OUTPUT -o lo -j ACCEPT</p>
+<h3>WAN</h3>
+<p>echo \"Setting WAN rules\"
+$ipt -A INPUT -i $ifWan -p udp --dport $VPN_PORT -m state --state NEW -j ACCEPT
+$ipt -A INPUT -p tcp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p tcp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -i $ifWan -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+<p>$ipt -A OUTPUT -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -o $ifWan -j ACCEPT</p>
+<p>$ipt -A FORWARD -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 445 -o $ifWan -j DROP</p>
+<p>$ipt -A FORWARD -i $ifWan -o $ifLan -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpnB -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+<h3>VPN</h3>
+<p>echo \"Setting VPN rules\"
+$ipt -A INPUT -i $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+<p>$ipt -A OUTPUT -o $ifVpn -j ACCEPT</p>
+<p>$ipt -A FORWARD -i $ifVpn -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifVpnB -j ACCEPT</p>
+<h3>BRIDGE</h3>
+<p>echo \"Setting BRIDGE rules\"
+$ipt -A INPUT -i $ifVpnB -j ACCEPT </p>
+<p>$ipt -A OUTPUT -o $ifVpnB -j ACCEPT </p>
+<p>$ipt -A FORWARD -i $ifVpnB -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifVpn -j ACCEPT</p>
+<h3>LAN</h3>
+<p>echo \"Setting LAN rules\"
+$ipt -A INPUT -i $ifLan -j ACCEPT </p>
+<p>$ipt -A OUTPUT -o $ifLan -j ACCEPT</p>
+<p>$ipt -A FORWARD -i $ifLan -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpnB -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpn -j ACCEPT</p>
+<h3>Portforwarding</h3>
+<p>...</p>
+<h3>Masquerading</h3>
+<p>$ipt -t nat -A POSTROUTING -j MASQUERADE
+echo \"Done!\"
+</code></p>
+<p>thx Grobi</p>" "http://linuxexchange.org/questions/1017/iptables-firewall-problem-openvpn-bridged" (19654 62046) new 20 nil nil ((id nil "http://linuxexchange.org/questions/1017/iptables-firewall-problem-openvpn-bridged") (title ((type . "text")) "iptables firewall problem openvpn bridged") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "iptables"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "bridge"))) (author nil (name nil "Grobi")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1017/iptables-firewall-problem-openvpn-bridged"))) (published nil "2010-07-09T17:10:05Z") (updated nil "2010-10-26T15:23:10Z") (summary ((type . "html")) "
+            <p>Hi,
+i think i got some probs with my iptables firewall, my setup is i got a pc (debian installed) with 2 ethernetcard, eth0 connected to my lan(192.168.1.0/24) eth1 for internet connection (ppp0)
+I have an openvpn server on that pc in bridged mode, the vpn clients can connect but can't ping the server or any other pc on my lan and the server or my lan pcs can't ping the clients. The bridge is setup correctly and the setup of the openvpn server looks right and the clients got an ip from my lan and a route to it so routing looks fine, problem must be the iptables firewall. 
+The requierements for the firewall are : 
+my Lan can do anything except receiving or posting windows shares, netbios etc over the internet or vpn
+the vpn clients can do anything except receiving or posting windows shares, netbios etc over the vpn and
+they can not access the internet over the vpn.</p>
+
+<p>Please if someone could have a look at my script?</p>
+
+<p>Heres the interesting part of my firewall script:
+<code></p>
+
+<h3>The iptables command. Shorter and sure</h3>
+
+<p>ipt=\"/sbin/iptables\"</p>
+
+<h3>The network interface</h3>
+
+<p>ifLan=eth0
+ifWan=ppp0
+ifVpnB=br0
+ifVpn=tap+</p>
+
+<p>VPN_PORT=1195</p>
+
+<h3>FIREWALL STOP</h3>
+
+<p>...</p>
+
+<h3>FIREWALL START/RELOAD/RESTART</h3>
+
+<p>echo \"Building firewall...\"</p>
+
+<h3>Modules</h3>
+
+<p>modprobe ip_tables
+modprobe ip_conntrack
+modprobe ip_conntrack_ftp
+modprobe ipt_MASQUERADE
+modprobe ipt_state
+modprobe ipt_LOG
+modprobe iptable_nat
+modprobe iptable_filter</p>
+
+<h3>Flush current rules.</h3>
+
+<p>$ipt -F INPUT
+$ipt -F OUTPUT
+$ipt -F FORWARD
+$ipt -t nat -F PREROUTING
+$ipt -t nat -F POSTROUTING
+$ipt -t nat -F OUTPUT
+$ipt -F
+$ipt -X</p>
+
+<h3>Set default policies</h3>
+
+<p>$ipt --policy INPUT DROP
+$ipt --policy OUTPUT ACCEPT
+$ipt --policy FORWARD DROP
+$ipt -t nat --policy PREROUTING ACCEPT
+$ipt -t nat --policy POSTROUTING ACCEPT</p>
+
+<h3>SYN flood protection</h3>
+
+<p>echo \"1\" > /proc/sys/net/ipv4/tcp_syncookies</p>
+
+<h3>Forwarding</h3>
+
+<p>echo \"1\" > /proc/sys/net/ipv4/ip_forward</p>
+
+<h3>LOOPBACK</h3>
+
+<p>echo \"Setting LOOPBACK rules\"
+$ipt -A INPUT -i lo -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -o lo -j ACCEPT</p>
+
+<h3>WAN</h3>
+
+<p>echo \"Setting WAN rules\"
+$ipt -A INPUT -i $ifWan -p udp --dport $VPN_PORT -m state --state NEW -j ACCEPT
+$ipt -A INPUT -p tcp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 137:139 -i $ifWan -j DROP
+$ipt -A INPUT -p tcp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -p udp --dport 445 -i $ifWan -j DROP
+$ipt -A INPUT -i $ifWan -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A OUTPUT -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -p udp --dport 445 -o $ifWan -j DROP
+$ipt -A OUTPUT -o $ifWan -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -p tcp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 137:139 -o $ifWan -j DROP
+$ipt -A FORWARD -p tcp --dport 445 -o $ifWan -j DROP
+$ipt -A FORWARD -p udp --dport 445 -o $ifWan -j DROP</p>
+
+<p>$ipt -A FORWARD -i $ifWan -o $ifLan -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpnB -m state --state ESTABLISHED,RELATED -j ACCEPT
+$ipt -A FORWARD -i $ifWan -o $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<h3>VPN</h3>
+
+<p>echo \"Setting VPN rules\"
+$ipt -A INPUT -i $ifVpn -m state --state ESTABLISHED,RELATED -j ACCEPT</p>
+
+<p>$ipt -A OUTPUT -o $ifVpn -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -i $ifVpn -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpn -o $ifVpnB -j ACCEPT</p>
+
+<h3>BRIDGE</h3>
+
+<p>echo \"Setting BRIDGE rules\"
+$ipt -A INPUT -i $ifVpnB -j ACCEPT </p>
+
+<p>$ipt -A OUTPUT -o $ifVpnB -j ACCEPT </p>
+
+<p>$ipt -A FORWARD -i $ifVpnB -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifLan -j ACCEPT
+$ipt -A FORWARD -i $ifVpnB -o $ifVpn -j ACCEPT</p>
+
+<h3>LAN</h3>
+
+<p>echo \"Setting LAN rules\"
+$ipt -A INPUT -i $ifLan -j ACCEPT </p>
+
+<p>$ipt -A OUTPUT -o $ifLan -j ACCEPT</p>
+
+<p>$ipt -A FORWARD -i $ifLan -o $ifWan -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpnB -j ACCEPT
+$ipt -A FORWARD -i $ifLan -o $ifVpn -j ACCEPT</p>
+
+<h3>Portforwarding</h3>
+
+<p>...</p>
+
+<h3>Masquerading</h3>
+
+<p>$ipt -t nat -A POSTROUTING -j MASQUERADE
+echo \"Done!\" 
+</code></p>
+
+<p>thx Grobi</p>
+
+        "))) ("How does one direct traffic to different network interfaces?" "<p>Let's say I have two network interfaces, eth0 and eth1, and I want to route traffic from different applications to either one or the other on demand. </p>
+<p>How would one do this?</p>" "http://linuxexchange.org/questions/1320/how-does-one-direct-traffic-to-different-network-interfaces" (19654 58450) new 21 nil nil ((id nil "http://linuxexchange.org/questions/1320/how-does-one-direct-traffic-to-different-network-interfaces") (title ((type . "text")) "How does one direct traffic to different network interfaces?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "networking"))) (author nil (name nil "Joehillen")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1320/how-does-one-direct-traffic-to-different-network-interfaces"))) (published nil "2010-08-30T05:19:34Z") (updated nil "2010-10-26T14:23:14Z") (summary ((type . "html")) "
+            <p>Let's say I have two network interfaces, eth0 and eth1, and I want to route traffic from different applications to either one or the other on demand. </p>
+
+<p>How would one do this?</p>
+
+        "))) ("How to make videos play in the main monitor" "<p>In Ubuntu 10.04 when I go to Youtube and try to play a video full-screen, it plays on my other monitor (monitor 1), not my main monitor (monitor 2). How do I change the settings in Linux to make it play on my main monitor?</p>" "http://linuxexchange.org/questions/1258/how-to-make-videos-play-in-the-main-monitor" (19654 4441) new 22 nil nil ((id nil "http://linuxexchange.org/questions/1258/how-to-make-videos-play-in-the-main-monitor") (title ((type . "text")) "How to make videos play in the main monitor") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu-10.04"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "video"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "youtube"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1258/how-to-make-videos-play-in-the-main-monitor"))) (published nil "2010-08-21T17:20:40Z") (updated nil "2010-10-25T23:23:05Z") (summary ((type . "html")) "
+            <p>In Ubuntu 10.04 when I go to Youtube and try to play a video full-screen, it plays on my other monitor (monitor 1), not my main monitor (monitor 2). How do I change the settings in Linux to make it play on my main monitor?</p>
+
+        "))) ("Revive Dead Consoles after Suspend" "<p>Hello everyone. I'm using Slackware13.0 &amp; I've encountered a rather perplexing situation. I was wondering if there where any fellow slackers or wizened gnu 'rus out there who could lend a hand.</p>
+<p>While using the kde4 desktop environment, after using the suspend to ram feature, I cannot revive the other consoles? tty0-7, or the consoles you get when you ctrl+alt+fn\". The only one I can revive is the one I last used;  xwindows, or tty7.</p>
+<p>If anyone could help point me in the right direction towards a resolution, I'd be most grateful! </p>" "http://linuxexchange.org/questions/135/revive-dead-consoles-after-suspend" (19653 30380) new 23 nil nil ((id nil "http://linuxexchange.org/questions/135/revive-dead-consoles-after-suspend") (title ((type . "text")) "Revive Dead Consoles after Suspend") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "slackware"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "console"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "tty"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "kde4"))) (author nil (name nil "Slug")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/135/revive-dead-consoles-after-suspend"))) (published nil "2010-04-25T19:48:25Z") (updated nil "2010-10-25T12:23:08Z") (summary ((type . "html")) "
+            <p>Hello everyone. I'm using Slackware13.0 &amp; I've encountered a rather perplexing situation. I was wondering if there where any fellow slackers or wizened gnu 'rus out there who could lend a hand.</p>
+
+<p>While using the kde4 desktop environment, after using the suspend to ram feature, I cannot revive the other consoles? tty0-7, or the consoles you get when you ctrl+alt+fn\". The only one I can revive is the one I last used;  xwindows, or tty7.</p>
+
+<p>If anyone could help point me in the right direction towards a resolution, I'd be most grateful! </p>
+
+        "))) ("Which Linux distribution is better for newbies?" "<p>I'm going to install Linux for someone who isn't even very good with Windows. I've narrowed it down to either Linux Mint or PCLinuxOS. Which one should I install? Are there any other Linux distributions I should be considering?</p>
+<p>Also, should I install Gnome, KDE, or something else?</p>" "http://linuxexchange.org/questions/1259/which-linux-distribution-is-better-for-newbies" (19653 26716) new 24 nil nil ((id nil "http://linuxexchange.org/questions/1259/which-linux-distribution-is-better-for-newbies") (title ((type . "text")) "Which Linux distribution is better for newbies?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "install"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "distribution"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "windows"))) (author nil (name nil "Phenom")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1259/which-linux-distribution-is-better-for-newbies"))) (published nil "2010-08-21T17:31:48Z") (updated nil "2010-10-25T11:22:04Z") (summary ((type . "html")) "
+            <p>I'm going to install Linux for someone who isn't even very good with Windows. I've narrowed it down to either Linux Mint or PCLinuxOS. Which one should I install? Are there any other Linux distributions I should be considering?</p>
+
+<p>Also, should I install Gnome, KDE, or something else?</p>
+
+        "))) ("Compiz + Jolicloud" "<p>I have installed Compiz in jolicloud and I am getting artifacts.  Has anyone else had this problem?  I understand it is not installed by default possibly because of this reason in UNR/Jolicloud.</p>" "http://linuxexchange.org/questions/122/compiz-jolicloud" (19653 23180) new 25 nil nil ((id nil "http://linuxexchange.org/questions/122/compiz-jolicloud") (title ((type . "text")) "Compiz + Jolicloud") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "compiz"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "jolicloud"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "graphics"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "screen"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (author nil (name nil "george")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/122/compiz-jolicloud"))) (published nil "2010-04-23T11:58:48Z") (updated nil "2010-10-25T10:23:08Z") (summary ((type . "html")) "
+            <p>I have installed Compiz in jolicloud and I am getting artifacts.  Has anyone else had this problem?  I understand it is not installed by default possibly because of this reason in UNR/Jolicloud.</p>
+
+        "))) ("how to build gcc 4.5?" "<p>I am having a remarkable amount of trouble building gcc 4.5 on Linux (Red Hat Enterprise 4).  For good measure, I also tried on my mac running Leopard.</p>
+<p>I would love to just install an rpm, but the Red hat version we are running is old enough that no one has rpms for it.  So I thought I would build off source, no problem, right?</p>
+<p>First, /opt/tools was created for me, so I could write the results in there without being sysadmin</p>
+<p>gcc 4.5 now requires three packages: GMP, MPFR, and MPC, all math primitives.</p>
+<p>I successfully built all three wth:</p>
+<p>./configure --prefix=/opt/tools
+make
+make install
+(for GMP I also did make check)</p>
+<p>For MPFR and MPC, configuration was slightly different:</p>
+<p>./configure --prefix=/opt/tools --with-gmp=/opt/tools</p>
+<p>So I have gmp-5.0.1, mpfr-3.0.0, mpc-0.8.2</p>
+<p>gcc instructions are more complicated, because it bootstraps itself.
+The compiler that I have on the system is 3.4.6.</p>
+<p>In my directory with all the packages, I first create a directory to build into:
+mkdir gcc451
+cd gcc451
+Then from inside the empty directory, I call configure in the gcc directory:</p>
+<p>../gcc-4.5.1/configure --prefix=/opt/tools --with-gmp=/opt/tools --with-mpfr=/opt/tools --with-mpc=/opt/tools</p>
+<p>On the mac, I also had to add target directives, I am a little hazy as to why, but something is messed up in the configuration evidently</p>
+<p>--build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --target=x86_64-apple-darwin10</p>
+<p>On the mac, configure reports:
+checking for the correct version of gmp.h... yes
+checking for the correct version of mpfr.h... yes
+checking for the correct version of mpc.h... yes
+checking for the correct version of the gmp/mpfr/mpc libraries... no
+configure: error: Building GCC requires GMP 4.2+, MPFR 2.3.1+ and MPC 0.8.0+.</p>
+<p>I export DYLD_LIBRARY_PATH=/opt/lib
+still, it doesn't find those libraries, but they are there:</p>
+<p>libgmp.10.dylib libgmp.la   libmpc.dylib    libmpfr.a
+libgmp.a    libmpc.2.dylib  libmpc.la   libmpfr.dylib
+libgmp.dylib    libmpc.a    libmpfr.4.dylib libmpfr.la</p>
+<p>On the Linux box, I somehow got it to recognize the libs in /opt/tools, and ./configure was successful.  I am not there now, but will append the details later at work.  However, after compiling, the code is unable to find libgmp, even though it's built, and
+export LD_LIBRARY_PATH=/opt/tools/lib containing all three libraries.  So the problem is similar even though there, configure reports no problems.</p>
+<p>I'm not surprised that there's a little difficulty on the Mac, but I was startled at how hard this was on Linux.  I remembered about the multi-pass build, but still there is no hardware dependency, no odd drivers to contend with....</p>
+<p>Any help?</p>" "http://linuxexchange.org/questions/1179/how-to-build-gcc-4-5" (19650 10989) new 26 nil nil ((id nil "http://linuxexchange.org/questions/1179/how-to-build-gcc-4-5") (title ((type . "text")) "how to build gcc 4.5?") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "gcc"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "build"))) (author nil (name nil "Dov")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1179/how-to-build-gcc-4-5"))) (published nil "2010-08-04T11:16:18Z") (updated nil "2010-10-23T00:23:09Z") (summary ((type . "html")) "
+            <p>I am having a remarkable amount of trouble building gcc 4.5 on Linux (Red Hat Enterprise 4).  For good measure, I also tried on my mac running Leopard.</p>
+
+<p>I would love to just install an rpm, but the Red hat version we are running is old enough that no one has rpms for it.  So I thought I would build off source, no problem, right?</p>
+
+<p>First, /opt/tools was created for me, so I could write the results in there without being sysadmin</p>
+
+<p>gcc 4.5 now requires three packages: GMP, MPFR, and MPC, all math primitives.</p>
+
+<p>I successfully built all three wth:</p>
+
+<p>./configure --prefix=/opt/tools
+make
+make install
+(for GMP I also did make check)</p>
+
+<p>For MPFR and MPC, configuration was slightly different:</p>
+
+<p>./configure --prefix=/opt/tools --with-gmp=/opt/tools</p>
+
+<p>So I have gmp-5.0.1, mpfr-3.0.0, mpc-0.8.2</p>
+
+<p>gcc instructions are more complicated, because it bootstraps itself.
+The compiler that I have on the system is 3.4.6.</p>
+
+<p>In my directory with all the packages, I first create a directory to build into:
+mkdir gcc451
+cd gcc451
+Then from inside the empty directory, I call configure in the gcc directory:</p>
+
+<p>../gcc-4.5.1/configure --prefix=/opt/tools --with-gmp=/opt/tools --with-mpfr=/opt/tools --with-mpc=/opt/tools</p>
+
+<p>On the mac, I also had to add target directives, I am a little hazy as to why, but something is messed up in the configuration evidently</p>
+
+<p>--build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --target=x86_64-apple-darwin10</p>
+
+<p>On the mac, configure reports:
+checking for the correct version of gmp.h... yes
+checking for the correct version of mpfr.h... yes
+checking for the correct version of mpc.h... yes
+checking for the correct version of the gmp/mpfr/mpc libraries... no
+configure: error: Building GCC requires GMP 4.2+, MPFR 2.3.1+ and MPC 0.8.0+.</p>
+
+<p>I export DYLD_LIBRARY_PATH=/opt/lib
+still, it doesn't find those libraries, but they are there:</p>
+
+<p>libgmp.10.dylib libgmp.la   libmpc.dylib    libmpfr.a
+libgmp.a    libmpc.2.dylib  libmpc.la   libmpfr.dylib
+libgmp.dylib    libmpc.a    libmpfr.4.dylib libmpfr.la</p>
+
+<p>On the Linux box, I somehow got it to recognize the libs in /opt/tools, and ./configure was successful.  I am not there now, but will append the details later at work.  However, after compiling, the code is unable to find libgmp, even though it's built, and
+export LD_LIBRARY_PATH=/opt/tools/lib containing all three libraries.  So the problem is similar even though there, configure reports no problems.</p>
+
+<p>I'm not surprised that there's a little difficulty on the Mac, but I was startled at how hard this was on Linux.  I remembered about the multi-pass build, but still there is no hardware dependency, no odd drivers to contend with....</p>
+
+<p>Any help?</p>
+
+        "))) ("lighttpd php and sqlite problem" "<p>Hi.  When I try to write data to an sqlite file via lighttpd and php I get the error:</p>
+<p>\"Unable to open database file\"</p>
+<p>When I write the data directly using</p>
+<p>$ /usr/lib/cgi-bin/php5 sqlite-test.php</p>
+<p>it works fine.</p>
+<p>Also, php works with lighttpd when not writing to sqlite.</p>
+<p>I've done some research and put the line</p>
+<p>extension=sqlite.so</p>
+<p>into php.ini, but still no joy.</p>" "http://linuxexchange.org/questions/1372/lighttpd-php-and-sqlite-problem" (19649 59481) new 27 nil nil ((id nil "http://linuxexchange.org/questions/1372/lighttpd-php-and-sqlite-problem") (title ((type . "text")) "lighttpd php and sqlite problem") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "server"))) (author nil (name nil "slothcheetah")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1372/lighttpd-php-and-sqlite-problem"))) (published nil "2010-09-30T08:21:51Z") (updated nil "2010-10-22T19:39:05Z") (summary ((type . "html")) "
+            <p>Hi.  When I try to write data to an sqlite file via lighttpd and php I get the error:</p>
+
+<p>\"Unable to open database file\"</p>
+
+<p>When I write the data directly using</p>
+
+<p>$ /usr/lib/cgi-bin/php5 sqlite-test.php</p>
+
+<p>it works fine.</p>
+
+<p>Also, php works with lighttpd when not writing to sqlite.</p>
+
+<p>I've done some research and put the line</p>
+
+<p>extension=sqlite.so</p>
+
+<p>into php.ini, but still no joy.</p>
+
+        "))) ("problem in installing softwares through wine" "<p>can anybody tell me how i can install any exe file through wine?</p>" "http://linuxexchange.org/questions/1374/problem-in-installing-softwares-through-wine" (19649 56857) new 28 nil nil ((id nil "http://linuxexchange.org/questions/1374/problem-in-installing-softwares-through-wine") (title ((type . "text")) "problem in installing softwares through wine") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "ubuntu"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "wine"))) (author nil (name nil "tushar")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/1374/problem-in-installing-softwares-through-wine"))) (published nil "2010-10-05T05:26:16Z") (updated nil "2010-10-22T18:55:21Z") (summary ((type . "html")) "
+            <p>can anybody tell me how i can install any exe file through wine?</p>
+
+        "))) ("Java support on Linux for applets" "<p>I am setting up a new web site for a client using image encryption displayed by applets and a colleague of the client using Linux has reported that he cannot see the images. Although they display fine for me on all platforms using the test computers at the office I am worried that there may be a lack of support that I am missing.</p>
+<p>So I am wondering who can and who cannot see these images and if there is a problem, is it due to older browser cross java versions available? Some encrypted images for testing can be found at <a href=\"http://www.artistscope.com/secure_image_demos.asp\" rel=\"nofollow\">http://www.artistscope.com/secure_image_demos.asp</a></p>" "http://linuxexchange.org/questions/856/java-support-on-linux-for-applets" (19648 19667) new 29 nil nil ((id nil "http://linuxexchange.org/questions/856/java-support-on-linux-for-applets") (title ((type . "text")) "Java support on Linux for applets") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "security"))) (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "encryption"))) (author nil (name nil "William")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/856/java-support-on-linux-for-applets"))) (published nil "2010-06-15T15:07:43Z") (updated nil "2010-10-21T14:23:15Z") (summary ((type . "html")) "
+            <p>I am setting up a new web site for a client using image encryption displayed by applets and a colleague of the client using Linux has reported that he cannot see the images. Although they display fine for me on all platforms using the test computers at the office I am worried that there may be a lack of support that I am missing.</p>
+
+<p>So I am wondering who can and who cannot see these images and if there is a problem, is it due to older browser cross java versions available? Some encrypted images for testing can be found at <a href=\"http://www.artistscope.com/secure_image_demos.asp\" rel=\"nofollow\">http://www.artistscope.com/secure_image_demos.asp</a></p>
+
+        "))) ("Which is smallest Linux flavor for Thin Client :" "<p>First , what is my requirement:
+I have Python + gtk base application which can be run  on Gnome , KDE , LXDE Gui environment</p>
+<p>What storage I would like to use:
+currently I am using Flash drives , SATA DOM , IDE DOM , Portable HDD etc for Installation,
+I want to start this Thin Client os in just 250 MB ,
+What I’m expecting from OS:
+Keymap configuration, Network Configuration, + Audio Video Support that’s it.</p>
+<p>Friends please suggest me the Linux os which can best fit to my requirement.</p>" "http://linuxexchange.org/questions/961/which-is-smallest-linux-flavor-for-thin-client" (19647 63135) new 30 nil nil ((id nil "http://linuxexchange.org/questions/961/which-is-smallest-linux-flavor-for-thin-client") (title ((type . "text")) "Which is smallest Linux flavor for Thin Client :") (category ((scheme . "http://linuxexchange.org/feeds/tags") (term . "linux"))) (author nil (name nil "Chetan Diwani")) (link ((rel . "alternate") (href . "http://linuxexchange.org/questions/961/which-is-smallest-linux-flavor-for-thin-client"))) (published nil "2010-07-01T09:21:57Z") (updated nil "2010-10-21T08:15:27Z") (summary ((type . "html")) "
+            <p>First , what is my requirement:
+I have Python + gtk base application which can be run  on Gnome , KDE , LXDE Gui environment</p>
+
+<p>What storage I would like to use: 
+currently I am using Flash drives , SATA DOM , IDE DOM , Portable HDD etc for Installation,
+I want to start this Thin Client os in just 250 MB ,
+What I’m expecting from OS:
+Keymap configuration, Network Configuration, + Audio Video Support that’s it.</p>
+
+<p>Friends please suggest me the Linux os which can best fit to my requirement.</p>
+
+        "))))
