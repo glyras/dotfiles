@@ -1,0 +1,324 @@
+;;
+;; stumpwmrc by aperturefever contact glyras at gmail dot com
+;;
+
+(in-package :stumpwm)
+(setf *default-package* :stumpwm)
+
+;(resize-head 0 0 20 1280 780)
+
+	
+;;
+;; Frames - Message bar
+;;
+
+(setf *maxsize-border-width* 1)
+(set-frame-outline-width 1)
+(set-focus-color   "grey60")
+(set-unfocus-color "grey30")
+(set-normal-gravity :center)
+(setf *normal-border-width* 1)
+(setf *window-border-style* :thin)  ; thick,thin,none,tight
+(set-fg-color "grey80")
+(set-border-color "grey30")
+(set-bg-color "grey10") 
+;(set-border-color "dimgray")
+(set-msg-border-width 2)
+(setf *message-window-gravity* :top-right
+  *timeout-wait*           6
+  *input-window-gravity*   :bottom-right
+  *window-format* "^B^5*>^4*>^6w> ^B^5*%s^b^**%n%m%25t" 
+  *group-format* "^B^5*>^4*>^6w> ^B^n %s%t")
+
+
+;;
+;;  Misc  
+;;
+(set-font "-*-fixed-*-*-*-*-10-*-*-*-*-*-*-*")
+;(set-font "-windows-montecarlo-medium-*-normal-*-*-*-*-*-*-*-*-*")
+;(set-font "-xos4-terminus-medium-r-normal--0-0-72-72-c-0-iso8859-1")
+;(set-font "-xos4-terminus-medium-r-normal--0-0-72-72-c-0-iso8859-7")
+;(set-font "-*-dina-medium-r-normal-*-*-*-*-*-*-*-*-*")
+;(set-font "-lispm-fixed-medium-r-normal-*-13-*-*-*-*-*-*-*")
+
+
+;; Set up X cursor, colors n background.
+;(run-shell-command "xsetroot -cursor_name left_ptr -gray -fg black -bg white -name root-window")
+;(run-shell-command "setxkbmap -layout us,gr -option grp:alt_shift_toggle -option grp_led:scroll -option ctrl:swapcaps")
+(run-shell-command "xmodmap /home/shevek/.Xmodmap-stump")
+
+
+
+
+;;
+;;       Keybindings      
+;;
+
+;; change the prefix key 
+(run-shell-command "xmodmap -e 'keycode 133 = F20'" t)
+(set-prefix-key (kbd "F20"))
+;(set-prefix-key (kbd "C-e"))
+
+(define-key *root-map* (kbd "Return") "exec urxvt")
+(define-key *root-map* (kbd "M-Return") "exec urxvt -fg '#574b2e' -bg '#dcdcca' ")
+(define-key *root-map* (kbd "Print") "exec import -window root png:$HOME/screenshot-$(date +%s)$$.png")
+(define-key *root-map* (kbd "b") "exec firefox")
+(define-key *root-map* (kbd "e") "exec")
+(define-key *root-map* (kbd "w") "windowlist")
+(define-key *root-map* (kbd "g") "grouplist")
+(define-key *root-map* (kbd "M-a") "exec qiv /mnt/mercury/images/dvorak.gif")
+(define-key *root-map* (kbd "M-x") "exec ratmenu")
+(define-key *root-map* (kbd "m") "fclear")
+(define-key *root-map* (kbd ".") "gnext")
+(define-key *root-map* (kbd ",") "gprev")
+(define-key *root-map* (kbd ">") "gnext-with-window")
+(define-key *root-map* (kbd "<") "gprev-with-window")
+(define-key *root-map* (kbd "Tab") "gother")
+(define-key *root-map* (kbd "t") "todo")
+(define-key *root-map* (kbd "p") "dmenu")
+
+; MOC
+
+;(define-key *root-map* (kbd "M-") "exec urxvt -fg '#9eafbf' -bg '#10303f' ")
+
+; Multimedia Keys
+(define-key *top-map* (kbd "XF86AudioPlay") "exec (mocp -G) && echo Play")
+(define-key *top-map* (kbd "XF86AudioStop") "exec mocp -s") 
+(define-key *top-map* (kbd "XF86AudioPrev") "exec mocp -r")
+(define-key *top-map* (kbd "XF86AudioNext") "exec mocp -f")
+(define-key *top-map* (kbd "XF86AudioLowerVolume") "exec amixer set Master 5%- unmute")
+(define-key *top-map* (kbd "XF86AudioRaiseVolume") "exec amixer set Master 5%+ unmute")
+(define-key *top-map* (kbd "XF86AudioMute") "exec amixer -q sset Master toggle")
+(define-key *top-map* (kbd "XF86AudioMedia") "exec dolphin")
+(define-key *top-map* (kbd "C-XF86AudioLowerVolume") "exec amixer set PCM 5%- unmute")
+(define-key *top-map* (kbd "C-XF86AudioRaiseVolume") "exec amixer set PCM 5%+ unmute")
+
+;;
+;;    Groups    
+;;
+
+;; Rename the first group to Main
+(setf (group-name (first (screen-groups (current-screen)))) "Main")
+;; Create the other groups.
+(run-commands "gnewbg www" "gnewbg devel" "gnewbg media")
+
+
+;;
+;;   Some mousey stuff    
+;;
+
+(setf *mouse-focus-policy* :click) ;; :click, :ignore, :sloppy
+
+
+;;
+;; Colors
+;;
+
+(setf *colors* (append *colors*
+                         (list "Purple"
+                               "Orange")))
+(update-color-map (current-screen))
+
+
+
+;;
+;;   Modeline
+;;
+
+
+(load "/home/shevek/progs/stumpwm/contrib/cpu.lisp")
+(load "/home/shevek/progs/stumpwm/contrib/net.lisp")
+(load "/home/shevek/progs/stumpwm/contrib/mem.lisp")
+;(load "/home/shevek/progs/stumpwm/contrib/wifi.lisp")
+(load "/home/shevek/progs/stumpwm/contrib/battery.lisp")
+
+
+
+(setf *mode-line-foreground-color* "grey80")
+(setf *mode-line-border-width* 1)
+(setf *mode-line-background-color* "grey10")
+(setf *mode-line-border-color* "grey10")
+(setf stumpwm:*screen-mode-line-format*
+(list "^B^5*|^n ^B^4*Screen:^n %h "
+      "^B^5*|^n ^B^9*%g^n "))
+;      "^B^5*|^n %c @ %t "
+;      "^B^5*|^n %b " 
+;      "^B^5*|^n "
+;      '(:eval (run-shell-command "date '+%T - %d/%m/%y \' | tr -d '[:cntrl:]'" t))
+;      "^B^5*|^n "
+;      '(:eval (run-shell-command "echo Master: `amixer get Master | tail -1  | cut -d ' ' -f 6` | tr -d '[:cntrl:]'" t))
+;      "^B^5* |^n "
+;      '(:eval (run-shell-command "echo PCM: `amixer get PCM | tail -1 | cut -d ' ' -f 7` | tr -d '[:cntrl:]'" t))))
+      
+;; "^B^5*|^n %w "))
+        
+;; turn on/off the mode line for the current screen only.
+;(enable-mode-line (current-screen) (current-head) t)
+
+
+;;
+;; Functions
+;;
+
+(defun cat (&rest strings)
+  "Concatenates strings, like the Unix command 'cat'. A shortcut for (concatenate 'string foo bar)."
+  (apply 'concatenate 'string strings))
+
+
+;;
+;; Dvorak - Qwerty
+;;
+
+(defvar *keyboard-layout* :dvorak)
+
+(defcommand toggle-keyboard-layout () ()
+  (cond ((eq *keyboard-layout* :qwerty)
+         (setf *keyboard-layout* :dvorak)
+         (message "^7* Selected keyboard layout:^2* Dvorak")
+         (run-shell-command "setxkbmap -layout dvorak,dvorak_el -option grp:alt_shift_toggle -option grp_led:scroll -option ctrl:swapcaps && xmodmap  ~/.Xmodmap && xmodmap -e \'keycode 133=F20'"))
+        ((eq *keyboard-layout* :dvorak)
+         (setf *keyboard-layout* :qwerty)
+         (message "^7* Selected keyboard layout:^3* Qwerty")
+         (run-shell-command "setxkbmap -layout us,gr -option grp:alt_shift_toggle -option grp_led:scroll -option ctrl:swapcaps && xmodmap ~/.Xmodmap && xmodmap -e \'keycode 133=F20'"))))
+
+(define-key *root-map* (kbd "F12") "toggle-keyboard-layout")
+
+
+;;
+;;  Show me Info  
+;;
+
+;(setf *debug-level 10)
+
+;;
+;; Custom Commands 
+;;
+
+(defun shell-command (command)
+"Stumpwm might hang here :/"
+(check-type command string)
+(echo-string (current-screen) (run-shell-command command t)))
+
+(defcommand todo () ()
+"Todo List. File located in ~/"
+(shell-command "cat ~/ToDo"))
+
+(defcommand weatherget () ()
+"Display weather info in Greece."
+(shell-command "weatherget"))
+
+(defcommand dfh () ()
+"Disk"
+(shell-command "df -h"))
+
+(defcommand moon () ()
+"Moon Info"
+(shell-command "less ~/sources/stumpwm/astroinfo/moon"))
+
+(defcommand cal () ()
+"Calendar"
+(shell-command "sh /home/shevek/dzenmon.sh"))
+
+
+(defcommand mocinfo () ()
+"MOC info"
+(shell-command "mocp -i"))
+
+(defcommand monitoroff () ()
+"Monitor Off"
+(shell-command "sleep 1  && xset dpms force off"))
+
+(defcommand dmenu () ()
+(run-shell-command "dmenu_run -b -nb '#000000' -nf '#93DB70' -fn '-windows-montecarlo-medium-*-normal-*-*-*-*-*-*-*-*-*'"))
+(define-key *root-map* (kbd "[") "dmenu")
+
+(defcommand opera () ()
+"run opera"
+(run-or-raise "opera" '(:class "Opera")))
+
+
+(defcommand urxvt () ()
+"run urxvt"
+(run-or-raise "urxvt" '(:class "urxvt")))
+
+
+
+
+;;
+;; Display Keybinding - My version...
+;;
+
+(defun key-press-hook (key key-seq cmd)
+(declare (ignore key))
+(unless (eq *top-map* *resize-map*)
+(let ((*message-window-gravity* :bottom-right))
+(message "Key sequence: ~A - "
+(print-key-seq (reverse key-seq)) cmd))))
+
+;; Give 'em time to read it.
+(sleep 0.5)
+
+(defmacro replace-hook (hook fn)
+`(remove-hook ,hook ,fn)
+`(add-hook ,hook ,fn))
+
+(replace-hook *key-press-hook* 'key-press-hook)
+
+;;;; Code by Male ---- Original...
+;;;; Display the keysequence in progress
+;;(defun key-press-hook (key key-seq cmd)
+;;  (declare (ignore key))
+;;  (unless (eq *top-map* *resize-map*)
+;;    (let ((*message-window-gravity* :bottom-right))
+;;      (message "Key sequence: ~A" (print-key-seq (reverse key-seq))))
+;;    (when (stringp cmd)
+;;      ;; Give 'em time to read it.
+;;      (sleep 0.5))))
+
+;;(defmacro replace-hook (hook fn)
+;; `(remove-hook ,hook ,fn)
+;; `(add-hook ,hook ,fn))
+
+;;(replace-hook *key-press-hook* 'key-press-hook)
+
+
+
+
+;;
+;; Window placement rules
+;;
+
+;; Clear rules
+(clear-window-placement-rules)
+
+; (define-frame-preference "Default"
+;   ;; frame raise lock (lock AND raise == jumpto)
+;   (0 t   t :title "emacs")
+;   (0 t   t :class "XTerm"))
+
+(define-frame-preference "www"
+  ;; frame raise lock (lock AND raise == jumpto)
+  (0 t   t :class "Opera"))
+
+; (define-frame-preference "Media"
+;   ;; frame raise lock (lock AND raise == jumpto)
+;   (0 t   t :instance "aumix")
+;   (0 t   t :class "MPlayer")
+;   (0 t   t :class "Avidemux"))
+
+
+
+
+
+;;
+;;   Timer
+;;
+
+;(krun-with-timer 50 1 'todo)
+;(run-with-timer 5 5 'banish-pointer)
+
+
+;; Setting it here for timing
+(stumpwm:run-shell-command "feh --bg-scale /home/shevek/Pictures/doublearch.jpg &")
+(stumpwm:run-shell-command "gnome-panel &")
+(stumpwm:run-shell-command "nm-applet &")

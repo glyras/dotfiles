@@ -1,0 +1,368 @@
+;; -*- coding: utf-8 -*-
+(("Alien's Slackware packages" "Eric Hameleers (alien's) Slackware package repository. The package directories include the SlackBuild script and sources." "http://www.slackware.com/~alien/" (19659 25243 521181) feed 0 nil nil ((title nil "Alien's Slackware packages") (link nil "http://www.slackware.com/~alien/") (image nil (title nil "Alien's Slackware packages") (url nil "http://www.slackware.com/~alien/graphics/blueorb.png") (link nil "http://www.slackware.com/~alien/")) (description nil "Eric Hameleers (alien's) Slackware package repository. The package directories include the SlackBuild script and sources.") (language nil "en-us") (id ((xmlns . "http://www.w3.org/2005/Atom")) "urn:uuid:a953352c-8f1b-11dc-9dcc-006094b9dda7") (pubDate nil "Tue, 26 Oct 2010 13:16:23 GMT") (lastBuildDate nil "Tue, 26 Oct 2010 13:18:07 GMT") (generator nil "gen_repos_files.sh v 1.61") (item nil (title nil "Tue, 26 Oct 2010 13:16:23 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 26 Oct 2010 13:16:23 GMT") (guid ((isPermaLink . "false")) "20101026151623") (description nil "<pre>
+clamav: updated to 0.96.4 (packages for Slackware 13.1 as well as 13.0)
+           </pre>")) (item nil (title nil "Sun, 17 Oct 2010 21:50:37 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Sun, 17 Oct 2010 21:50:37 GMT") (guid ((isPermaLink . "false")) "20101017235037") (description nil "<pre>
+configobj: rebuilt for Slackware 13.1
+pastebinit: updated to 1.1 (depends on configobj)
+           </pre>")) (item nil (title nil "Sun, 17 Oct 2010 20:26:09 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Sun, 17 Oct 2010 20:26:09 GMT") (guid ((isPermaLink . "false")) "20101017222609") (description nil "<pre>
+cairomm: added v1.8.4 - C++ bindings for cairo (depends on glibmm)
+glibmm: added v2.22.2 - C++ wrapper for GTK+ (depends on libsigc++)
+gtkmm: added v2.18.2 - C++ wrapper for GTK+ (depends on pangomm)
+gstreamermm: added v0.10.7 - C++ bindings for gstreamer (depends on gtkmm and
+  libxml++)
+libsigc++: added v2.2.8 - typesafe callback system for C++
+libxml++: added v2.32.0 - C++ wrapper for libxml (depends on glibmm)
+pangomm: added v2.26.2 - C++ bindings for pango (depends on cairomm)
+subtitleeditor: added v0.37.1 - a gtk-based subtitle editor capable of
+  displaying the video as well as the audio waveform in parallel for easy
+  synchronization of the subtitle. Requires these packages to be installed
+  as well: libxml++, libsigc++, glibmm, cairomm, pangomm, gtkmm, gstreamermm.
+           </pre>")) (item nil (title nil "Fri, 15 Oct 2010 23:06:19 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Fri, 15 Oct 2010 23:06:19 GMT") (guid ((isPermaLink . "false")) "20101016010619") (description nil "<pre>
+icu4c: updated to 4.4-2
+libsoup: updated to 2.32.0
+webkitgtk: updated to 1.2.5 (depends on icu4c and libsoup)
+           </pre>")) (item nil (title nil "Wed, 13 Oct 2010 17:42:03 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 13 Oct 2010 17:42:03 GMT") (guid ((isPermaLink . "false")) "20101013194203") (description nil "<pre>
+libreoffice: updated to 3.2.99.2_20101012. Removed the icu4c dependency from
+  the 64-bit package, so that no other package is required to use libreoffice
+  on Slackware (compiling it still requires apache-ant, perl-archive-zip and
+  xulrunner).
+           </pre>")) (item nil (title nil "Wed, 13 Oct 2010 10:52:48 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 13 Oct 2010 10:52:48 GMT") (guid ((isPermaLink . "false")) "20101013125248") (description nil "<pre>
+calibre: updated to 0.7.23
+           </pre>")) (item nil (title nil "Tue, 12 Oct 2010 19:51:26 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 12 Oct 2010 19:51:26 GMT") (guid ((isPermaLink . "false")) "20101012215126") (description nil "<pre>
+apache-ant: added v1.8.1 - a java based build tool analogous to make
+perl-archive-zip: added v1.31_01 - a perl module for manipulating zip files
+libreoffice: added v3.2.99.2_20101010 - this is the built-from-source version
+  of LibreOffice 3.3-beta2.  LibreOffice is the continuation (or 'fork' if you
+  want) of OpenOffice.org which has been abandoned by its developers after
+  Oracle got its hands on it.  It is essentially the continuation of another
+  'fork' called go-oo.  Having built this from source on Slackware, I think it
+  is a lot faster than the pre-built binaries you can download from the
+  http://www.documentfoundation.org/ site.  Give me feedback please!
+  Big WARNING:
+  The source code of LibreOffice is very much in flux - the only way to build
+  this is using git snapshots.  The SlackBuild may produce a working package
+  one day and fail miserably the other.  I have uploaded a version that
+  obviously compiled :-)  If you want to reproduce the build...  it takes
+  many many hours to download and build.  A list of download URLs for all
+  the components (tarballs from websites or checkouts from git) still needs
+  to be added to the SlackBuild so that the build process can proceed offline.
+  For now, the SlackBuild checks out everything on the spot.
+  Building from source requires that you have these packages installed:
+  apache-ant, perl-archive-zip and xulrunner.
+xulrunner: updated to 1.9.2.10
+           </pre>")) (item nil (title nil "Mon,  4 Oct 2010 21:37:08 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Mon,  4 Oct 2010 21:37:08 GMT") (guid ((isPermaLink . "false")) "20101004233708") (description nil "<pre>
+unrar: applied a fix for the error in calibre (ebook manager) when converting
+  rar-ed comic books (.cbr)
+           </pre>")) (item nil (title nil "Tue, 28 Sep 2010 15:29:22 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 28 Sep 2010 15:29:22 GMT") (guid ((isPermaLink . "false")) "20100928172922") (description nil "<pre>
+flashplayer-plugin: upgraded to 10.092710 (Preview 2 of the new Flash Player
+  'Square').
+           </pre>")) (item nil (title nil "Tue, 28 Sep 2010 06:50:47 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 28 Sep 2010 06:50:47 GMT") (guid ((isPermaLink . "false")) "20100928085047") (description nil "<pre>
+BeautifulSoup: added v3.0.8.1 - a Python HTML/XML parser.
+podofo: added v0.8.2 - a library to work with the PDF file format.
+dnspython: added v1.8.0 - dnspython is a DNS toolkit for Python.
+pysetuptools: added v0.6c11 - a collection of enhancements to Python distutils.
+python-cssutils: added v0.9.7b3 - a CSS parser and library for Python.
+python-dateutil: added v1.5 - extensions to the standard datetime module.
+python-imaging: added v1.1.7 - the Python Imaging Library.
+python-lxml: added v2.2.8 - Python bindings for libxml2 and libxslt.
+python-mechanize: added v0.2.2 - stateful programmatic web browsing in Python.
+calibre: added v0.7.20 - Calibre is meant to be a complete e-library solution.
+  It includes library management, format conversion, news feeds to ebook
+  conversion as well as e-book reader sync features. Calibre is primarily a
+  e-book cataloging program.
+  This depends on the following additional packages: BeautifulSoup, dnspython,
+  podofo, pysetuptools, python-cssutils, python-dateutil, python-imaging,
+  python-lxml and python-mechanize.
+           </pre>")) (item nil (title nil "Tue, 21 Sep 2010 19:26:48 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 21 Sep 2010 19:26:48 GMT") (guid ((isPermaLink . "false")) "20100921212648") (description nil "<pre>
+clamav: updated to 0.96.3
+icecast: updated to 2.3.2, along with rebuilds of ices (the mp3 icecast client)
+  and libshout (which is a dependency for ices). This is what I use at home as
+  my streaming audio server.
+           </pre>")) (item nil (title nil "Wed, 15 Sep 2010 21:48:40 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 15 Sep 2010 21:48:40 GMT") (guid ((isPermaLink . "false")) "20100915234840") (description nil "<pre>
+flashplayer-plugin: added v10.09151 which is \"Preview 1 of the new Flash Player
+  'Square'\" and it comes in 32-bit as well as 64-bit. Essentially this is the
+  folow-up to the withdrawn beta flasphplayer 10 for Linux.
+xulrunner: added v1.9.2.9 - XULRunner is a Mozilla runtime package which you
+  can install after removing seamonkey and seamonkey-solibs packages. It will
+  provide support for compiling embedded browser components (and other stuff).
+           </pre>")) (item nil (title nil "Thu,  2 Sep 2010 07:09:12 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Thu,  2 Sep 2010 07:09:12 GMT") (guid ((isPermaLink . "false")) "20100902090912") (description nil "<pre>
+tigervnc: Fixed the doinst.sh script which threw an error when you installed
+  the package. Thanks escaflown.
+           </pre>")) (item nil (title nil "Wed,  1 Sep 2010 19:46:25 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed,  1 Sep 2010 19:46:25 GMT") (guid ((isPermaLink . "false")) "20100901214625") (description nil "<pre>
+tigervnc: added svn snapshot r4126 (27-aug-2010). TigerVNC is a VNC server and
+  client with a focus on performance and functionality. It is based on the V4
+  codebase of RealVNC while TightVNC which is in Slackware's 'extra' directory
+  is based on the older V3 codebase.
+  TigerVNC developers are basically most of the former TightVNC dev group.
+           </pre>")) (item nil (title nil "Tue, 31 Aug 2010 09:58:58 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 31 Aug 2010 09:58:58 GMT") (guid ((isPermaLink . "false")) "20100831115858") (description nil "<pre>
+gst-plugins-ffmpeg: updated to 0.10.11
+speex: updated to 1.2.rc1
+qemu-kvm: added v0.12.5 - this is a modified version of QEMU which should be
+  used as the 'userspace' component of the Kernel Virtual Machine (or KVM) which
+  is available in Slackware's kernel as 'kvm' 'kvm-intel' and 'kvm-amd' modules.
+  KVM is \"a full virtualization solution for Linux on x86 hardware containing
+  virtualization extensions (Intel VT or AMD-V)\".
+  The qemu-kvm program will allow you to run a variety of Virtual Machines
+  (also called 'guest Operating Systems') on your host. You will achieve
+  near-native speeds for x86 and x86_64 guests.
+  Note: this package requires the vde package to be installed as well.
+  Furthermore, your user needs to be a member of the 'kvm' group in order to
+  get the benefit of hardware-supported virtualization.
+vde: updated to 2.3.1
+           </pre>")) (item nil (title nil "Mon, 23 Aug 2010 11:58:09 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Mon, 23 Aug 2010 11:58:09 GMT") (guid ((isPermaLink . "false")) "20100823135809") (description nil "<pre>
+vlc: updated to 1.1.3.
+  Note - this version of the vlc package is not able to ENcode mp3 or aac audio
+  (decoding & playback of these audio formats works fine of course).  You can
+  find vlc packages with a working mp3/aac ENcoder in my restricted repository
+  at http://slackware.org.uk/people/alien/restricted_slackbuilds/vlc/
+           </pre>")) (item nil (title nil "Thu, 22 Jul 2010 11:13:57 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Thu, 22 Jul 2010 11:13:57 GMT") (guid ((isPermaLink . "false")) "20100722131357") (description nil "<pre>
+sabnzb: added v0.5.0 - this is a binary newsgroup reader. It runs its own
+  web server as the control front-end. This package depends on several others
+  (par2cmdline,pyopenssl,python-cheetah,python-yenc,unrar). Since it does not
+  have any version- or architecture-specific files, I just dumped the package
+  in the 'pkg' directory.
+           </pre>")))) ("Tue, 26 Oct 2010 13:16:23 GMT" "<pre>
+clamav: updated to 0.96.4 (packages for Slackware 13.1 as well as 13.0)
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19654 54439) new 1 nil nil ((title nil "Tue, 26 Oct 2010 13:16:23 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 26 Oct 2010 13:16:23 GMT") (guid ((isPermaLink . "false")) "20101026151623") (description nil "<pre>
+clamav: updated to 0.96.4 (packages for Slackware 13.1 as well as 13.0)
+           </pre>"))) ("Sun, 17 Oct 2010 21:50:37 GMT" "<pre>
+configobj: rebuilt for Slackware 13.1
+pastebinit: updated to 1.1 (depends on configobj)
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19643 28589) new 2 nil nil ((title nil "Sun, 17 Oct 2010 21:50:37 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Sun, 17 Oct 2010 21:50:37 GMT") (guid ((isPermaLink . "false")) "20101017235037") (description nil "<pre>
+configobj: rebuilt for Slackware 13.1
+pastebinit: updated to 1.1 (depends on configobj)
+           </pre>"))) ("Sun, 17 Oct 2010 20:26:09 GMT" "<pre>
+cairomm: added v1.8.4 - C++ bindings for cairo (depends on glibmm)
+glibmm: added v2.22.2 - C++ wrapper for GTK+ (depends on libsigc++)
+gtkmm: added v2.18.2 - C++ wrapper for GTK+ (depends on pangomm)
+gstreamermm: added v0.10.7 - C++ bindings for gstreamer (depends on gtkmm and
+libxml++)
+libsigc++: added v2.2.8 - typesafe callback system for C++
+libxml++: added v2.32.0 - C++ wrapper for libxml (depends on glibmm)
+pangomm: added v2.26.2 - C++ bindings for pango (depends on cairomm)
+subtitleeditor: added v0.37.1 - a gtk-based subtitle editor capable of
+displaying the video as well as the audio waveform in parallel for easy
+synchronization of the subtitle. Requires these packages to be installed
+as well: libxml++, libsigc++, glibmm, cairomm, pangomm, gtkmm, gstreamermm.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19643 23521) new 3 nil nil ((title nil "Sun, 17 Oct 2010 20:26:09 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Sun, 17 Oct 2010 20:26:09 GMT") (guid ((isPermaLink . "false")) "20101017222609") (description nil "<pre>
+cairomm: added v1.8.4 - C++ bindings for cairo (depends on glibmm)
+glibmm: added v2.22.2 - C++ wrapper for GTK+ (depends on libsigc++)
+gtkmm: added v2.18.2 - C++ wrapper for GTK+ (depends on pangomm)
+gstreamermm: added v0.10.7 - C++ bindings for gstreamer (depends on gtkmm and
+  libxml++)
+libsigc++: added v2.2.8 - typesafe callback system for C++
+libxml++: added v2.32.0 - C++ wrapper for libxml (depends on glibmm)
+pangomm: added v2.26.2 - C++ bindings for pango (depends on cairomm)
+subtitleeditor: added v0.37.1 - a gtk-based subtitle editor capable of
+  displaying the video as well as the audio waveform in parallel for easy
+  synchronization of the subtitle. Requires these packages to be installed
+  as well: libxml++, libsigc++, glibmm, cairomm, pangomm, gtkmm, gstreamermm.
+           </pre>"))) ("Fri, 15 Oct 2010 23:06:19 GMT" "<pre>
+icu4c: updated to 4.4-2
+libsoup: updated to 2.32.0
+webkitgtk: updated to 1.2.5 (depends on icu4c and libsoup)
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19640 56939) new 4 nil nil ((title nil "Fri, 15 Oct 2010 23:06:19 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Fri, 15 Oct 2010 23:06:19 GMT") (guid ((isPermaLink . "false")) "20101016010619") (description nil "<pre>
+icu4c: updated to 4.4-2
+libsoup: updated to 2.32.0
+webkitgtk: updated to 1.2.5 (depends on icu4c and libsoup)
+           </pre>"))) ("Wed, 13 Oct 2010 17:42:03 GMT" "<pre>
+libreoffice: updated to 3.2.99.2_20101012. Removed the icu4c dependency from
+the 64-bit package, so that no other package is required to use libreoffice
+on Slackware (compiling it still requires apache-ant, perl-archive-zip and
+xulrunner).
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19637 61291) new 5 nil nil ((title nil "Wed, 13 Oct 2010 17:42:03 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 13 Oct 2010 17:42:03 GMT") (guid ((isPermaLink . "false")) "20101013194203") (description nil "<pre>
+libreoffice: updated to 3.2.99.2_20101012. Removed the icu4c dependency from
+  the 64-bit package, so that no other package is required to use libreoffice
+  on Slackware (compiling it still requires apache-ant, perl-archive-zip and
+  xulrunner).
+           </pre>"))) ("Wed, 13 Oct 2010 10:52:48 GMT" "<pre>
+calibre: updated to 0.7.23
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19637 36736) new 6 nil nil ((title nil "Wed, 13 Oct 2010 10:52:48 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 13 Oct 2010 10:52:48 GMT") (guid ((isPermaLink . "false")) "20101013125248") (description nil "<pre>
+calibre: updated to 0.7.23
+           </pre>"))) ("Tue, 12 Oct 2010 19:51:26 GMT" "<pre>
+apache-ant: added v1.8.1 - a java based build tool analogous to make
+perl-archive-zip: added v1.31_01 - a perl module for manipulating zip files
+libreoffice: added v3.2.99.2_20101010 - this is the built-from-source version
+of LibreOffice 3.3-beta2.  LibreOffice is the continuation (or 'fork' if you
+want) of OpenOffice.org which has been abandoned by its developers after
+Oracle got its hands on it.  It is essentially the continuation of another
+'fork' called go-oo.  Having built this from source on Slackware, I think it
+is a lot faster than the pre-built binaries you can download from the
+http://www.documentfoundation.org/ site.  Give me feedback please!
+Big WARNING:
+The source code of LibreOffice is very much in flux - the only way to build
+this is using git snapshots.  The SlackBuild may produce a working package
+one day and fail miserably the other.  I have uploaded a version that
+obviously compiled :-)  If you want to reproduce the build...  it takes
+many many hours to download and build.  A list of download URLs for all
+the components (tarballs from websites or checkouts from git) still needs
+to be added to the SlackBuild so that the build process can proceed offline.
+For now, the SlackBuild checks out everything on the spot.
+Building from source requires that you have these packages installed:
+apache-ant, perl-archive-zip and xulrunner.
+xulrunner: updated to 1.9.2.10
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19636 48190) new 7 nil nil ((title nil "Tue, 12 Oct 2010 19:51:26 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 12 Oct 2010 19:51:26 GMT") (guid ((isPermaLink . "false")) "20101012215126") (description nil "<pre>
+apache-ant: added v1.8.1 - a java based build tool analogous to make
+perl-archive-zip: added v1.31_01 - a perl module for manipulating zip files
+libreoffice: added v3.2.99.2_20101010 - this is the built-from-source version
+  of LibreOffice 3.3-beta2.  LibreOffice is the continuation (or 'fork' if you
+  want) of OpenOffice.org which has been abandoned by its developers after
+  Oracle got its hands on it.  It is essentially the continuation of another
+  'fork' called go-oo.  Having built this from source on Slackware, I think it
+  is a lot faster than the pre-built binaries you can download from the
+  http://www.documentfoundation.org/ site.  Give me feedback please!
+  Big WARNING:
+  The source code of LibreOffice is very much in flux - the only way to build
+  this is using git snapshots.  The SlackBuild may produce a working package
+  one day and fail miserably the other.  I have uploaded a version that
+  obviously compiled :-)  If you want to reproduce the build...  it takes
+  many many hours to download and build.  A list of download URLs for all
+  the components (tarballs from websites or checkouts from git) still needs
+  to be added to the SlackBuild so that the build process can proceed offline.
+  For now, the SlackBuild checks out everything on the spot.
+  Building from source requires that you have these packages installed:
+  apache-ant, perl-archive-zip and xulrunner.
+xulrunner: updated to 1.9.2.10
+           </pre>"))) ("Mon,  4 Oct 2010 21:37:08 GMT" "<pre>
+unrar: applied a fix for the error in calibre (ebook manager) when converting
+rar-ed comic books (.cbr)
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19626 18692) new 8 nil nil ((title nil "Mon,  4 Oct 2010 21:37:08 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Mon,  4 Oct 2010 21:37:08 GMT") (guid ((isPermaLink . "false")) "20101004233708") (description nil "<pre>
+unrar: applied a fix for the error in calibre (ebook manager) when converting
+  rar-ed comic books (.cbr)
+           </pre>"))) ("Tue, 28 Sep 2010 15:29:22 GMT" "<pre>
+flashplayer-plugin: upgraded to 10.092710 (Preview 2 of the new Flash Player
+'Square').
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19618 2514) new 9 nil nil ((title nil "Tue, 28 Sep 2010 15:29:22 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 28 Sep 2010 15:29:22 GMT") (guid ((isPermaLink . "false")) "20100928172922") (description nil "<pre>
+flashplayer-plugin: upgraded to 10.092710 (Preview 2 of the new Flash Player
+  'Square').
+           </pre>"))) ("Tue, 28 Sep 2010 06:50:47 GMT" "<pre>
+BeautifulSoup: added v3.0.8.1 - a Python HTML/XML parser.
+podofo: added v0.8.2 - a library to work with the PDF file format.
+dnspython: added v1.8.0 - dnspython is a DNS toolkit for Python.
+pysetuptools: added v0.6c11 - a collection of enhancements to Python distutils.
+python-cssutils: added v0.9.7b3 - a CSS parser and library for Python.
+python-dateutil: added v1.5 - extensions to the standard datetime module.
+python-imaging: added v1.1.7 - the Python Imaging Library.
+python-lxml: added v2.2.8 - Python bindings for libxml2 and libxslt.
+python-mechanize: added v0.2.2 - stateful programmatic web browsing in Python.
+calibre: added v0.7.20 - Calibre is meant to be a complete e-library solution.
+It includes library management, format conversion, news feeds to ebook
+conversion as well as e-book reader sync features. Calibre is primarily a
+e-book cataloging program.
+This depends on the following additional packages: BeautifulSoup, dnspython,
+podofo, pysetuptools, python-cssutils, python-dateutil, python-imaging,
+python-lxml and python-mechanize.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19617 36935) new 10 nil nil ((title nil "Tue, 28 Sep 2010 06:50:47 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 28 Sep 2010 06:50:47 GMT") (guid ((isPermaLink . "false")) "20100928085047") (description nil "<pre>
+BeautifulSoup: added v3.0.8.1 - a Python HTML/XML parser.
+podofo: added v0.8.2 - a library to work with the PDF file format.
+dnspython: added v1.8.0 - dnspython is a DNS toolkit for Python.
+pysetuptools: added v0.6c11 - a collection of enhancements to Python distutils.
+python-cssutils: added v0.9.7b3 - a CSS parser and library for Python.
+python-dateutil: added v1.5 - extensions to the standard datetime module.
+python-imaging: added v1.1.7 - the Python Imaging Library.
+python-lxml: added v2.2.8 - Python bindings for libxml2 and libxslt.
+python-mechanize: added v0.2.2 - stateful programmatic web browsing in Python.
+calibre: added v0.7.20 - Calibre is meant to be a complete e-library solution.
+  It includes library management, format conversion, news feeds to ebook
+  conversion as well as e-book reader sync features. Calibre is primarily a
+  e-book cataloging program.
+  This depends on the following additional packages: BeautifulSoup, dnspython,
+  podofo, pysetuptools, python-cssutils, python-dateutil, python-imaging,
+  python-lxml and python-mechanize.
+           </pre>"))) ("Tue, 21 Sep 2010 19:26:48 GMT" "<pre>
+clamav: updated to 0.96.3
+icecast: updated to 2.3.2, along with rebuilds of ices (the mp3 icecast client)
+and libshout (which is a dependency for ices). This is what I use at home as
+my streaming audio server.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19609 1784) new 11 nil nil ((title nil "Tue, 21 Sep 2010 19:26:48 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 21 Sep 2010 19:26:48 GMT") (guid ((isPermaLink . "false")) "20100921212648") (description nil "<pre>
+clamav: updated to 0.96.3
+icecast: updated to 2.3.2, along with rebuilds of ices (the mp3 icecast client)
+  and libshout (which is a dependency for ices). This is what I use at home as
+  my streaming audio server.
+           </pre>"))) ("Wed, 15 Sep 2010 21:48:40 GMT" "<pre>
+flashplayer-plugin: added v10.09151 which is \"Preview 1 of the new Flash Player
+'Square'\" and it comes in 32-bit as well as 64-bit. Essentially this is the
+folow-up to the withdrawn beta flasphplayer 10 for Linux.
+xulrunner: added v1.9.2.9 - XULRunner is a Mozilla runtime package which you
+can install after removing seamonkey and seamonkey-solibs packages. It will
+provide support for compiling embedded browser components (and other stuff).
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19601 16184) new 12 nil nil ((title nil "Wed, 15 Sep 2010 21:48:40 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed, 15 Sep 2010 21:48:40 GMT") (guid ((isPermaLink . "false")) "20100915234840") (description nil "<pre>
+flashplayer-plugin: added v10.09151 which is \"Preview 1 of the new Flash Player
+  'Square'\" and it comes in 32-bit as well as 64-bit. Essentially this is the
+  folow-up to the withdrawn beta flasphplayer 10 for Linux.
+xulrunner: added v1.9.2.9 - XULRunner is a Mozilla runtime package which you
+  can install after removing seamonkey and seamonkey-solibs packages. It will
+  provide support for compiling embedded browser components (and other stuff).
+           </pre>"))) ("Thu,  2 Sep 2010 07:09:12 GMT" "<pre>
+tigervnc: Fixed the doinst.sh script which threw an error when you installed
+the package. Thanks escaflown.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19583 19864) new 13 nil nil ((title nil "Thu,  2 Sep 2010 07:09:12 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Thu,  2 Sep 2010 07:09:12 GMT") (guid ((isPermaLink . "false")) "20100902090912") (description nil "<pre>
+tigervnc: Fixed the doinst.sh script which threw an error when you installed
+  the package. Thanks escaflown.
+           </pre>"))) ("Wed,  1 Sep 2010 19:46:25 GMT" "<pre>
+tigervnc: added svn snapshot r4126 (27-aug-2010). TigerVNC is a VNC server and
+client with a focus on performance and functionality. It is based on the V4
+codebase of RealVNC while TightVNC which is in Slackware's 'extra' directory
+is based on the older V3 codebase.
+TigerVNC developers are basically most of the former TightVNC dev group.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19582 44433) new 14 nil nil ((title nil "Wed,  1 Sep 2010 19:46:25 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Wed,  1 Sep 2010 19:46:25 GMT") (guid ((isPermaLink . "false")) "20100901214625") (description nil "<pre>
+tigervnc: added svn snapshot r4126 (27-aug-2010). TigerVNC is a VNC server and
+  client with a focus on performance and functionality. It is based on the V4
+  codebase of RealVNC while TightVNC which is in Slackware's 'extra' directory
+  is based on the older V3 codebase.
+  TigerVNC developers are basically most of the former TightVNC dev group.
+           </pre>"))) ("Tue, 31 Aug 2010 09:58:58 GMT" "<pre>
+gst-plugins-ffmpeg: updated to 0.10.11
+speex: updated to 1.2.rc1
+qemu-kvm: added v0.12.5 - this is a modified version of QEMU which should be
+used as the 'userspace' component of the Kernel Virtual Machine (or KVM) which
+is available in Slackware's kernel as 'kvm' 'kvm-intel' and 'kvm-amd' modules.
+KVM is \"a full virtualization solution for Linux on x86 hardware containing
+virtualization extensions (Intel VT or AMD-V)\".
+The qemu-kvm program will allow you to run a variety of Virtual Machines
+(also called 'guest Operating Systems') on your host. You will achieve
+near-native speeds for x86 and x86_64 guests.
+Note: this package requires the vde package to be installed as well.
+Furthermore, your user needs to be a member of the 'kvm' group in order to
+get the benefit of hardware-supported virtualization.
+vde: updated to 2.3.1
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19580 53858) new 15 nil nil ((title nil "Tue, 31 Aug 2010 09:58:58 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Tue, 31 Aug 2010 09:58:58 GMT") (guid ((isPermaLink . "false")) "20100831115858") (description nil "<pre>
+gst-plugins-ffmpeg: updated to 0.10.11
+speex: updated to 1.2.rc1
+qemu-kvm: added v0.12.5 - this is a modified version of QEMU which should be
+  used as the 'userspace' component of the Kernel Virtual Machine (or KVM) which
+  is available in Slackware's kernel as 'kvm' 'kvm-intel' and 'kvm-amd' modules.
+  KVM is \"a full virtualization solution for Linux on x86 hardware containing
+  virtualization extensions (Intel VT or AMD-V)\".
+  The qemu-kvm program will allow you to run a variety of Virtual Machines
+  (also called 'guest Operating Systems') on your host. You will achieve
+  near-native speeds for x86 and x86_64 guests.
+  Note: this package requires the vde package to be installed as well.
+  Furthermore, your user needs to be a member of the 'kvm' group in order to
+  get the benefit of hardware-supported virtualization.
+vde: updated to 2.3.1
+           </pre>"))) ("Mon, 23 Aug 2010 11:58:09 GMT" "<pre>
+vlc: updated to 1.1.3.
+Note - this version of the vlc package is not able to ENcode mp3 or aac audio
+(decoding & playback of these audio formats works fine of course).  You can
+find vlc packages with a working mp3/aac ENcoder in my restricted repository
+at http://slackware.org.uk/people/alien/restricted_slackbuilds/vlc/
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19570 25169) new 16 nil nil ((title nil "Mon, 23 Aug 2010 11:58:09 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Mon, 23 Aug 2010 11:58:09 GMT") (guid ((isPermaLink . "false")) "20100823135809") (description nil "<pre>
+vlc: updated to 1.1.3.
+  Note - this version of the vlc package is not able to ENcode mp3 or aac audio
+  (decoding & playback of these audio formats works fine of course).  You can
+  find vlc packages with a working mp3/aac ENcoder in my restricted repository
+  at http://slackware.org.uk/people/alien/restricted_slackbuilds/vlc/
+           </pre>"))) ("Thu, 22 Jul 2010 11:13:57 GMT" "<pre>
+sabnzb: added v0.5.0 - this is a binary newsgroup reader. It runs its own
+web server as the control front-end. This package depends on several others
+(par2cmdline,pyopenssl,python-cheetah,python-yenc,unrar). Since it does not
+have any version- or architecture-specific files, I just dumped the package
+in the 'pkg' directory.
+</pre>" "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt" (19528 10229) new 17 nil nil ((title nil "Thu, 22 Jul 2010 11:13:57 GMT") (link nil "http://www.slackware.com/~alien/slackbuilds/ChangeLog.txt") (pubDate nil "Thu, 22 Jul 2010 11:13:57 GMT") (guid ((isPermaLink . "false")) "20100722131357") (description nil "<pre>
+sabnzb: added v0.5.0 - this is a binary newsgroup reader. It runs its own
+  web server as the control front-end. This package depends on several others
+  (par2cmdline,pyopenssl,python-cheetah,python-yenc,unrar). Since it does not
+  have any version- or architecture-specific files, I just dumped the package
+  in the 'pkg' directory.
+           </pre>"))))

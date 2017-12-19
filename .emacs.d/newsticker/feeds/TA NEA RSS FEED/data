@@ -1,0 +1,2 @@
+;; -*- coding: utf-8 -*-
+(("TA NEA RSS FEED" "ΤΑ ΝΕΑ RSS" "http://tanea2.development.atcom.gr/" (19659 25240 109823) feed 0 nil nil ((title nil "TA NEA RSS FEED") (link nil "http://tanea2.development.atcom.gr/") (description nil "ΤΑ ΝΕΑ RSS") (image nil (url nil "http://www.tanea.gr/templates/default/images/logo.png") (title nil "Feed Logo") (link nil "http://www.tanea.gr/")))))
