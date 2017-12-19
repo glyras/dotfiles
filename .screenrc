@@ -1,5 +1,5 @@
 # Dvorak baby
-escape ^oo
+escape ^aa
 startup_message off
 vbell on
 msgwait 2
@@ -13,7 +13,7 @@ caption splitonly '%?%F%{.G.}%?%3n %t%? [%h]%?'
 #hardstatus alwayslastline "Screen(s): %{= w}%?%-Lw%? %{Ck}%n*%f%t%?(%u)%?%{kG} %{w}%?%+Lw%?%?%=  %=%{kW}%c%a :: %{kC}%d/%m/%y"  
 
 #need to find sth similar for tmux and make the transition
-backtick 1 60 60 uptime
+#backtick 1 60 60 uptime
 
 hardstatus alwayslastline "%{= km} | %= %{= kw}%?%-Lw%?%{r}(%{G}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{m} | %{B} %d/%m/%y %{W}%c %{m}| "
 
@@ -22,7 +22,8 @@ hardstatus alwayslastline "%{= km} | %= %{= kw}%?%-Lw%?%{r}(%{G}%n*%f%t%?(%u)%?%
 select 0
 
 # Start some apps
-screen -t torrent       0 rtorrent
-screen -t musicoula     1 mocp
-
+screen -t MC       	0 mc
+screen -t Musicoula     1 mocp
+screen -t Emacs		2 emacs -nw
+screen -t bash		3 urxvt
 
