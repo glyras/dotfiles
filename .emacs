@@ -28,7 +28,7 @@
 (menu-bar-mode -1)
 
 ;(set-face-attribute 'default nil :font "Inconsolata-12" )
-(set-frame-font "Terminus-12" nil t)
+(set-frame-font "Ubuntu mono-9" nil t)
 
 ;; Lines
 (global-linum-mode t)
