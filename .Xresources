@@ -38,7 +38,7 @@ URxvt.scrollBar: false
 
 !! Fonts etc
 Xft.antialias:        true
-URxvt*font:xft:Ubuntu mono:pixelsize=12,style=regular
+URxvt*font:xft:Ubuntu mono:pixelsize=14,style=regular
 urxvt*intensityStyles:        false
 urxvt*skipBuiltinGlyphs:    true
 urxvt*linespace:            0
