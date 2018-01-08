@@ -2,6 +2,11 @@
 ;; Init.el/.emacs written by Giorgos Lyras
 ;;
 
+;; Gnu Elpa
+(package-initialize)
+
+
+
 ;; Melpa repository setting
 (require 'package) ;; You might already have this line
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
@@ -17,18 +22,15 @@
 ;; Remove startup messages
 (setq inhibit-startup-screen t)
 
-;; Start maximized
-(custom-set-variables
- '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
 ;; Appearance
-(load-theme 'gruvbox t)
+(load-theme 'gruvbox-dark-soft t)
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
 ;(set-face-attribute 'default nil :font "Inconsolata-12" )
-(set-frame-font "Ubuntu mono-9" nil t)
+(set-frame-font "Dejavu Sans mono-8" nil t)
 
 ;; Lines
 (global-linum-mode t)

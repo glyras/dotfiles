@@ -1,8 +1,10 @@
 
-! hard contrast: *background: #1d2021
-*background: #282828
-! soft contrast: *background: #32302f
+! hard contrast:*background: #1d2021
+!*background: #282828
+! soft contrast:
+*background: #32302f
 *foreground: #ebdbb2
+!*background: #504945
 ! Black + DarkGrey
 *color0:  #282828
 *color8:  #928374
@@ -27,6 +29,39 @@
 ! LightGrey + White
 *color7:  #a89984
 *color15: #ebdbb2
+!hard contrast:*background: #f9f5d7
+!*background: #fbf1c7
+! soft contrast:
+!*background:#f2e5bc
+! custom 
+
+! *background: #bdae93
+
+! *foreground: #3c3836
+! ! Black + DarkGrey
+! *color0:  #fdf4c1
+! *color8:  #928374
+! ! DarkRed + Red
+! *color1:  #cc241d
+! *color9:  #9d0006
+! ! DarkGreen + Green
+! *color2:  #98971a
+! *color10: #79740e
+! ! DarkYellow + Yellow
+! *color3:  #d79921
+! *color11: #b57614
+! ! DarkBlue + Blue
+! *color4:  #458588
+! *color12: #076678
+! ! DarkMagenta + Magenta
+! *color5:  #b16286
+! *color13: #8f3f71
+! ! DarkCyan + Cyan
+! *color6:  #689d6a
+! *color14: #427b58
+! ! LightGrey + White
+! *color7:  #7c6f64
+! *color15: #3c3836
 
 
 !! clickable urls
@@ -38,7 +73,11 @@ URxvt.scrollBar: false
 
 !! Fonts etc
 Xft.antialias:        true
-URxvt*font:xft:Ubuntu mono:pixelsize=14,style=regular
+Xft.hinting:   true
+Xft.hintstyle: hintfull
+Xft.rgba:      rgb
+URxvt*font:xft:DejaVu Sans Mono:pixelsize=11,style=regular
+URxvt.boldFont:xft:DejaVu Sans Mono:style=bold:pixelsize=11
 urxvt*intensityStyles:        false
 urxvt*skipBuiltinGlyphs:    true
 urxvt*linespace:            0
