@@ -25,6 +25,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias ..='cd ..'
 
+
 # append ls color by file type
 eval $( dircolors -b $HOME/.dircolors )
 

@@ -1,0 +1,45 @@
+#! /usr/bin/lua
+  -- vim: ts=4 sw=4 noet ai cindent syntax=lua
+
+ conky.config = {
+     update_interval = 2.0,
+     total_run_times = 0,
+     double_buffer = true,
+     background = true,
+     own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
+     own_window_transparent = false,
+     own_window_type = 'dock',
+     own_window_class = 'Conky',
+     own_window = true,
+     own_window_argb_visual = true,
+     own_window_argb_value = 255,
+     draw_shades = false,
+     draw_outline = false,
+     draw_borders = false,
+     stippled_borders = 0,
+     default_outline_color = '969696',
+     own_window_colour = 'f1f1f1',
+     default_shade_color = '303030',
+     default_color = '323232',
+     gap_x = 0,
+     gap_y = 0,
+     --minimum_width = 1265,
+     alignment = 'top_right',
+     use_xft = true,
+     font = 'Terminus:size=10',
+     override_utf8_locale = true,
+     no_buffers = true,
+     cpu_avg_samples = 2,
+     draw_graph_borders = true,
+     uppercase = false,
+     use_spacer = 'none',
+ };
+
+ conky.text = [[${voffset 1}${offset 10}${font dejavu sans:pixelsize=10}\
+${color d79921}HD ${offset 10}$color${fs_free /} ${offset 30}\
+${color d79921}RAM ${offset 10}$color$mem / $memmax${offset 30}\
+${color d79921}BAT $color ${battery} ${offset 30}\
+${color d79921}CPU ${offset 10}$color${cpu cpu0}%${offset 30}\
+${color d79921}NET ${offset 10}$color${if_up wlp6s0}${wireless_essid wlp6s0}\
+${else}down${endif}${offset 30} \
+${color d79921}TIME ${offset 10}$color${time %a %d %b %Y - %R} ]]

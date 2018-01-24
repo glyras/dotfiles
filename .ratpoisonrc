@@ -6,14 +6,14 @@ bind f exec firefox
 bind d exec rofi -show run -font "ubuntu 9"
 bind Super_L next
 
-
+unmanage xmessage
+unmanage notifyd
+unmanage xprompt
+unmanage mpv
+unmanage vlc
 
 #aliases
 alias reload exec ratpoison -c "source $HOME/.ratpoisonrc"
-
-exec xsetroot -solid '#32302f' -cursor_name left_ptr &
-exec redshift &
-exec conky &
 
 exec /usr/bin/rpws init 4 -k &
 bind F1 exec rpws 1
@@ -24,29 +24,33 @@ bind S-F1 rpwsm1
 bind S-F2 rpwsm2
 bind S-F3 rpwsm3
 bind S-F4 rpwsm4
+bind period rpwsn
+bind comma rpwsp
+bind semicolon colon
+
 set winname title
 
-definekey top XF86AudioRaiseVolume exec  amixer -D pulse sset Master 10%+
-definekey top XF86AudioMute        exec  amixer -D pulse sset Master 0%
-definekey top XF86AudioLowerVolume exec  amixer -D pulse sset Master 10%-
+#definekey top XF86AudioRaiseVolume exec  amixer -D pulse sset Master 10%+
+#definekey top XF86AudioMute        exec  amixer -D pulse sset Master 0%
+#definekey top XF86AudioLowerVolume exec  amixer -D pulse sset Master 10%-
 
 
 # keep the bar in the upper left displaying the active frame title
-set barborder 0
+set barborder 3
 set bargravity c
 set barpadding 5 5
-set barinpadding 1
-set barsticky on
-set bgcolor #3c3826
-set fgcolor #d79921
-set font -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-#set font monospace:size=12
+set barinpadding 3
+#set barsticky off
+set fgcolor #3c3826
+set bgcolor #f1f1f1
+
+set font "dejavu sans book-8"
 set ignorehints on
 set inputwidth 0
 set msgwait 3
 set onlyborder 0
 set padding 0 30 0 0
-set warp off
+set warp on
 set winliststyle row
 set winfmt %t
 
@@ -55,7 +59,8 @@ set framefmt  frame %f (%wx%h)
 
 # window borders
 set border 3
+
+
 set fwcolor #d79921
 set bwcolor darkgray
-
 

@@ -1,0 +1,49 @@
+#avoid flicker
+double_buffer yes
+own_window  yes
+own_window_transparent no
+own_window_type override
+own_window_hints undecorated,below,sticky,skip_taskbar
+own_window_argb_visual yes
+border_inner_margin 5
+use_spacer right
+
+#borders
+draw_borders no
+draw_outline no
+border_margin 0
+
+#shades
+draw_shades no
+
+minimum_size 1366 20
+
+#position
+gap_x 3
+gap_y 0
+
+
+#behaviour
+update_interval 2
+
+#colour
+#default_shade_color 000000
+own_window_colour f1f1f1
+alignment top_right
+use_xft yes
+default_color black
+
+
+
+
+TEXT
+\
+${voffset 1}${offset 10}${font dejavu sans:pixelsize=10}\
+${color d79921}HD ${offset 10}$color${fs_free /} ${offset 30}\
+${color d79921}RAM ${offset 10}$color$mem / $memmax${offset 30}\
+${color d79921}BAT $color ${battery} ${offset 30}\
+${color d79921}CPU ${offset 10}$color${cpu cpu0}%${offset 30}\
+${color d79921}NET ${offset 10}$color${if_up wlp6s0}${wireless_essid wlp6s0}\
+${else}down${endif}${offset 30} \
+${color d79921}TIME ${offset 10}$color${time %a %d %b %Y - %R} 
+

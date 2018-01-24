@@ -1,0 +1,100 @@
+unbind-key all
+borderwidth 1
+snapdist 3
+color activeborder cyan3
+color inactiveborder grey50
+fontname "DejaVu Sans Book:pixelsize=12"
+
+gap 30 10 10 10
+
+#Commands&Keys
+
+command term urxvt
+command lock "xscreensaver-command --lock"
+command urxvt /usr/bin/urxvt
+command emacs /usr/bin/emacs
+command firefox /usr/bin/firefox
+command viber /opt/viber/Viber
+
+# Unmanage
+
+unmanage "Conky"
+unmanage "dzen2"
+
+# Autogroups
+
+autogroup 1     "Emacs"
+autogroup 2	"Thunar"
+autogroup 2	"Thunderbird"
+autogroup 3	"Firefox"
+autogroup 4	"Steam"
+
+# Key Binds
+# Reload and Quit
+bind-key 4S-r restart
+bind-key 4S-q quit
+bind-key 4-k window-delete
+bind-key 4-l menu-exec
+bind-key 4-p menu-exec-wm
+bind-key 4-d "rofi -show run -font 'DejaVu Sans Book 8'"
+bind-key 4-w "rofi -show window -font 'DejaVu Sans Book 8'"
+bind-key 4-Return urxvt
+bind-key 4-e emacs
+bind-key 4-f firefox
+
+# Search Windows
+bind-key 4-Tab window-cycle
+bind-key 4-s search
+
+# Resize
+bind-key 4-v window-vmaximize
+bind-key 4-b window-hmaximize
+bind-key 4-m window-maximize
+bind-key 4M-Left window-resize-left-big
+bind-key 4M-Down window-resize-down-big
+bind-key 4M-Up  window-resize-up-big
+bind-key 4M-Right  window-resize-right-big
+bind-mouse 4-3 window-resize
+
+# Move
+bind-mouse 4-1 window-move
+bind-mouse 4-2 window_grouptoggle
+bind-key 4-Left window-move-left-big
+bind-key 4-Down window-move-down-big
+bind-key 4-Up window-move-up-big
+bind-key 4-Right window-move-right-big
+bind-key 4-o window-htile
+bind-key 4-i window-vtile
+
+# Groups
+sticky yes
+
+bind-key 4S-1  window-movetogroup-1
+bind-key 4S-2  window-movetogroup-2
+bind-key 4S-3  window-movetogroup-3
+bind-key 4S-4  window-movetogroup-4
+bind-key 4S-5  window-movetogroup-5
+bind-key 4S-6  window-movetogroup-6
+bind-key 4S-7  window-movetogroup-7
+bind-key 4S-8  window-movetogroup-8
+bind-key 4S-9  window-movetogroup-9
+
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+bind-key 4-3 group-only-3
+bind-key 4-4 group-only-4
+bind-key 4-5 group-only-5
+bind-key 4-6 group-only-6
+bind-key 4-7 group-only-7
+bind-key 4-8 group-only-8
+bind-key 4-9 group-only-9
+
+bind-key M-1 group-toggle-1
+bind-key M-2 group-toggle-2
+bind-key M-3 group-toggle-3
+bind-key M-4 group-toggle-4
+bind-key M-5 group-toggle-5
+bind-key M-6 group-toggle-6
+bind-key M-7 group-toggle-7
+bind-key M-8 group-toggle-8
+bind-key M-9 group-toggle-9

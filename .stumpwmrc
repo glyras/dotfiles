@@ -55,8 +55,8 @@
 ;;
 
 ;; change the prefix key 
-(run-shell-command "xmodmap -e 'keycode 133 = F20'" t)
-(set-prefix-key (kbd "F20"))
+;(run-shell-command "xmodmap -e 'keycode 133 = F20'" t)
+;(set-prefix-key (kbd "F20"))
 ;(set-prefix-key (kbd "C-e"))
 
 (define-key *root-map* (kbd "Return") "exec urxvt")

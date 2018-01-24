@@ -5,8 +5,6 @@
 ;; Gnu Elpa
 (package-initialize)
 
-
-
 ;; Melpa repository setting
 (require 'package) ;; You might already have this line
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
@@ -22,14 +20,16 @@
 ;; Remove startup messages
 (setq inhibit-startup-screen t)
 
+;; Geometry
+(when window-system (set-frame-size (selected-frame) 90 50))
 
 ;; Appearance
-(load-theme 'gruvbox-dark-soft t)
-
+(load-theme 'pencil t)
+;(set-foreground-color "black")
+;(set-background-color "#e3e0d5")
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
-;(set-face-attribute 'default nil :font "Inconsolata-12" )
 (set-frame-font "Dejavu Sans mono-8" nil t)
 
 ;; Lines
@@ -39,3 +39,6 @@
  (add-to-list 'load-path "/some/path/neotree")
   (require 'neotree)
   (global-set-key [f8] 'neotree-toggle)
+
+;; auctex
+(setq TeX-engine 'xetex)
